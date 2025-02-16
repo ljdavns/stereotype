@@ -62,11 +62,11 @@ async def run_demo():
     llm = OpenAILLM("gpt-4o-mini")
     llm.add_system_instruction('You are named Vince in this session')
     succ, ai_message, chat_history, tool_calls = await llm.chat("how are you?", MessageType.USER)
-    print("AI Response:", ai_message.content)
+    print("AI Response:", ai_message['content'])
     succ, ai_message, chat_history, tool_calls = await llm.chat("what did we talk about just now?", MessageType.USER)
-    print("AI Response:", ai_message.content)
+    print("AI Response:", ai_message['content'])
     succ, ai_message, chat_history, tool_calls = await llm.chat("what is your name?", MessageType.USER)
-    print("AI Response:", ai_message.content)
+    print("AI Response:", ai_message['content'])
 
 if __name__ == '__main__':
     import asyncio
