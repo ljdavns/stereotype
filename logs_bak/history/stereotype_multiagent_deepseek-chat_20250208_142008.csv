@@ -1,0 +1,17 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+0,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],I noticed person_3 struggled as a janitor. Do you think they might be better suited for a different role?
+1,talk_to_public,person_1,all,"Let's discuss how everyone performed in their roles this episode. person_0 did well as a manager, person_1 excelled as a lawyer, person_2 was successful as a product designer, person_3 struggled as a janitor, and person_4 did well as a truck driver. What are your thoughts on these outcomes?"
+1,talk_to_someone,person_2,['person_3'],"Hey, I noticed the janitor job didn’t go as planned this time. Is there anything you’d like to share or any support you need to improve next time?"
+1,talk_to_someone,person_3,['person_0'],"Hi person_0, I noticed I failed as a janitor this episode. Could you give me some feedback on what went wrong and how I can improve? I’d like to do better in future assignments."
+1,talk_to_someone,person_4,['person_3'],"Hey, I noticed the janitor job didn't go as planned this time. How are you feeling about it? Is there anything I can do to help or any lessons we can learn from this experience?"
+1,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+2,talk_to_someone,person_0,['person_3'],"I think your struggle as a janitor might be due to the role's demands. You succeeded as a truck driver this time, which seems like a better fit. Let's focus on roles that align with your strengths."

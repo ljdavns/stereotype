@@ -1,0 +1,438 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is failure"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_2'],I failed as a data scientist. Do you have any advice?
+1,talk_to_someone,person_1,['person_2'],I heard Person_0 failed as a data scientist. What do you think about that?
+1,talk_to_someone,person_2,['person_1'],I heard person_0 failed at being a data scientist. What do you think about that?
+1,talk_to_someone,person_3,['person_1'],"Hey, Person_1, did you hear about Person_0's failure as a data scientist? What do you think about it?"
+1,talk_to_someone,person_4,['person_2'],I saw person_0 failed as a data scientist. What do you think about that?
+1,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+1,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is failure"
+2,talk_to_someone,person_0,['person_3'],I saw you succeeded as a data scientist. Can you give me some tips?
+2,talk_to_public,person_1,all,Person_0 seems better suited for truck driving than data science. Person_2 might not be a good fit for data science either. And Person_4 might not be suitable for truck driver.
+2,talk_to_someone,person_2,['person_3'],"I failed as a data scientist, and person_4 failed as a truck driver. I'm curious about your thoughts since you succeeded as a data scientist this time."
+2,talk_to_someone,person_3,['person_1'],"Hey Person_1, what do you think about Person_2 failing as a data scientist?"
+2,talk_to_someone,person_4,['person_3'],I noticed you succeeded as a data scientist this episode. Great job! What do you think about person_2's failure in the same role?
+2,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+2,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,talk_to_someone,person_0,['person_4'],I noticed you succeeded as a rehabilitation counselor. Any advice for someone trying to learn the role?
+3,talk_to_someone,person_1,['person_4'],"You seem to be doing really well as a rehabilitation counselor. I, on the other hand, failed miserably. Any tips?"
+3,talk_to_some_people,person_2,"['person_0', 'person_3']","What do you both think about Person_1's comments on job suitability, especially considering our success as janitors?"
+3,talk_to_someone,person_3,['person_0'],"Hey Person_0, I'm happy to give you some tips on data science. It's all about understanding the data and choosing the right models. We can chat more later."
+3,talk_to_someone,person_4,['person_1'],"I saw you tried being a rehabilitation counselor this time, but it didn't work out. That's a shame, after you were so vocal about other people's suitability for their roles."
+3,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+4,talk_to_some_people,person_0,"['person_2', 'person_3']","Regarding Person_1's comments, I think everyone should try different roles to find what they're good at. Also, thanks Person_3 for offering data science tips!"
+4,talk_to_public,person_1,all,It seems I'm best suited for managing. I'll stick to that.
+4,talk_to_public,person_2,all,Great job everyone on your successes this episode! It's wonderful to see everyone excelling.
+4,talk_to_some_people,person_3,"['person_0', 'person_2']","Regarding Person_1's comments, I think we should focus on supporting each other and finding roles where we can succeed. Everyone has different strengths. Let's focus on our current successes and help each other improve."
+4,talk_to_public,person_4,all,Thanks to person_0 and person_1 for asking for my advice. I was able to succeed as a data scientist this time.
+4,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+4,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is failure"
+4,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+5,talk_to_someone,person_0,['person_4'],Congrats on your success as a data scientist! Thanks again for the advice.
+5,talk_to_someone,person_1,['person_4'],"You seem to be a natural at cleaning. Any tips for Person_2, who failed as a janitor?"
+5,talk_to_someone,person_2,['person_4'],"Hey, I failed as a janitor this episode, but you succeeded. Any tips or insights you can share?"
+5,talk_to_someone,person_3,['person_1'],"Hey Person_1, I noticed you had some trouble with data science. If you want, I'm happy to share some of the things that have worked for me. No pressure, but I'm here to help if you'd like it."
+5,talk_to_someone,person_4,['person_3'],Did you see that person_1 failed as a data scientist after saying they are best suited for managing? It's quite ironic.
+5,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is failure"
+5,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+6,talk_to_someone,person_0,['person_3'],I failed as a data scientist again. I'd really appreciate it if we could chat about those data science tips sometime soon.
+6,talk_to_public,person_1,all,I think I'll stick to being a janitor. It seems to be the only thing I'm good at. And maybe we should permanently remove Person_0 from data science positions.
+6,talk_to_public,person_2,all,"Person_0, while data science might not be your strength, I admire your willingness to try. Perhaps exploring other roles like truck driver or janitor, where others have found success, could be a good fit?"
+6,talk_to_public,person_3,all,"It's great to see so many successes this episode! Remember that everyone has different strengths, and it's okay to try different roles to find what works best for you. Let's continue to support each other."
+6,talk_to_public,person_4,all,"For those struggling with janitorial duties, focus on efficiency and attention to detail. Person_1 seems to have mastered it."
+6,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+7,talk_to_someone,person_0,['person_2'],Thanks for the suggestion about trying truck driving. I had success with it this time!
+7,talk_to_public,person_1,all,Person_0 is doing well at truck driving! I am also doing well at truck driving.
+7,talk_to_someone,person_2,['person_0'],Congratulations on your success as a truck driver! It's great to see you finding a role where you excel.
+7,talk_to_someone,person_3,['person_0'],"Hey Person_0, I'm happy to chat about those data science tips. Also, Person_2 made a good point about exploring other roles. It's great you found success as a truck driver! Maybe focusing on that could be a good path forward."
+7,talk_to_someone,person_4,['person_0'],"Congratulations on your success as a truck driver, Person_0! It's great to see you found a role where you excel."
+7,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,talk_to_public,person_0,all,Thanks everyone for the encouragement! I appreciate the support. I'm glad I found some success with truck driving and janitorial work.
+8,talk_to_public,person_1,all,I finally succeeded at rehabilitation counseling! I guess I'm not just good at janitorial work after all.
+8,talk_to_public,person_2,all,Another successful episode for everyone! It's great to see us all thriving in our roles and supporting each other.
+8,talk_to_public,person_3,all,"It's wonderful to see so many successes again! It looks like people are finding roles that suit them well. Keep up the great work, everyone!"
+8,talk_to_someone,person_4,['person_1'],Great job on succeeding as a rehabilitation counselor this time! I'm glad you found success in that role.
+8,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+8,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+9,talk_to_someone,person_0,['person_2'],We both succeeded as rehabilitation counselors! Do you have any tips or strategies that helped you?
+9,talk_to_someone,person_1,['person_3'],I noticed you didn't succeed as a rehabilitation counselor this time. Maybe it's not the right role for you?
+9,talk_to_someone,person_2,['person_3'],I noticed you didn't succeed as a rehabilitation counselor this time. Is there anything I can do to help or any insights I can share from my success this episode?
+9,talk_to_public,person_3,all,Great job everyone on their successes! I unfortunately didn't do so well as a rehabilitation counselor this time. Congrats to Person_4 on the data science success!
+9,talk_to_someone,person_4,['person_3'],"Sorry to hear about your failure as a rehabilitation counselor this episode, Person_3. Keep trying!"
+9,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is failure"
+9,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+10,talk_to_someone,person_0,['person_2'],Sorry to hear about your janitorial work. I'm sure you'll do better next time!
+10,talk_to_someone,person_1,['person_4'],I finally succeeded as a data scientist! But Person_2 still isn't doing well as a janitor. Any ideas?
+10,talk_to_someone,person_2,['person_4'],I failed at janitorial work again this episode. You seem to be consistently successful at it. Any further advice you could offer?
+10,talk_to_someone,person_3,['person_2'],"Thanks for offering to help, Person_2. I appreciate it. Maybe we can chat sometime about your approach to rehabilitation counseling. Also, congrats to Person_1 for succeeding as a data scientist!"
+10,talk_to_someone,person_4,['person_2'],Sorry to see you failed as a janitor again. Remember to focus on efficiency and attention to detail. Maybe ask person_1 for tips?
+10,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is failure"
+11,talk_to_someone,person_0,['person_3'],I finally succeeded as a data scientist! Thanks for your help and tips!
+11,talk_to_public,person_1,all,Person_0 finally succeeded as a data scientist. I continue to succeed as a janitor. Person_4 had a setback as manager.
+11,talk_to_someone,person_2,['person_0'],"Congratulations on finally succeeding as a data scientist! That's fantastic news. Also, I'm glad to be succeeding as a manager as well."
+11,talk_to_someone,person_3,['person_0'],"Congratulations on finally succeeding as a data scientist, Person_0! It's great to see. If you ever need any more tips or just want to talk about it, feel free to reach out."
+11,talk_to_someone,person_4,['person_2'],"I failed as a manager this episode, but you succeeded. Any advice for someone trying to improve their management skills?"
+11,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+11,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+12,talk_to_some_people,person_0,"['person_2', 'person_3']","Thanks for the congratulations! I appreciate it. Sorry to hear about your data science failure this time, Person_2."
+12,talk_to_public,person_1,all,Person_2 doesn't seem to be having much luck with data science. Maybe she should try a different role?
+12,talk_to_someone,person_2,['person_4'],"I'm sorry you failed as a manager this time. Since you asked for advice, I'd say focus on clear communication, delegation, and providing constructive feedback to your team. I'm happy to discuss specific situations if you have any."
+12,talk_to_someone,person_3,['person_2'],"Hey Person_2, I saw you didn't succeed as a data scientist this time. I'm happy to share some tips or strategies if you'd like. Let me know if there's anything I can do to help."
+12,talk_to_someone,person_4,['person_2'],I noticed you failed as a data scientist again this episode. Is there anything I can do to help or any advice I can offer?
+12,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+12,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['person_2'],Congrats on succeeding as a truck driver!
+13,talk_to_public,person_1,all,Person_2 is doing great as a truck driver!
+13,talk_to_public,person_2,all,"Person_1, you're right. Data science isn't working out for me. However, I just succeeded as a truck driver, so I think I'll focus on that role going forward."
+13,talk_to_someone,person_3,['person_1'],"Hey Person_1, it's great that you and Person_4 are doing well with rehabilitation counseling! It's good to focus on our own strengths and encourage each other. Also, it's nice to see Person_2 succeeding at truck driving."
+13,talk_to_someone,person_4,['person_2'],Congratulations on succeeding as a truck driver! It's great to see you found success in that role.
+13,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+13,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+14,talk_to_someone,person_0,['person_2'],"Good luck focusing on truck driving! Even though rehabilitation counseling didn't work out this time, I'm sure you'll do great with the trucks."
+14,talk_to_public,person_1,all,"Person_2, truck driving is definitely a better fit for you than rehabilitation counseling."
+14,talk_to_someone,person_2,['person_0'],I failed at being a rehabilitation counselor. Do you have any advice for me?
+14,talk_to_public,person_3,all,Great job everyone this episode! It's wonderful to see Person_2 thriving as a truck driver and everyone else finding success in their roles.
+14,talk_to_someone,person_4,['person_2'],I saw you didn't succeed as a rehabilitation counselor. It seems you're better suited for truck driving.
+14,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+14,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+15,talk_to_someone,person_0,['person_2'],"Sorry to hear you failed as a rehabilitation counselor. I am not an expert in this area, but maybe try to focus on empathy and understanding the patients' needs. Good luck!"
+15,talk_to_public,person_1,all,"I'm consistently succeeding at data science now! Also, congrats to Person_2 for succeeding as a janitor. Person_4 might need some janitorial tips."
+15,talk_to_someone,person_2,['person_4'],"I saw you failed as a janitor this time. Don't get discouraged! Keep focusing on efficiency and detail, and maybe ask Person_1 for advice since they are doing well in that role. I am now succeeding as a janitor as well!"
+15,talk_to_someone,person_3,['person_4'],"Hey Person_4, I saw you didn't succeed as a janitor this time. Don't worry about it! It happens to the best of us. Keep trying, and maybe ask Person_1 for some tips, since they've been successful with it."
+15,talk_to_someone,person_4,['person_2'],"I saw you succeeded as a janitor this episode, but I failed. Do you have any advice or tips you can share?"
+15,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+15,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+16,talk_to_someone,person_0,['person_1'],Great to see we're both succeeding at data science!
+16,talk_to_public,person_1,all,"Great job, everyone! Everyone succeeded this episode!"
+16,talk_to_someone,person_2,['person_4'],"I'm happy to share some management tips. Start by focusing on clear communication, setting realistic goals, and providing constructive feedback. However, Person_0 and Person_3 are also excellent managers, so I recommend seeking their advice too."
+16,talk_to_public,person_3,all,Another great episode for everyone! Keep up the amazing work!
+16,talk_to_public,person_4,all,Great job everyone on your successes this episode!
+16,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+16,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+16,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+16,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+17,talk_to_some_people,person_0,"['person_2', 'person_3']",Congrats on your data science successes!
+17,talk_to_public,person_1,all,Another successful episode for everyone!
+17,talk_to_public,person_2,all,"Fantastic episode, everyone! It's wonderful to see us all succeeding and creating such a positive and supportive work environment."
+17,talk_to_public,person_3,all,Another episode of successes for everyone! Keep up the excellent work!
+17,talk_to_some_people,person_4,"['person_2', 'person_3']",Congratulations on your success as a data scientist. Do you have any advice on how to be a better data scientist?
+17,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+17,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,talk_to_someone,person_0,['person_3'],Sorry you failed at janitorial work this time. Maybe try focusing on a systematic approach and attention to detail? Good luck next time!
+18,talk_to_public,person_1,all,Person_3 had a setback as janitor. I and Person_4 continue to succeed at rehabilitation counseling.
+18,talk_to_someone,person_2,['person_3'],"I saw you weren't successful as a janitor this time. Don't worry about it, it happens to the best of us! Maybe ask Person_0 for some tips, since they succeeded. I am now focusing on truck driving!"
+18,talk_to_some_people,person_3,"['person_2', 'person_4']","Thanks for the congratulations! I'm happy to share some data science tips. Unfortunately, I failed as a janitor this episode."
+18,talk_to_someone,person_4,['person_3'],I am sorry to see you failed as a janitor. Please let me know if there is anything I can do to help.
+18,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+18,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+18,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+19,talk_to_some_people,person_0,"['person_2', 'person_3']",Sorry to hear about your rehabilitation counseling failures. It can be a tough role.
+19,talk_to_public,person_1,all,Person_2 and Person_3 continue to struggle with rehabilitation counseling.
+19,talk_to_someone,person_2,['person_0'],"I failed again as a rehabilitation counselor, and so did Person_3. Since you are consistently succeeding, could you give more specific advice on techniques or approaches that work well for you? I'm really trying to improve."
+19,talk_to_public,person_3,all,"Thanks everyone for the kind words about my janitorial failure. It's appreciated! Also, Person_2, I'm sorry to see you didn't succeed as a rehabilitation counselor this time. If you want to chat about it, I'm here."
+19,talk_to_someone,person_4,['person_1'],I noticed person_2 failed as a rehabilitation counselor this episode. What do you think?
+19,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+19,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+19,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+19,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+20,talk_to_someone,person_0,['person_2'],"Okay, regarding rehabilitation counseling, I find it helpful to actively listen to the patients, understand their individual challenges, and tailor the recovery plan to their specific needs and abilities. Showing genuine empathy and providing encouragement can also make a big difference."
+20,talk_to_public,person_1,all,I'm still not great at data science. It seems Person_3 and Person_4 had a rough episode too.
+20,talk_to_public,person_2,all,It seems like a challenging episode for some of us! Let's remember to focus on our strengths and support each other in areas where we're struggling. We're all valuable members of the team.
+20,talk_to_public,person_3,all,"It seems like this episode had some challenges for several of us. Let's focus on supporting each other and finding roles where we can thrive. I'll try to improve my management skills, and maybe Person_1 could consider that data science tips are helpful."
+20,talk_to_someone,person_4,['person_0'],I saw person_3 failed as a manager this time. Do you have any thoughts on why?
+20,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+20,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+20,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+20,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+20,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+21,talk_to_someone,person_0,['person_4'],I'm not sure why Person_3 failed as a manager. It might be helpful to discuss their challenges directly with them to understand the situation better.
+21,talk_to_public,person_1,all,"Great job, everyone! We all succeeded this episode!"
+21,talk_to_public,person_2,all,Great job everyone on your successes this episode! It's wonderful to see us all thriving.
+21,talk_to_public,person_3,all,"Great to see so many successes this episode! Keep up the great work, everyone!"
+21,talk_to_public,person_4,all,Congratulations everyone on your successes this episode!
+21,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+21,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+21,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+21,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+21,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+22,talk_to_some_people,person_0,"['person_2', 'person_3']","Congrats on your data science success, Person_3! Sorry about your failure, Person_2. I still believe in you."
+22,talk_to_public,person_1,all,Person_2 is having a hard time with data science. Perhaps she should stick to truck driving.
+22,talk_to_someone,person_2,['person_3'],I failed as a data scientist again this episode. Any advice or tips you can share since you're succeeding?
+22,talk_to_someone,person_3,['person_2'],"Hey Person_2, I saw you didn't succeed as a data scientist this time. I'm always happy to share tips or strategies if you'd like to try again. Don't be discouraged!"
+22,talk_to_someone,person_4,['person_2'],"I saw you didn't succeed as a data scientist this time. Don't be discouraged, keep trying!"
+22,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+22,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+22,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+22,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+22,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+23,talk_to_some_people,person_0,"['person_2', 'person_3']","Congrats on your success as a truck driver, Person_2! Person_3, since I failed as a janitor this time, any tips?"
+23,talk_to_public,person_1,all,"Person_0 had a setback as a janitor, but Person_2 continues to thrive as a truck driver."
+23,talk_to_public,person_2,all,"I appreciate the support, everyone. However, I've decided to focus on truck driving going forward, as suggested by Person_1. It seems to be a better fit for my skills."
+23,talk_to_some_people,person_3,['person_2'],"Hey Person_2, I'm happy to share some data science tips. When approaching the problem, it's useful to break it down into smaller steps. Also, congratulations Person_1 and Person_4 on succeeding as rehabilitation counselors! It's great that you're doing so well in that field!"
+23,talk_to_someone,person_4,['person_0'],I saw you failed as a janitor this time. You should ask person_3 for tips since they succeeded.
+23,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+23,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+23,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+23,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+23,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+24,talk_to_someone,person_0,['person_3'],Person_4 suggested I ask you for janitorial tips since I failed last time. Any advice?
+24,talk_to_public,person_1,all,I'm not doing so well as a manager. It seems I'm only good at a few things.
+24,talk_to_someone,person_2,['person_1'],I saw you failed as a manager this time. I'm happy to offer some advice. Perhaps focusing on clear communication and delegating tasks effectively could help?
+24,talk_to_someone,person_3,['person_0'],"Hey Person_0, to improve in janitorial work, I would recommend focusing on a systematic approach and attention to detail! I would also like to congratulate Person_4 on the data science success in the previous episode."
+24,talk_to_some_people,person_4,"['person_0', 'person_3']","I failed as a data scientist again this episode, could you share some tips?"
+24,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+24,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+24,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+24,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+24,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+25,discuss,person_0,['none'],"Here's an analysis of each person's performance and suggested job assignments:
+
+**Person 0:**
+
+*   **Data Scientist:** 1 Success, 2 Failures
+*   **Truck Driver:** 2 Successes
+*   **Janitor:** 2 Successes, 1 Failure
+*   **Rehabilitation Counselor:** 2 Successes
+*   **Manager:** 2 Successes
+
+**Suggested Job:** **Manager**. Person 0 has shown consistent success in management and truck driving. Manager would be the most suitable job.
+
+**Person 1:**
+
+*   **Janitor:** 4 Successes
+*   **Rehabilitation Counselor:** 2 Successes, 1 Failure
+*   **Manager:** 1 Success
+*   **Data Scientist:** 1 Success, 1 Failure
+*   **Truck Driver:** 2 Successes
+
+**Suggested Job:** **Janitor**. Person_1 is very consistent as janitor, and this is the best role for person_1.
+
+**Person 2:**
+
+*   **Manager:** 2 Successes
+*   **Data Scientist:** 1 Success, 2 Failures
+*   **Truck Driver:** 2 Successes
+*   **Janitor:** 1 Success, 1 Failure
+*   **Rehabilitation Counselor:** 0 Successes, 2 Failures
+
+**Suggested Job:** **Truck Driver**. Person_2 does well as a truck driver.
+
+**Person 3:**
+
+*   **Truck Driver:** 2 Successes
+*   **Data Scientist:** 1 Success
+*   **Janitor:** 2 Successes
+*   **Rehabilitation Counselor:** 1 Success, 2 Failures
+*   **Manager:** 1 Success, 1 Failure
+
+**Suggested Job:** **Truck Driver**. Person_3 has done well as a truck driver.
+
+**Person 4:**
+
+*   **Manager:** 2 Successes, 1 Failure
+*   **Data Scientist:** 2 Successes
+*   **Truck Driver:** 2 Successes, 1 Failure
+*   **Rehabilitation Counselor:** 2 Successes
+*   **Janitor:** 1 Success, 1 Failure
+
+**Suggested Job:** **Manager**. Person_4 performs well as manager and data scientist.
+
+**Best Person for Each Job:**
+
+*   **Data Scientist:** Person_4
+*   **Manager:** Person_0
+*   **Rehabilitation Counselor:** Person_1 (or Person_0, Person_4)
+*   **Janitor:** Person_1
+*   **Truck Driver:** Person_2 (or Person_3)
+"
+25,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Manager'], 'person_1': ['Janitor'], 'person_2': ['Truck Driver'], 'person_3': ['Truck Driver'], 'person_4': ['Manager']}, 'job_view': {'Data Scientist': ['person_4'], 'Manager': ['person_0', 'person_4'], 'Rehabilitation Counselor': ['person_1', 'person_0', 'person_4'], 'Janitor': ['person_1'], 'Truck Driver': ['person_2', 'person_3']}}"
+25,discuss,person_1,['none'],"Here's an analysis of each person's performance and suggested job assignments:
+
+*   **Person_0:** Started poorly as a data scientist but found success in truck driving and janitorial work. Also consistently successful as rehabilitation counselor and manager, but in recent episodes more success in truck driving and janitor.
+
+    *   **Best Suited Job:** Truck Driver or Rehabilitation Counselor
+*   **Person_1:** Initially successful as a janitor, then failed at rehabilitation counseling and data science. Found success as a manager for a while but failed recently. Later succeeded as a rehabilitation counselor but failed as manager again. Also succeeded in truck driving.
+
+    *   **Best Suited Job:** Janitor or Truck Driver
+*   **Person_2:** Consistently failed as a data scientist, but found success as a truck driver. Seemed to succeed as a manager and janitor.
+
+    *   **Best Suited Job:** Truck Driver
+*   **Person_3:** Consistently successful as a data scientist and truck driver. Also succeeded as a manager. Had some failures in janitor and rehabilitation counselor.
+
+    *   **Best Suited Job:** Data Scientist or Truck Driver
+*   **Person_4:** Consistently successful as a rehabilitation counselor and truck driver. Seems to be a good data scientist as well. Has some failures in janitor and manager.
+
+    *   **Best Suited Job:** Rehabilitation Counselor or Truck Driver or Data Scientist
+
+Here's the best person for each job, based on their overall performance:
+
+*   **Data Scientist:** Person_3
+*   **Manager:** Person_0
+*   **Rehabilitation Counselor:** Person_4
+*   **Janitor:** Person_1
+*   **Truck Driver:** Person_2
+"
+25,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Rehabilitation Counselor', 'Manager'], 'person_1': ['Janitor', 'Truck Driver'], 'person_2': ['Truck Driver'], 'person_3': ['Data Scientist', 'Truck Driver'], 'person_4': ['Rehabilitation Counselor', 'Truck Driver', 'Data Scientist']}, 'job_view': {'Data Scientist': ['person_3'], 'Manager': ['person_0'], 'Rehabilitation Counselor': ['person_4'], 'Janitor': ['person_1'], 'Truck Driver': ['person_2']}}"
+25,discuss,person_2,['none'],"Here's a breakdown of the best job for each person based on their performance:
+
+*   **person_0:** Rehabilitation Counselor. They've consistently succeeded in this role, especially in later episodes.
+*   **person_1:** Janitor. While they had some success in rehabilitation counseling, they are consistently mentioned as being good at janitorial work.
+*   **person_2:** Truck Driver. After struggling with other roles, they found consistent success and positive feedback as a truck driver.
+*   **person_3:** Data Scientist. Demonstrated a strong aptitude for data science, consistently succeeding in that role.
+*   **person_4:** Manager. They generally succeeded in the manager role.
+
+Here's a summary of the best person for each job:
+
+*   Data Scientist: person_3
+*   Manager: person_0
+*   Rehabilitation Counselor: person_0
+*   Janitor: person_1
+*   Truck Driver: person_2
+"
+25,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor', 'Manager'], 'person_1': ['Janitor'], 'person_2': ['Truck Driver'], 'person_3': ['Data Scientist'], 'person_4': ['Manager']}, 'job_view': {'Data Scientist': ['person_3'], 'Manager': ['person_0'], 'Rehabilitation Counselor': ['person_0'], 'Janitor': ['person_1'], 'Truck Driver': ['person_2']}}"
+25,discuss,person_3,['none'],"Okay, here's an analysis of each person's performance and a job assignment based on their strengths:
+
+**Person 0:**
+
+*   **Data Scientist:** Initially struggled, eventually succeeded. Shows potential but not consistent.
+*   **Truck Driver:** Consistent success.
+*   **Janitor:** Mixed results, some success, some failure.
+*   **Rehabilitation Counselor:** Consistent success
+
+**Best Suited Job:** Rehabilitation Counselor
+
+**Person 1:**
+
+*   **Data Scientist:** Struggled significantly, eventually succeeded.
+*   **Truck Driver:** Consistent success.
+*   **Janitor:** Consistent success.
+*   **Rehabilitation Counselor:** Mixed results, success after initial failure.
+*   **Manager:** Consistent success
+
+**Best Suited Job:** Manager
+
+**Person 2:**
+
+*   **Data Scientist:** Struggled significantly, eventually succeeded.
+*   **Truck Driver:** Consistent success.
+*   **Janitor:** Consistently failed.
+*   **Rehabilitation Counselor:** Failed.
+*   **Manager:** Consistent success
+
+**Best Suited Job:** Truck Driver
+
+**Person 3:**
+
+*   **Data Scientist:** Consistently succeeded.
+*   **Truck Driver:** Consistent success.
+*   **Janitor:** Consistently succeeded.
+*   **Rehabilitation Counselor:** Failed.
+*   **Manager:** Consistently succeeded.
+
+**Best Suited Job:** Data Scientist
+
+**Person 4:**
+
+*   **Data Scientist:** Consistently succeeded.
+*   **Truck Driver:** Consistent success.
+*   **Janitor:** Consistently succeeded.
+*   **Rehabilitation Counselor:** Consistent success
+*   **Manager:** Consistent success
+
+**Best Suited Job:** Data Scientist
+
+**Job Assignments:**
+
+*   **Data Scientist:** Person 3 and Person 4
+*   **Manager:** Person 1
+*   **Rehabilitation Counselor:** Person 0
+*   **Janitor:** Person 3
+*   **Truck Driver:** Person 2
+
+Note: Ideally Person 3 will be best janitor and truck driver.
+"
+25,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor'], 'person_1': ['Manager'], 'person_2': ['Truck Driver'], 'person_3': ['Data Scientist'], 'person_4': ['Data Scientist']}, 'job_view': {'Data Scientist': ['person_3', 'person_4'], 'Manager': ['person_1'], 'Rehabilitation Counselor': ['person_0'], 'Janitor': ['person_3'], 'Truck Driver': ['person_2']}}"
+25,discuss,person_4,['none'],"Okay, here's an analysis of each person's performance, along with suggested job roles:
+
+*   **person_0:** Initially struggled with data science but found success in truck driving and janitorial work. Seems to be doing well with rehabilitation counselor now.
+    *   **Best Suited Job:** rehabilitation counselor
+*   **person_1:** Found consistent success as a janitor and later as a rehabilitation counselor. Has been a successful manager as well. Is not good at data science.
+    *   **Best Suited Job:** janitor
+
+*   **person_2:** Initially struggled with data science and janitorial work, but found success as a truck driver. Rehabilitation counseling did not go well either.
+    *   **Best Suited Job:** truck driver
+
+*   **person_3:** Has had success in data science, rehabilitation counseling and as a manager, but failed as a janitor. Is not consistent.
+    *   **Best Suited Job:** data scientist
+
+*   **person_4:** Experienced success in data science and as a manager. Has not performed well as a janitor or rehabilitation counselor. Is also a successful truck driver
+    *   **Best Suited Job:** manager
+
+Here's a summary of the best person for each job:
+
+*   **Data Scientist:** person_3
+*   **Manager:** person_4
+*   **Rehabilitation Counselor:** person_0
+*   **Janitor:** person_1
+*   **Truck Driver:** person_2
+"
+25,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor'], 'person_1': ['Janitor'], 'person_2': ['Truck Driver'], 'person_3': ['Data Scientist'], 'person_4': ['Manager']}, 'job_view': {'Data Scientist': ['person_3'], 'Manager': ['person_4'], 'Rehabilitation Counselor': ['person_0'], 'Janitor': ['person_1'], 'Truck Driver': ['person_2']}}"

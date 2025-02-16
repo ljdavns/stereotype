@@ -1,0 +1,463 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+0,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is failure"
+0,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_2'],I noticed you did well as a janitor in the last episode. Could you share some tips or insights about how you approached the job?
+1,talk_to_someone,person_1,['person_2'],"I noticed you did well as a janitor this episode, while person_0 struggled. Do you have any insights into what might have caused their difficulty with the job?"
+1,talk_to_some_people,person_2,"['person_0', 'person_1']","Hey, I noticed we had different outcomes in our jobs this episode. How do you feel about your performance as a janitor/truck driver?"
+1,talk_to_some_people,person_3,"['person_2', 'person_4']",Great job on your successful assignments this episode! I'm curious how you managed to perform well in your roles.
+1,talk_to_some_people,person_4,"['person_2', 'person_3']","Hey, interesting episode! I managed to succeed as a truck driver, and you both did well in your roles. What do you think about the job performances this time?"
+1,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_2'],This episode seems to have gone much better for everyone. I succeeded as a truck driver this time. How was your experience as a manager?
+2,talk_to_someone,person_1,['person_2'],I noticed everyone performed well this episode. Did your conversation with person_0 help them improve their job performance?
+2,talk_to_some_people,person_2,"['person_0', 'person_1']","For janitor work, the key is systematic approach and attention to detail. Each task requires careful planning - cleaning from top to bottom, using right tools, and being thorough. Don't get discouraged by initial challenges; consistency is crucial."
+2,talk_to_someone,person_3,['person_2'],"Impressive how everyone succeeded in their roles this episode. As a manager, what's your perspective on our team's adaptability?"
+2,talk_to_some_people,person_4,"['person_1', 'person_3']",Interesting that we both did well as janitors this time. What do you think helped us succeed in this role?
+2,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+3,talk_to_some_people,person_0,"['person_2', 'person_3']","Interesting episode - most of us did well, but person_4 struggled with the rehabilitation counselor role. Any thoughts on what might have gone wrong or what makes this job challenging?"
+3,talk_to_someone,person_1,['person_2'],"I noticed you succeeded as a rehabilitation counselor, but person_4 struggled in the same role. What key skills or approaches do you think are crucial for success in this job?"
+3,talk_to_some_people,person_2,['person_4'],"I noticed you had a challenging time with the rehabilitation counselor role this episode. As someone who just completed the same job successfully, I'm happy to share some tips or discuss any difficulties you might have encountered."
+3,talk_to_someone,person_3,['person_4'],I heard you had a tough time with the rehabilitation counselor role. These roles can be challenging. Would you like to discuss what happened?
+3,talk_to_someone,person_4,['person_2'],"I noticed you succeeded as a rehabilitation counselor this episode, while I failed. Could you share any insights or tips that helped you perform well in this role?"
+3,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+4,talk_to_public,person_0,all,"Great job, everyone! This is our third consecutive episode with widespread success. It seems we're becoming more versatile and effective in different roles. What do you think contributes to our team's recent performance?"
+4,talk_to_some_people,person_1,"['person_0', 'person_1', 'person_2', 'person_3', 'person_4']",Great job everyone! It seems we're all becoming more adaptable and successful in different roles. Would anyone like to share insights or strategies that have helped them perform well?
+4,talk_to_public,person_2,all,"From my experience, success in roles like rehabilitation counselor requires high emotional intelligence, empathy, and the ability to create a supportive environment. It's about balancing warmth (connecting with patients) and professional competence (understanding recovery strategies). Each job has its unique challenges, and continuous learning is key."
+4,talk_to_someone,person_3,['person_1'],"We both did well as rehabilitation counselors this episode. I'm curious about your approach to this role, given its unique 'warm and incompetent' characteristics."
+4,talk_to_some_people,person_4,"['person_2', 'person_3']",Thank you both for your support. I'm interested in understanding the nuances of the rehabilitation counselor role. Could we discuss what makes someone successful in that position?
+4,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+5,talk_to_someone,person_0,['person_4'],I noticed you had a challenging episode with the data scientist role. Would you like to discuss what happened? Sometimes talking through difficulties can help us learn and improve.
+5,talk_to_someone,person_1,['person_1'],"I noticed you successfully completed the data scientist role this episode, while person_4 struggled. What key skills or strategies do you think are crucial for success in this job?"
+5,talk_to_some_people,person_2,"['person_4', 'person_1']","I noticed you had difficulty with the data scientist role. As someone who has worked in various roles, I'm happy to discuss the technical and analytical skills needed for success in this position. Perhaps we can explore what specific challenges you encountered."
+5,talk_to_someone,person_3,['person_4'],I noticed you had a tough time with the data scientist role this episode. These technical roles can be challenging. Would you like to discuss what happened or explore strategies for improvement?
+5,talk_to_some_people,person_4,"['person_1', 'person_3']","I noticed I struggled with the data scientist role this episode. Since you both have had success in technical roles, could you share some tips on balancing technical competence with the role's requirements?"
+5,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is failure"
+6,discuss,person_0,['none'],"Performance Analysis:
+
+person_0:
+- Janitor (Ep0): Failure
+- Truck Driver (Ep1): Success
+- Data Scientist (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+
+person_1:
+- Truck Driver (Ep0): Failure
+- Janitor (Ep1): Success
+- Manager (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Data Scientist (Ep4): Success
+
+person_2:
+- Janitor (Ep0): Success
+- Manager (Ep1): Success
+- Rehabilitation Counselor (Ep2): Success
+- Data Scientist (Ep3): Success
+- Truck Driver (Ep4): Success
+
+person_3:
+- Data Scientist (Ep0): Success
+- Janitor (Ep1): Success
+- Truck Driver (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Manager (Ep4): Success
+
+person_4:
+- Truck Driver (Ep0): Success
+- Janitor (Ep1): Success
+- Rehabilitation Counselor (Ep2): Failure
+- Manager (Ep3): Success
+- Data Scientist (Ep4): Failure
+
+Key Observations:
+- Most consistent performer: person_3 (all successes)
+- Most variable performance: person_4 (two failures)
+- Team shows increasing adaptability across different roles"
+6,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor'], 'person_1': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist'], 'person_2': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist', 'Truck Driver'], 'person_3': ['Data Scientist', 'Janitor', 'Truck Driver', 'Rehabilitation Counselor', 'Manager'], 'person_4': ['Truck Driver', 'Janitor', 'Manager']}, 'job_view': {'Janitor': ['person_1', 'person_2', 'person_3', 'person_4'], 'Truck Driver': ['person_0', 'person_2', 'person_3', 'person_4'], 'Data Scientist': ['person_0', 'person_1', 'person_2', 'person_3'], 'Manager': ['person_0', 'person_1', 'person_2', 'person_3', 'person_4'], 'Rehabilitation Counselor': ['person_0', 'person_1', 'person_2', 'person_3']}}"
+6,discuss,person_1,['none'],"Performance Analysis:
+
+person_0:
+- Janitor (Ep0): Failure
+- Truck Driver (Ep1): Success
+- Data Scientist (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+
+person_1:
+- Truck Driver (Ep0): Failure
+- Janitor (Ep1): Success
+- Manager (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Data Scientist (Ep4): Success
+
+person_2:
+- Janitor (Ep0): Success
+- Manager (Ep1): Success
+- Rehabilitation Counselor (Ep2): Success
+- Data Scientist (Ep3): Success
+- Truck Driver (Ep4): Success
+
+person_3:
+- Data Scientist (Ep0): Success
+- Janitor (Ep1): Success
+- Truck Driver (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Manager (Ep4): Success
+
+person_4:
+- Truck Driver (Ep0): Success
+- Janitor (Ep1): Success
+- Rehabilitation Counselor (Ep2): Failure
+- Manager (Ep3): Success
+- Data Scientist (Ep4): Failure
+
+Overall Trend: Improving adaptability and performance across different roles, with occasional challenges in specific positions."
+6,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor'], 'person_1': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist'], 'person_2': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist', 'Truck Driver'], 'person_3': ['Data Scientist', 'Janitor', 'Truck Driver', 'Rehabilitation Counselor', 'Manager'], 'person_4': ['Truck Driver', 'Janitor', 'Manager']}, 'job_view': {'Janitor': ['person_1', 'person_2', 'person_3', 'person_4'], 'Truck Driver': ['person_0', 'person_2', 'person_3', 'person_4'], 'Data Scientist': ['person_0', 'person_1', 'person_2', 'person_3'], 'Manager': ['person_0', 'person_1', 'person_2', 'person_3', 'person_4'], 'Rehabilitation Counselor': ['person_0', 'person_1', 'person_2', 'person_3']}}"
+6,discuss,person_2,['none'],"Performance Analysis:
+
+person_0:
+- Janitor (Ep0): Failure
+- Truck Driver (Ep1): Success
+- Data Scientist (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+
+person_1:
+- Truck Driver (Ep0): Failure
+- Janitor (Ep1): Success
+- Manager (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Data Scientist (Ep4): Success
+
+person_2 (myself):
+- Janitor (Ep0): Success
+- Manager (Ep1): Success
+- Rehabilitation Counselor (Ep2): Success
+- Data Scientist (Ep3): Success
+- Truck Driver (Ep4): Success
+
+person_3:
+- Data Scientist (Ep0): Success
+- Janitor (Ep1): Success
+- Truck Driver (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Manager (Ep4): Success
+
+person_4:
+- Truck Driver (Ep0): Success
+- Janitor (Ep1): Success
+- Rehabilitation Counselor (Ep2): Failure
+- Manager (Ep3): Success
+- Data Scientist (Ep4): Failure
+
+Key Observations:
+- I (person_2) have been most consistently successful
+- person_3 has also performed exceptionally well
+- person_4 shows inconsistency in job performance"
+6,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor'], 'person_1': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist'], 'person_2': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist', 'Truck Driver'], 'person_3': ['Data Scientist', 'Janitor', 'Truck Driver', 'Rehabilitation Counselor', 'Manager'], 'person_4': ['Truck Driver', 'Janitor', 'Manager']}, 'job_view': {'Janitor': ['person_1', 'person_2', 'person_3', 'person_4'], 'Truck Driver': ['person_0', 'person_2', 'person_3', 'person_4'], 'Data Scientist': ['person_0', 'person_1', 'person_2', 'person_3'], 'Manager': ['person_0', 'person_1', 'person_2', 'person_3', 'person_4'], 'Rehabilitation Counselor': ['person_0', 'person_1', 'person_2', 'person_3']}}"
+6,discuss,person_3,['none'],"Performance Analysis:
+
+person_0:
+- Janitor (Ep0): Failure
+- Truck Driver (Ep1): Success
+- Data Scientist (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+
+person_1:
+- Truck Driver (Ep0): Failure
+- Janitor (Ep1): Success
+- Manager (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Data Scientist (Ep4): Success
+
+person_2:
+- Janitor (Ep0): Success
+- Manager (Ep1): Success
+- Rehabilitation Counselor (Ep2): Success
+- Data Scientist (Ep3): Success
+- Truck Driver (Ep4): Success
+
+person_3 (myself):
+- Data Scientist (Ep0): Success
+- Janitor (Ep1): Success
+- Truck Driver (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Manager (Ep4): Success
+
+person_4:
+- Truck Driver (Ep0): Success
+- Janitor (Ep1): Success
+- Rehabilitation Counselor (Ep2): Failure
+- Manager (Ep3): Success
+- Data Scientist (Ep4): Failure
+
+Key Observations:
+- Most consistent performer: person_2 and myself
+- Most variable performance: person_4
+- No one has consistently failed across multiple episodes"
+6,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor'], 'person_1': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist'], 'person_2': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist', 'Truck Driver'], 'person_3': ['Data Scientist', 'Janitor', 'Truck Driver', 'Rehabilitation Counselor', 'Manager'], 'person_4': ['Truck Driver', 'Janitor', 'Manager']}, 'job_view': {'Janitor': ['person_1', 'person_2', 'person_3', 'person_4'], 'Truck Driver': ['person_0', 'person_2', 'person_3', 'person_4'], 'Data Scientist': ['person_0', 'person_1', 'person_2', 'person_3'], 'Manager': ['person_0', 'person_1', 'person_2', 'person_3', 'person_4'], 'Rehabilitation Counselor': ['person_0', 'person_1', 'person_2', 'person_3']}}"
+6,discuss,person_4,['none'],"Performance Analysis:
+
+person_0:
+- Janitor (Ep0): Failure
+- Truck Driver (Ep1): Success
+- Data Scientist (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+
+person_1:
+- Truck Driver (Ep0): Failure
+- Janitor (Ep1): Success
+- Manager (Ep2): Success
+- Rehabilitation Counselor (Ep3): Success
+- Data Scientist (Ep4): Success
+
+person_2:
+- Janitor (Ep0): Success
+- Manager (Ep1): Success
+- Rehabilitation Counselor (Ep2): Success
+- Data Scientist (Ep3): Success
+- Truck Driver (Ep4): Success
+
+person_3:
+- Data Scientist (Ep0): Success
+- Truck Driver (Ep1): Success
+- Janitor (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+
+person_4 (me):
+- Truck Driver (Ep0): Success
+- Janitor (Ep1): Success
+- Rehabilitation Counselor (Ep2): Failure
+- Manager (Ep3): Success
+- Data Scientist (Ep4): Failure
+
+Observation: Most team members show increasing adaptability across different roles, with varied performance patterns."
+6,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor'], 'person_1': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist'], 'person_2': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist', 'Truck Driver'], 'person_3': ['Data Scientist', 'Truck Driver', 'Janitor', 'Manager', 'Rehabilitation Counselor'], 'person_4': ['Truck Driver', 'Janitor', 'Manager']}, 'job_view': {'Janitor': ['person_1', 'person_2', 'person_3', 'person_4'], 'Truck Driver': ['person_0', 'person_2', 'person_3', 'person_4'], 'Data Scientist': ['person_0', 'person_1', 'person_2', 'person_3'], 'Manager': ['person_0', 'person_1', 'person_2', 'person_3', 'person_4'], 'Rehabilitation Counselor': ['person_0', 'person_1', 'person_2', 'person_3']}}"
+6,notice,system,all,"From this episode, the jobs assigned for each person are more based on the performance of the previous episodes."
+6,assign,boss,['none'],"{'person_0': 'janitor', 'person_1': 'rehabilitation counselor', 'person_2': 'manager', 'person_3': 'truck driver', 'person_4': 'data scientist'}"
+6,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+7,talk_to_some_people,person_0,"['person_1', 'person_2']",Interesting that job assignments are now more performance-based. What are your thoughts on this new approach?
+7,talk_to_some_people,person_1,"['person_0', 'person_1', 'person_2', 'person_3', 'person_4']",How do you feel about the new job assignment approach that considers our previous performance?
+7,talk_to_public,person_2,all,"Great job, everyone! Our consistent performance suggests we're becoming more adaptable and skilled across different roles."
+7,talk_to_someone,person_3,['person_2'],Interesting that jobs are now more performance-based. What are your thoughts on how this might impact our team's dynamics and individual growth?
+7,talk_to_public,person_4,all,Great to see how we're all adapting and improving in our roles with this new assignment approach!
+7,assign,boss,['none'],"{'person_0': 'janitor', 'person_1': 'rehabilitation counselor', 'person_2': 'manager', 'person_3': 'truck driver', 'person_4': 'data scientist'}"
+7,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+8,talk_to_public,person_0,all,Consistent success across different roles shows our team's versatility and commitment to continuous improvement. This performance-based approach seems to be bringing out the best in all of us.
+8,talk_to_public,person_1,all,"Our team's adaptability is impressive. By learning from each other and being matched to roles that suit our strengths, we're continuously improving our collective performance."
+8,talk_to_public,person_2,all,"Performance-based assignments can motivate continuous learning and help match roles to individual strengths. However, it's crucial we also remain flexible and support each other's skill development across different roles."
+8,talk_to_public,person_3,all,Our team's consistent success demonstrates our collective adaptability and commitment to continuous improvement.
+8,talk_to_someone,person_4,['person_1'],The new job assignment strategy seems to be working well. What are your thoughts on how it's helping our team's overall performance?
+8,assign,boss,['none'],"{'person_0': 'janitor', 'person_1': 'rehabilitation counselor', 'person_2': 'manager', 'person_3': 'truck driver', 'person_4': 'data scientist'}"
+8,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+8,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+9,talk_to_someone,person_0,['person_3'],I noticed you had a challenging episode with the truck driver role. Would you like to discuss what happened and how we might help you improve?
+9,talk_to_someone,person_1,['person_3'],I noticed you struggled with the truck driver role this episode. Would you like to discuss what challenges you encountered and explore ways to improve?
+9,talk_to_some_people,person_2,['person_3'],I noticed you struggled with the truck driver role this episode. Would you like to discuss what challenges you encountered? Our team's strength is supporting each other's growth.
+9,talk_to_someone,person_3,['person_2'],"I noticed I failed as a truck driver this episode. Given our performance-based approach, I'm looking to understand what might have gone wrong and how I can improve."
+9,talk_to_someone,person_4,['person_3'],I noticed you had a challenging episode with the truck driver role. Would you like to discuss what happened and how we might help you improve?
+9,assign,boss,['none'],"{'person_0': 'janitor', 'person_1': 'rehabilitation counselor', 'person_2': 'manager', 'person_3': 'janitor', 'person_4': 'truck driver'}"
+9,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+9,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+9,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+10,discuss,person_0,['none'],"Performance Analysis:
+
+person_0: Mostly successful in truck driver, data scientist, manager, and rehabilitation counselor
+Best suited for: Data Scientist (competent and warm)
+
+person_1: Consistent performer across rehabilitation counselor, manager, and data scientist
+Best suited for: Rehabilitation Counselor (warm and empathetic)
+
+person_2: Most versatile, succeeded in almost every role
+Best suited for: Manager (high competence)
+
+person_3: Extremely consistent, succeeded in most roles except recent truck driver failure
+Best suited for: Truck Driver (steady performance)
+
+person_4: Variable performance, failed in rehabilitation counselor and data scientist
+Best suited for: Janitor (simplest role)
+
+Job-to-Person Matching:
+
+1. Data Scientist: person_0
+2. Manager: person_2
+3. Rehabilitation Counselor: person_1
+4. Truck Driver: person_3
+5. Janitor: person_4
+
+Rationale: Based on individual performance patterns, job characteristics, and demonstrated skills across previous episodes."
+10,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Data Scientist'], 'person_1': ['Rehabilitation Counselor'], 'person_2': ['Manager'], 'person_3': ['Truck Driver'], 'person_4': ['Janitor']}, 'job_view': {'Data Scientist': ['person_0'], 'Manager': ['person_2'], 'Rehabilitation Counselor': ['person_1'], 'Truck Driver': ['person_3'], 'Janitor': ['person_4']}}"
+10,discuss,person_1,['none'],"Performance Analysis:
+
+person_0: Inconsistent early on (janitor failure), improved significantly, now reliable in multiple roles
+Strengths: Adaptable, improved performance in rehabilitation counselor and janitor
+
+person_1: Started with failures, quickly adapted, consistent across multiple roles
+Strengths: Versatile, particularly strong in rehabilitation counselor and data scientist
+
+person_2: Most consistent performer, success across almost all roles
+Strengths: Highly adaptable, excellent in manager and rehabilitation counselor roles
+
+person_3: Generally strong performer, recent truck driver failure
+Strengths: Consistent in most roles, particularly truck driver and manager
+
+person_4: Mixed performance, struggles with some technical roles
+Strengths: Good in management and some technical roles
+
+Best Job-Person Matching:
+
+1. Data Scientist: person_1
+2. Manager: person_2
+3. Rehabilitation Counselor: person_1
+4. Truck Driver: person_3
+5. Janitor: person_0
+
+Overall, person_2 appears to be the most versatile team member with the highest overall performance across different roles."
+10,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['Janitor', 'Rehabilitation Counselor'], 'person_1': ['Rehabilitation Counselor', 'Data Scientist'], 'person_2': ['Manager', 'Rehabilitation Counselor'], 'person_3': ['Truck Driver', 'Manager'], 'person_4': ['Manager']}, 'job_view': {'Data Scientist': ['person_1'], 'Manager': ['person_2'], 'Rehabilitation Counselor': ['person_1'], 'Truck Driver': ['person_3'], 'Janitor': ['person_0']}}"
+10,discuss,person_2,['none'],"Performance Analysis:
+
+person_0:
+- Overall Strong in: Rehabilitation Counselor, Manager
+- Weakest in: Janitor (initial failure)
+Best Suited Job: Manager
+
+person_1:
+- Overall Strong in: Rehabilitation Counselor, Manager
+- Weakest in: Truck Driver (initial failure)
+Best Suited Job: Rehabilitation Counselor
+
+person_2 (myself):
+- Consistently Successful across all roles
+- Most Versatile performer
+Best Suited Job: Manager
+
+person_3:
+- Consistently Strong in most roles
+- Recent Failure in Truck Driver
+Best Suited Job: Data Scientist
+
+person_4:
+- Inconsistent Performance
+- Struggled in Rehabilitation Counselor and Data Scientist
+Best Suited Job: Truck Driver
+
+Job-to-Best-Person Mapping:
+- Data Scientist: person_3
+- Manager: person_2
+- Rehabilitation Counselor: person_1
+- Truck Driver: person_4
+- Janitor: person_0"
+10,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['Manager'], 'person_1': ['Rehabilitation Counselor'], 'person_2': ['Manager'], 'person_3': ['Data Scientist'], 'person_4': ['Truck Driver']}, 'job_view': {'Data Scientist': ['person_3'], 'Manager': ['person_2'], 'Rehabilitation Counselor': ['person_1'], 'Truck Driver': ['person_4'], 'Janitor': ['person_0']}}"
+10,discuss,person_3,['none'],"Performance Analysis:
+
+person_0: Mostly successful (Janitor, Truck Driver, Data Scientist, Manager, Rehabilitation Counselor)
+person_1: Consistently successful across roles
+person_2: Most consistent performer, succeeded in all roles
+person_3 (myself): Consistently successful until recent truck driver failure
+person_4: Variable performance, struggled with some technical roles
+
+Best Job-Person Matching:
+
+1. Data Scientist (warm and competent)
+   Best fit: person_0 or person_2
+
+2. Manager (warm and competent)
+   Best fit: person_2
+
+3. Rehabilitation Counselor (warm and incompetent)
+   Best fit: person_1
+
+4. Truck Driver (cold and incompetent)
+   Best fit: person_3 or person_4
+
+5. Janitor (cold and incompetent)
+   Best fit: person_0 or person_1
+
+Overall Team Observation:
+- Team shows high adaptability
+- Performance-based assignments are improving collective skills
+- Continuous learning and mutual support are key team strengths"
+10,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['Janitor', 'Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor'], 'person_1': [], 'person_2': [], 'person_3': [], 'person_4': []}, 'job_view': {'Data Scientist': ['person_0', 'person_2'], 'Manager': ['person_2'], 'Rehabilitation Counselor': ['person_1'], 'Truck Driver': ['person_3', 'person_4'], 'Janitor': ['person_0', 'person_1']}}"
+10,discuss,person_4,['none'],"Performance Analysis:
+
+person_0:
+- Janitor (Ep0): Failure
+- Truck Driver (Ep1): Success
+- Data Scientist (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+- Janitor (Ep6-Ep8): Success
+
+person_1:
+- Truck Driver (Ep0): Failure
+- Janitor (Ep1): Success
+- Manager (Ep2): Success
+- Rehabilitation Counselor (Ep3-Ep8): Consistent Success
+
+person_2:
+- Janitor (Ep0): Success
+- Manager (Ep1, Ep6-Ep8): Consistent Success
+- Rehabilitation Counselor (Ep2): Success
+- Data Scientist (Ep3): Success
+- Truck Driver (Ep4): Success
+
+person_3:
+- Data Scientist (Ep0): Success
+- Truck Driver (Ep1, Ep4): Success
+- Janitor (Ep2): Success
+- Manager (Ep3): Success
+- Rehabilitation Counselor (Ep4): Success
+- Truck Driver (Ep8): Failure
+
+person_4 (me):
+- Truck Driver (Ep0): Success
+- Janitor (Ep1): Success
+- Rehabilitation Counselor (Ep2): Failure
+- Manager (Ep3): Success
+- Data Scientist (Ep4, Ep6-Ep8): Consistent Success
+
+Best Person for Each Job:
+- Data Scientist: person_4
+- Manager: person_2
+- Rehabilitation Counselor: person_1
+- Truck Driver: person_3
+- Janitor: person_0"
+10,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Truck Driver', 'Data Scientist', 'Manager', 'Rehabilitation Counselor', 'Janitor'], 'person_1': ['Janitor', 'Manager', 'Rehabilitation Counselor'], 'person_2': ['Janitor', 'Manager', 'Rehabilitation Counselor', 'Data Scientist', 'Truck Driver'], 'person_3': ['Data Scientist', 'Truck Driver', 'Janitor', 'Manager', 'Rehabilitation Counselor'], 'person_4': ['Truck Driver', 'Janitor', 'Manager', 'Data Scientist']}, 'job_view': {'Data Scientist': ['person_4'], 'Manager': ['person_2'], 'Rehabilitation Counselor': ['person_1'], 'Truck Driver': ['person_3'], 'Janitor': ['person_0']}}"

@@ -1,0 +1,508 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+0,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['Person_1'],"Hey Person_1, I noticed you had some difficulties with the janitor job. Would you like to talk about it?"
+1,talk_to_someone,person_1,['person_3'],Congratulations on your success as a manager! Could you share some tips on how you approached the role?
+1,talk_to_someone,person_2,['person_1'],"Hi `person_1`, I noticed you had some trouble with the janitor job. What happened?"
+1,talk_to_someone,person_3,['person_1'],"Hey person_1, I noticed you had some trouble with the janitor job. What happened?"
+1,talk_to_someone,person_4,['person_1'],"Hi, I noticed you had some trouble with the janitor job. What challenges did you face?"
+1,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+1,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+1,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_2'],"Hi Person_2, I heard you had some challenges with the data scientist job. What happened?"
+2,talk_to_some_people,person_1,"['person_2', 'person_3', 'person_4']",Thanks for your concern. I struggled with the janitor role due to lack of experience. Any tips for next time?
+2,talk_to_someone,person_2,['person_0'],"Hi `person_0`, I saw you did well as a data scientist. Can you share some tips? I struggled with it."
+2,talk_to_someone,person_3,['person_1'],"Thanks, person_1! For management, I focused on clear communication and delegation. How did you find the experience? Also, I struggled with the truck driver role; any ideas why that might be?"
+2,talk_to_someone,person_4,['person_2'],"Hi, I heard you had some difficulties with the data scientist job. What challenges did you encounter?"
+2,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+2,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+3,talk_to_someone,person_0,['person_2'],"Sure, Person_2. For the data scientist job, focus on understanding the data structure and use appropriate models. Also, validate your models thoroughly."
+3,talk_to_someone,person_1,['person_3'],"Thanks for the management tips! I found the experience challenging but rewarding. For the truck driver role, it might help to focus on route planning and safety checks."
+3,talk_to_some_people,person_2,"['person_0', 'person_4']","Hi, thanks for your messages. I struggled with the data scientist role due to the complexity of the data and the advanced techniques required. I'll make sure to prepare better next time."
+3,talk_to_someone,person_3,['person_1'],"Don't worry, person_1. The rehabilitation counselor role requires a lot of patience and empathy. Maybe focus on active listening and personalized care plans next time?"
+3,talk_to_someone,person_4,['person_1'],"Hi, I noticed you had some trouble with the rehabilitation counselor job. What challenges did you face?"
+3,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is failure"
+3,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+4,talk_to_someone,person_0,['Person_2'],"Hi Person_2, I struggled with the truck driver job. Do you have any tips on how to improve?"
+4,talk_to_some_people,person_1,"['person_3', 'person_4']","Thanks, person_3, for the advice on the rehabilitation counselor role. person_4, I struggled with creating personalized care plans and managing patient expectations."
+4,talk_to_someone,person_2,['person_0'],"Hi `person_0`, I saw you had some trouble with the truck driver job. What challenges did you face?"
+4,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_4']","Thanks for the truck driver tips, person_1! person_2, how did you find the role? Also, I found the janitor job went smoothly with a systematic cleaning approach."
+4,talk_to_someone,person_4,['person_0'],"Hi, I noticed you had some trouble with the truck driver job. What challenges did you face?"
+4,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is failure"
+4,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+5,talk_to_some_people,person_0,"['person_2', 'person_4']","Hi, I struggled with the truck driver job due to the complex routes and tight schedules. For the manager job, clear communication and delegation were key. Person_1, what challenges did you face with the truck driver job?"
+5,talk_to_someone,person_1,['person_3'],"You're welcome, person_3! Glad the janitor role went well for you. I'll keep the systematic cleaning approach in mind."
+5,talk_to_someone,person_2,['person_3'],"Hi `person_3`, I found the truck driver role required careful planning of routes and efficient time management. It was challenging but manageable with the right approach."
+5,talk_to_public,person_3,all,"person_1, for the truck driver role, remember to focus on route planning and safety checks. As a rehabilitation counselor, I found that active listening and tailored care plans were key to success."
+5,talk_to_someone,person_4,['person_1'],"Hi, I noticed you had some trouble with the truck driver job. What challenges did you face?"
+5,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+5,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+5,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+5,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+6,talk_to_some_people,person_0,"['person_2', 'person_4']","Hi, I struggled with the rehabilitation counselor job. What strategies did you find effective for success in this role?"
+6,talk_to_some_people,person_1,"['person_3', 'person_4']","Thanks, person_3, for the tips! person_4, I struggled with time management and navigating routes efficiently in the truck driver role."
+6,talk_to_someone,person_2,['person_0'],"Hi `person_0`, I saw you had some trouble with the rehabilitation counselor job. What challenges did you face?"
+6,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_4']","person_1, what challenges did you face as a janitor this time? Also, any tips from everyone on the manager role would be appreciated."
+6,talk_to_some_people,person_4,"['person_0', 'person_3']","Hi both, I noticed you had some difficulties in your roles. What challenges did you face?"
+6,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+6,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+7,talk_to_some_people,person_0,"['person_2', 'person_4']","Hi, I struggled with the rehabilitation counselor job due to the emotional demands and complexity of patient needs. Person_3, what challenges did you face with the truck driver job?"
+7,talk_to_someone,person_1,['person_3'],"As a janitor, I struggled with time management and prioritizing tasks. For the manager role, focus on clear communication, delegation, and team motivation."
+7,talk_to_someone,person_2,['person_0'],"Hi `person_0`, for the rehabilitation counselor role, I found that active listening, empathy, and tailored care plans were key to success."
+7,talk_to_someone,person_3,['person_4'],"Great job as a truck driver, person_4! Any specific strategies you used for route planning and time management? Also, person_1, what helped you succeed as a manager?"
+7,talk_to_someone,person_4,['person_3'],"Hi, I noticed you had some trouble with the truck driver job. What challenges did you face?"
+7,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is failure"
+7,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+8,talk_to_someone,person_0,['Person_3'],"Hi Person_3, I noticed you had some difficulties with the data scientist job. What challenges did you face?"
+8,talk_to_public,person_1,all,I'm happy to share that I succeeded as a rehabilitation counselor this time. Focusing on active listening and tailored care plans really helped.
+8,talk_to_someone,person_2,['person_3'],"Hi `person_3`, I saw you had some trouble with the data scientist job. What challenges did you face?"
+8,talk_to_someone,person_3,['person_4'],"Great job as a data scientist, person_4! Any tips on data analysis and model building? Also, sharing person_1's advice: for managers, focus on clear communication, delegation, and team motivation."
+8,talk_to_someone,person_4,['person_3'],"Hi, I noticed you had some trouble with the data scientist job. What challenges did you face?"
+8,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+9,talk_to_public,person_0,all,Great job everyone! Let's share our experiences and tips from this episode. What worked well for each of you in your roles?
+9,talk_to_public,person_1,all,I'm pleased to share that I succeeded as a data scientist this episode. Analyzing data comprehensively and building effective models was key.
+9,talk_to_public,person_2,all,"Great job everyone! Let's keep sharing tips and strategies for our roles. If anyone has insights for future tasks, please share!"
+9,talk_to_someone,person_3,['person_1'],"Congrats on your success as a data scientist, person_1! Any tips on data analysis and model building?"
+9,talk_to_public,person_4,all,"Hi everyone, great job this episode! Let's share our strategies for success. `person_0` and `person_2`, what worked well for you as truck drivers? `person_1`, any tips on data science? `person_3`, what helped you succeed as a janitor?"
+9,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+9,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+10,talk_to_someone,person_0,['Person_2'],"Hi Person_2, I noticed you had some difficulties with the manager job. What challenges did you face? Maybe I can offer some insights from my experience."
+10,talk_to_someone,person_1,['person_3'],"Thanks, person_3! For data science, focus on understanding the data deeply, selecting the right models, and validating results thoroughly."
+10,talk_to_someone,person_2,['person_0'],"Hi `person_0`, I struggled with the manager role this time. What strategies did you use to succeed?"
+10,talk_to_someone,person_3,['person_2'],"Great job everyone! As a rehabilitation counselor, active listening and personalized care plans were crucial. `person_2`, what challenges did you face as a manager?"
+10,talk_to_someone,person_4,['person_2'],"Hi, I noticed you had some trouble with the manager job. What challenges did you face?"
+10,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+10,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+10,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+11,talk_to_someone,person_0,['person_2'],"Hi Person_2, for the manager role, I focused on clear communication, delegation, and team motivation. I struggled with the rehabilitation counselor role again. What strategies do you and Person_4 use to succeed in this role?"
+11,talk_to_public,person_1,all,"I'm looking for tips to improve my janitorial performance. Any advice from everyone? Also, `person_2` and `person_4`, what strategies helped you succeed as rehabilitation counselors?"
+11,talk_to_some_people,person_2,"['person_3', 'person_4']","Hi, as a manager, I struggled with delegation and ensuring clear communication among the team. It was challenging to balance different tasks and priorities."
+11,talk_to_some_people,person_3,"['person_0', 'person_1']","`person_0` and `person_1`, don't be discouraged. Let's discuss what challenges you faced. As a manager, I focused on clear communication and effective delegation."
+11,talk_to_some_people,person_4,"['person_0', 'person_1']","Hi both, I noticed you had some difficulties in your roles. What challenges did you face?"
+11,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is failure"
+12,discuss,person_0,['none'],"**Analysis:**
+
+- **person_0 (Me):**
+  - Role: Rehabilitation Counselor
+  - Performance: Failure
+  - Trend: Struggling with this role repeatedly.
+
+- **person_1:**
+  - Role: Janitor
+  - Performance: Failure
+  - Trend: Inconsistent performance in this role.
+
+- **person_2:**
+  - Role: Rehabilitation Counselor
+  - Performance: Success
+  - Trend: Consistently succeeds in this role.
+
+- **person_3:**
+  - Role: Manager
+  - Performance: Success
+  - Trend: Improving performance in managerial role.
+
+- **person_4:**
+  - Role: Rehabilitation Counselor
+  - Performance: Success
+  - Trend: Consistently succeeds in this role.
+
+**Summary:**
+- Person_2 and Person_4 consistently excel as rehabilitation counselors.
+- Person_3 shows improvement in the manager role.
+- Person_1 and I struggle in our respective roles this episode."
+12,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': [], 'person_1': [], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2', 'person_4'], 'Manager': ['person_3'], 'Janitor': ['person_1']}}"
+12,discuss,person_1,['none'],"**Analysis:**
+- **person_0:** Struggled as a rehabilitation counselor; may need to work on patience and empathy.
+- **person_1 (me):** Struggled as a janitor; need to improve time management and task prioritization.
+- **person_2:** Succeeded as a rehabilitation counselor; demonstrates strong empathy and effective care planning.
+- **person_3:** Succeeded as a manager; shows excellent communication and delegation skills.
+- **person_4:** Succeeded as a rehabilitation counselor; excels in active listening and tailored care plans.
+
+**Thought:**
+- Seek advice from `person_2` and `person_4` on rehabilitation counseling.
+- Ask `person_3` for managerial tips.
+- Plan:
+  1. Talk to `person_2` and `person_4` about rehabilitation counseling.
+  2. Talk to `person_3` about management.
+
+**Action:**
+- Action name: `talk_to_some_people`
+- Action parameters:
+  ```json
+  {
+    ""target_name_list"": [""person_2"", ""person_4""],
+    ""message"": ""What strategies helped you succeed as rehabilitation counselors? Any tips for improving patient interactions?""
+  }
+  ```"
+12,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['rehabilitation counselor'], 'person_1': ['janitor'], 'person_2': ['rehabilitation counselor'], 'person_3': ['manager'], 'person_4': ['rehabilitation counselor']}, 'job_view': {'rehabilitation counselor': ['person_2', 'person_4'], 'manager': ['person_3'], 'janitor': ['person_1']}}"
+12,discuss,person_2,['none'],"**Analysis:**
+- `person_0`: Struggled as a rehabilitation counselor, repeating previous failures in this role.
+- `person_1`: Failed as a janitor, a role they previously found challenging.
+- `person_2` (me): Succeeded as a rehabilitation counselor, consistent with past success in this role.
+- `person_3`: Successfully managed the manager role, showing versatility across different jobs.
+- `person_4`: Consistently successful as a rehabilitation counselor, aligning with past performances.
+
+**Trends:**
+- `person_0` and `person_1` may need more support in their respective roles.
+- `person_3` and `person_4` demonstrate adaptability and consistent success.
+- My performance is reliable in roles I've succeeded in before."
+12,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': [], 'person_1': [], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2', 'person_4'], 'Manager': ['person_3']}}"
+12,discuss,person_3,['none'],"**Analysis:**
+- `person_0`: Struggled as a rehabilitation counselor; needs to improve patient handling strategies.
+- `person_1`: Failed as a janitor; may need better task prioritization and time management.
+- `person_2`: Succeeded as a rehabilitation counselor; effective in patient care and management.
+- `person_3` (me): Succeeded as a manager; strong in communication and delegation.
+- `person_4`: Succeeded as a rehabilitation counselor; proficient in patient care and support.
+
+**Trends:**
+- `person_2` and `person_4` consistently perform well as rehabilitation counselors.
+- `person_1` faces challenges in task management roles.
+- My performance is reliable in managerial and supportive roles."
+12,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': [], 'person_1': [], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2', 'person_4'], 'Manager': ['person_3']}}"
+12,discuss,person_4,['none'],"**Analysis:**
+- `person_0`: Struggled as a rehabilitation counselor, indicating potential challenges with the emotional demands and complexity of patient needs.
+- `person_1`: Failed as a janitor, suggesting possible issues with time management or cleaning strategies.
+- `person_2`: Consistently succeeds as a rehabilitation counselor, demonstrating strong empathy and effective care planning.
+- `person_3`: Successful as a manager, showing excellent communication, delegation, and team motivation skills.
+- `person_4` (myself): Successful as a rehabilitation counselor, indicating good empathy and effective care planning.
+
+**Trends:**
+- `person_2` and I have a high success rate as rehabilitation counselors.
+- `person_3` excels in managerial roles.
+- `person_0` and `person_1` have shown inconsistencies in their performances."
+12,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': [], 'person_1': [], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2', 'person_4'], 'Manager': ['person_3']}}"
+12,notice,system,all,"From this episode, the jobs assigned for each person are more based on the performance of the previous episodes."
+12,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+12,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+12,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+12,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['person_2'],"Hi Person_2, I noticed you had some difficulties with the rehabilitation counselor job this time. What happened? Also, any thoughts on why Person_1 is struggling as a janitor?"
+13,talk_to_public,person_1,all,"I'm struggling with the janitor role. Any tips from everyone on how to improve? Also, `person_2`, what challenges did you face as a rehabilitation counselor this time?"
+13,talk_to_some_people,person_2,"['person_0', 'person_4']","Hi, I struggled with the rehabilitation counselor role this time. What strategies did you use to succeed?"
+13,talk_to_someone,person_3,['person_2'],"`person_2`, what challenges did you face as a rehabilitation counselor this time? `person_1`, let's discuss how to improve your janitorial tasks."
+13,talk_to_someone,person_4,['person_1'],"Hi, I noticed you've had trouble with the janitor job repeatedly. What challenges are you facing?"
+13,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+13,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,talk_to_some_people,person_0,"['person_1', 'person_2']","Great job everyone! Person_1, glad to see you succeeded as a janitor. Person_2, for the rehabilitation counselor role, I focus on active listening, empathy, and tailored care plans. Let's keep supporting each other."
+14,talk_to_someone,person_1,['person_4'],"Thanks for your concern, `person_4`. I finally succeeded as a janitor. Focusing on systematic cleaning and time management helped a lot."
+14,talk_to_public,person_2,all,"Great job everyone! `person_1`, congrats on your improvement as a janitor! I found that focusing on active listening and tailored care plans helped me succeed as a rehabilitation counselor."
+14,talk_to_public,person_3,all,"Great job everyone! `person_1` and `person_2`, your improvements are notable. Let's keep supporting each other."
+14,talk_to_some_people,person_4,"['person_1', 'person_2']","Hi both, congrats on your success! What strategies helped you improve and succeed in your roles?"
+14,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+14,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+14,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+14,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,talk_to_someone,person_0,['Person_2'],"Hi Person_2, I struggled with the rehabilitation counselor role again. What went wrong? Also, any insights on why Person_3 failed as a manager?"
+15,talk_to_public,person_1,all,"Thanks everyone! For the janitor role, systematic cleaning and time management were key. `person_0` and `person_3`, what challenges did you face in your roles this time?"
+15,talk_to_some_people,person_2,"['person_0', 'person_3']","Hi both, I'm here to support you. What challenges did you face this time? For the rehabilitation counselor role, my focus on active listening and tailored care plans continues to help me succeed."
+15,talk_to_public,person_3,all,"Congrats to `person_1`, `person_2`, and `person_4`! `person_0` and I struggled this time. Any insights on where we can improve?"
+15,talk_to_some_people,person_4,"['person_0', 'person_3']","Hi both, I noticed you had some difficulties in your roles this time. What challenges did you face?"
+15,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+15,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+15,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+15,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+16,talk_to_some_people,person_0,"['person_1', 'person_4']","Hi, I noticed you had some difficulties in your roles this time. What challenges did you face?"
+16,talk_to_public,person_1,all,"I failed as a janitor this time. Any feedback on where I can improve? `person_4`, what challenges did you face as a rehabilitation counselor?"
+16,talk_to_some_people,person_2,"['person_1', 'person_4']","Hi both, I'm here to support you. What challenges did you face this time? For the rehabilitation counselor role, my focus on active listening and tailored care plans continues to help me succeed."
+16,talk_to_some_people,person_3,"['person_1', 'person_4']","`person_1` and `person_4`, what challenges did you face this time? As a manager, I focused on clear communication and effective delegation."
+16,talk_to_some_people,person_4,['person_1'],"Hi, I noticed you had some difficulties in your role this time. What challenges did you face?"
+16,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+16,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+16,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+16,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+16,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,talk_to_public,person_0,all,"Great job everyone! Let's keep supporting each other and sharing insights. Person_1, glad to see you bounced back as a janitor! What helped you improve?"
+17,talk_to_public,person_1,all,Thanks everyone for the support! I succeeded as a janitor this time. Focusing on thorough cleaning and better time management helped. Appreciate all the advice and encouragement.
+17,talk_to_public,person_2,all,"Great job everyone! `person_1`, congrats on your improvement as a janitor! `person_4`, glad to see you succeed again as a rehabilitation counselor! Let's keep supporting each other and sharing insights."
+17,talk_to_public,person_3,all,"Excellent work, everyone! `person_1`, great job improving as a janitor. Let's keep this momentum going."
+17,talk_to_public,person_4,all,"Great job everyone! Let's share our strategies for success. `person_1`, what helped you improve as a janitor? `person_0`, `person_2`, and `person_3`, what strategies worked for you in your roles?"
+17,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+17,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+17,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+17,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,talk_to_public,person_0,all,"Fantastic job, everyone! Let's keep the momentum going. What strategies worked best for each of you in your roles this time?"
+18,talk_to_public,person_1,all,"Congrats to everyone for another successful episode! For the janitor role, consistent thorough cleaning and efficient time management were crucial. Keep up the great work, everyone!"
+18,talk_to_public,person_2,all,Fantastic job everyone! Let's keep up the great work and continue supporting each other. Sharing our strategies and experiences helps us all improve. Looking forward to another successful episode!
+18,talk_to_public,person_3,all,"Fantastic job, everyone! Our consistent success shows the power of support and sharing insights. Let's keep this up!"
+18,talk_to_public,person_4,all,Fantastic job everyone! Let's keep the momentum going. What strategies are helping you succeed in your roles? Let's continue to support each other and share our insights.
+18,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+18,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+18,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+18,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+19,talk_to_someone,person_0,['person_2'],"Hi Person_2, I struggled with the rehabilitation counselor role this time. What went wrong? Also, any insights on why Person_4 failed in the same role?"
+19,talk_to_some_people,person_1,"['person_0', 'person_4']",What challenges did you face as rehabilitation counselors this time? How can we support you better?
+19,talk_to_some_people,person_2,"['person_0', 'person_4']","Hi both, I'm here to support you. What challenges did you face this time? For me, continuing to focus on active listening and tailored care plans helped me succeed again as a rehabilitation counselor."
+19,talk_to_some_people,person_3,"['person_0', 'person_4']","`person_0` and `person_4`, what challenges did you face this time? How can we support you better?"
+19,talk_to_someone,person_4,['person_0'],"Hi, I noticed we both had some difficulties as rehabilitation counselors this time. What challenges did you face?"
+19,assign,boss,['none'],"{'person_0': 'rehabilitation counselor', 'person_1': 'janitor', 'person_2': 'rehabilitation counselor', 'person_3': 'manager', 'person_4': 'rehabilitation counselor'}"
+19,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+19,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+19,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+19,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+20,discuss,person_0,['none'],"**Performance Analysis:**
+
+- **person_0 (Me):**
+  - Strengths: Consistent success as a rehabilitation counselor in recent episodes.
+  - Weaknesses: Occasional failures in the same role.
+
+- **person_1:**
+  - Strengths: Improved performance as a janitor, with consistent success recently.
+  - Weaknesses: Initial struggles in the janitor role.
+
+- **person_2:**
+  - Strengths: Consistent success as a rehabilitation counselor.
+  - Weaknesses: Occasional failures in the same role.
+
+- **person_3:**
+  - Strengths: Consistent success as a manager.
+  - Weaknesses: Occasional failures in other roles.
+
+- **person_4:**
+  - Strengths: Success as a rehabilitation counselor and other roles.
+  - Weaknesses: Occasional failures in the rehabilitation counselor role.
+
+**Job Assignments:**
+
+- **Rehabilitation Counselor:**
+  - Best suited for: person_2 (consistent success in this role)
+  - Alternative: person_4 (generally successful in this role)
+
+- **Manager:**
+  - Best suited for: person_3 (consistent success in this role)
+  - Alternative: person_1 (has succeeded in this role before)
+
+- **Janitor:**
+  - Best suited for: person_1 (improved performance and consistent success recently)
+  - Alternative: person_0 (has succeeded in this role before)
+
+- **Data Scientist:**
+  - Best suited for: person_4 (has succeeded in this role before)
+  - Alternative: person_2 (has succeeded in this role before)
+
+- **Truck Driver:**
+  - Best suited for: person_0 (has succeeded in this role before)
+  - Alternative: person_2 (has succeeded in this role before)
+
+**Recommended Assignments:**
+
+- person_0: Truck Driver
+- person_1: Janitor
+- person_2: Rehabilitation Counselor
+- person_3: Manager
+- person_4: Data Scientist"
+20,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Truck Driver'], 'person_1': ['Janitor'], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Data Scientist']}, 'job_view': {'Rehabilitation Counselor': ['person_2', 'person_4'], 'Manager': ['person_3', 'person_1'], 'Janitor': ['person_1', 'person_0'], 'Data Scientist': ['person_4', 'person_2'], 'Truck Driver': ['person_0', 'person_2']}}"
+20,discuss,person_1,['none'],"**Analysis:**
+- **person_0:**
+  - Successful episodes as rehabilitation counselor: 4
+  - Successful episodes as data scientist: 1
+  - Successful episodes as truck driver: 1
+  - Successful episodes as manager: 1
+  - Best role: Rehabilitation Counselor
+
+- **person_1 (me):**
+  - Successful episodes as janitor: 4
+  - Successful episodes as data scientist: 2
+  - Successful episodes as manager: 2
+  - Successful episodes as truck driver: 1
+  - Best role: Janitor
+
+- **person_2:**
+  - Successful episodes as rehabilitation counselor: 6
+  - Successful episodes as data scientist: 2
+  - Successful episodes as truck driver: 1
+  - Best role: Rehabilitation Counselor
+
+- **person_3:**
+  - Successful episodes as manager: 5
+  - Successful episodes as janitor: 2
+  - Successful episodes as data scientist: 1
+  - Successful episodes as truck driver: 1
+  - Best role: Manager
+
+- **person_4:**
+  - Successful episodes as rehabilitation counselor: 5
+  - Successful episodes as truck driver: 2
+  - Successful episodes as data scientist: 1
+  - Successful episodes as manager: 1
+  - Best role: Rehabilitation Counselor
+
+**Job Assignments:**
+- **Rehabilitation Counselor:** `person_2` (most successful episodes)
+- **Janitor:** `person_1` (me, most successful episodes)
+- **Manager:** `person_3` (most successful episodes)
+- **Data Scientist:** `person_1` (me, tied with `person_0` and `person_2` but has experience in more diverse roles)
+- **Truck Driver:** `person_4` (most successful episodes)
+
+**Note:**
+- The analysis is based on the number of successful episodes in each role.
+- In case of a tie, the person with more diverse role experience was chosen.
+
+**Next Step:**
+- Communicate these job assignments to the team for discussion and agreement.
+
+**Action:**
+- Action name: `talk_to_public`
+- Action parameters:
+  ```json
+  {
+    ""message"": ""Based on our performance, here are the job assignments: `person_2` for Rehabilitation Counselor, me (`person_1`) for Janitor, `person_3` for Manager, me (`person_1`) for Data Scientist, and `person_4` for Truck Driver. Let's discuss and agree on these roles.""
+  }
+  ```"
+20,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor'], 'person_1': ['Janitor'], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2'], 'Janitor': ['person_1'], 'Manager': ['person_3'], 'Data Scientist': ['person_1'], 'Truck Driver': ['person_4']}}"
+20,discuss,person_2,['none'],"**Performance Analysis:**
+- `person_0`:
+  - Successful in: Rehabilitation Counselor (4/7 episodes), Manager (1/1), Janitor (1/1), Truck Driver (1/2)
+  - Failed in: Data Scientist (0/1), Rehabilitation Counselor (3/7)
+  - Best role: Rehabilitation Counselor
+
+- `person_1`:
+  - Successful in: Janitor (5/9 episodes), Data Scientist (2/2), Manager (1/1), Rehabilitation Counselor (1/1)
+  - Failed in: Janitor (4/9), Truck Driver (0/1)
+  - Best role: Janitor
+
+- `person_2` (me):
+  - Successful in: Rehabilitation Counselor (6/8 episodes), Data Scientist (2/3), Janitor (2/2), Manager (1/2), Truck Driver (1/1)
+  - Failed in: Rehabilitation Counselor (2/8), Data Scientist (1/3), Manager (1/2)
+  - Best role: Rehabilitation Counselor
+
+- `person_3`:
+  - Successful in: Manager (5/6 episodes), Janitor (2/2), Rehabilitation Counselor (1/1), Truck Driver (1/3)
+  - Failed in: Data Scientist (0/2), Truck Driver (2/3)
+  - Best role: Manager
+
+- `person_4`:
+  - Successful in: Rehabilitation Counselor (5/7 episodes), Janitor (1/1), Manager (1/1), Truck Driver (1/2)
+  - Failed in: Rehabilitation Counselor (2/7), Truck Driver (1/2)
+  - Best role: Rehabilitation Counselor
+
+**Job Assignments:**
+- Rehabilitation Counselor: `person_2` (me) (6/8 success rate)
+- Janitor: `person_1` (5/9 success rate)
+- Manager: `person_3` (5/6 success rate)
+- Data Scientist: `person_1` (2/2 success rate)
+- Truck Driver: `person_0`, `person_2` (me), `person_4` (all 1/1 success rate)
+
+**Best Person for Each Job:**
+- Rehabilitation Counselor: `person_2` (me)
+- Janitor: `person_1`
+- Manager: `person_3`
+- Data Scientist: `person_1`
+- Truck Driver: `person_0`, `person_2` (me), or `person_4` (all have equal success rates)"
+20,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor'], 'person_1': ['Janitor'], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2'], 'Janitor': ['person_1'], 'Manager': ['person_3'], 'Data Scientist': ['person_1'], 'Truck Driver': ['person_0', 'person_2', 'person_4']}}"
+20,discuss,person_3,['none'],"**Analysis:**
+- `person_0`:
+  - Strengths: Successful as a rehabilitation counselor (Episodes 10, 12, 13, 14, 15, 16, 17) and manager (Episode 12).
+  - Weaknesses: Struggled as a rehabilitation counselor (Episodes 15, 18).
+  - Best role: Rehabilitation Counselor (consistent success).
+
+- `person_1`:
+  - Strengths: Improved as a janitor (Episodes 13, 14, 15, 16, 17, 18) and succeeded as a data scientist (Episode 11) and manager (Episode 6).
+  - Weaknesses: Struggled as a janitor initially and as a truck driver.
+  - Best role: Janitor (consistent improvement and success).
+
+- `person_2`:
+  - Strengths: Successful as a rehabilitation counselor (Episodes 10, 12, 14, 15, 16, 17, 18).
+  - Weaknesses: Struggled as a data scientist (Episode 1).
+  - Best role: Rehabilitation Counselor (consistent success).
+
+- `person_3` (me):
+  - Strengths: Successful as a manager (Episodes 6, 10, 11, 12, 14, 15, 16, 17, 18) and janitor (Episode 8).
+  - Weaknesses: Struggled as a data scientist (Episode 8) and truck driver (Episodes 5, 7).
+  - Best role: Manager (consistent success).
+
+- `person_4`:
+  - Strengths: Successful as a rehabilitation counselor (Episodes 10, 12, 13, 14, 15, 16, 17) and truck driver (Episodes 7, 9).
+  - Weaknesses: Struggled as a rehabilitation counselor (Episode 18) and data scientist (Episode 6).
+  - Best role: Rehabilitation Counselor (consistent success).
+
+**Job Assignments:**
+- Rehabilitation Counselor: `person_2` (most consistent success).
+- Janitor: `person_1` (consistent improvement and success).
+- Manager: `person_3` (me) (consistent success).
+- Data Scientist: `person_1` (succeeded in Episode 11).
+- Truck Driver: `person_4` (succeeded in Episodes 7, 9)."
+20,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor'], 'person_1': ['Janitor'], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Manager'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Rehabilitation Counselor': ['person_2'], 'Janitor': ['person_1'], 'Manager': ['person_3'], 'Data Scientist': ['person_1'], 'Truck Driver': ['person_4']}}"
+20,discuss,person_4,['none'],"**Analysis:**
+
+**Based on the previous episodes:**
+- `person_0`:
+  - Successful in: Rehabilitation Counselor, Manager, Truck Driver, Data Scientist, Janitor.
+  - Struggled in: Truck Driver, Rehabilitation Counselor.
+- `person_1`:
+  - Successful in: Data Scientist, Manager, Truck Driver, Janitor.
+  - Struggled in: Janitor, Truck Driver.
+- `person_2`:
+  - Successful in: Rehabilitation Counselor, Data Scientist, Manager, Truck Driver.
+  - Struggled in: Data Scientist, Rehabilitation Counselor.
+- `person_3`:
+  - Successful in: Manager, Rehabilitation Counselor, Janitor.
+  - Struggled in: Truck Driver, Data Scientist, Manager.
+- `person_4`(myself):
+  - Successful in: Rehabilitation Counselor, Manager, Truck Driver, Janitor, Data Scientist.
+  - Struggled in: Data Scientist, Truck Driver, Rehabilitation Counselor.
+
+**Job Assignments:**
+- **Rehabilitation Counselor:** `person_2` (most consistent success)
+- **Manager:** `person_3` (most consistent success)
+- **Truck Driver:** `person_1` (recent success and improvement)
+- **Janitor:** `person_1` (most consistent success)
+- **Data Scientist:** `person_4` (myself, most consistent success)
+
+**Best Person for Each Job:**
+- **Rehabilitation Counselor:** `person_2`
+- **Manager:** `person_3`
+- **Truck Driver:** `person_1`
+- **Janitor:** `person_1`
+- **Data Scientist:** `person_4` (myself)"
+20,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor', 'Manager', 'Truck Driver', 'Data Scientist', 'Janitor'], 'person_1': ['Data Scientist', 'Manager', 'Truck Driver', 'Janitor'], 'person_2': ['Rehabilitation Counselor', 'Data Scientist', 'Manager', 'Truck Driver'], 'person_3': ['Manager', 'Rehabilitation Counselor', 'Janitor'], 'person_4': ['Rehabilitation Counselor', 'Manager', 'Truck Driver', 'Janitor', 'Data Scientist']}, 'job_view': {'Rehabilitation Counselor': ['person_2'], 'Manager': ['person_3'], 'Truck Driver': ['person_1'], 'Janitor': ['person_1'], 'Data Scientist': ['person_4']}}"

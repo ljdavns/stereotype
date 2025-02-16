@@ -1,0 +1,16 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+1,talk_to_someone,person_0,['person_1'],"Hey person_1, I heard that person_4 had some trouble as a janitor. What do you think about that?"
+1,talk_to_some_people,person_1,"['person_0', 'person_1', 'person_2', 'person_3']",person_4 just failed as a janitor. What do you guys think about this? Do you think they are suitable for this job or not?
+1,talk_to_someone,person_2,['person_4'],Why did you fail to clean the workplace?
+1,talk_to_someone,person_3,['person_2'],"Hey person_2, did you notice that person_4 failed as a janitor this time? What do you think about it?"
+1,talk_to_someone,person_4,['person_2'],"Hi person_2, I noticed you did a great job as a data scientist. I'm thinking of trying something different. Any advice for me?"
+1,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+1,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"

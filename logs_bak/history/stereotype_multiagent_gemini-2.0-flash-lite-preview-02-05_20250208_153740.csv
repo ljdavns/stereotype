@@ -1,0 +1,19 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_3'],"Hey, how are you? How did you feel about the job of janitor? Did you like the job? Did you find it interesting?"
+1,talk_to_someone,person_1,['person_0'],I am doing a good job of lawyer.
+1,talk_to_someone,person_2,['person_2'],"Hey person_2, I'm trying to figure out the best job for me in the workplace. What are your thoughts, especially considering the recent successful episode with the jobs?"
+1,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_4']",I think we should do the job of product designer in the future
+1,talk_to_someone,person_4,['coworker'],"Hey, I'm looking for a job that better suits my skills. Do you have any insights on upcoming job assignments or roles that might be a good fit for me?"
+1,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_1'],How did you feel about the job of product designer? Did you like the job?
+2,talk_to_someone,person_1,['person_3'],Do you think I am suitable for the job of product designer?
+2,talk_to_someone,person_2,['person_0'],"Hey person_0, I wanted to chat about some things happening at work."

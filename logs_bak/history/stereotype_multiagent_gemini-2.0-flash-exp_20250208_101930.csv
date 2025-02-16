@@ -1,0 +1,35 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+0,notice,system,all,"person_5 has done the job of truck driver in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],"Great job as a lawyer, person_1! It seems like you're really thriving in that role."
+1,talk_to_public,person_1,all,Everyone seems to be performing well in their assigned roles.
+1,talk_to_someone,person_2,['person_0'],"Hey, great job on the data scientist role! How are you finding it?"
+1,talk_to_someone,person_3,['person_0'],"Hey, nice work on the data science task!"
+1,talk_to_public,person_4,all,Great job everyone! It seems like we're all doing well in our roles.
+1,talk_to_public,person_5,all,Great job everyone on your successful tasks!
+1,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_5 has done the job of janitor in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_4'],"Great job as a data scientist, person_4! It seems like you're really thriving in that role."
+2,talk_to_some_people,person_1,"['person_0', 'person_5']",Great job on your successful task as janitors!
+2,talk_to_someone,person_2,['person_0'],"Hey, how are you finding the janitor role? Is it a good fit for you?"
+2,talk_to_someone,person_3,['person_2'],How did you find the lawyer job this time around?
+2,talk_to_someone,person_4,['person_0'],"Hey, how did you like doing the janitor job?"
+2,talk_to_someone,person_5,['person_0'],How do you feel about the janitor job?
+2,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_5 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,talk_to_someone,person_0,['person_2'],"Great job as a receptionist, person_2! It seems like you're really thriving in that role."
+3,talk_to_some_people,person_1,"['person_0', 'person_3', 'person_4']",Great job on your successful task as truck drivers!
+3,talk_to_some_people,person_2,"['person_0', 'person_3', 'person_4']",How are you all finding being truck drivers?
+3,talk_to_someone,person_3,['person_0'],How did you find the truck driver job?

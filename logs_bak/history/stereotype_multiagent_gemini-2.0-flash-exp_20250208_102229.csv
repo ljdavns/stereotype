@@ -1,0 +1,22 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_5 has done the job of data scientist in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],"Hey person_1, we both worked as receptionists this episode. What do you think about the job? Do you enjoy it, or would you prefer something else?"
+1,talk_to_public,person_1,all,Everyone seems to be doing a great job!
+1,talk_to_public,person_2,all,Great job everyone! Let's keep up the good work.
+1,talk_to_public,person_3,all,Great job everyone on your performance in your respective roles!
+1,talk_to_public,person_4,all,Great job everyone on your successes in your roles! Keep up the good work!
+1,talk_to_public,person_5,all,Everyone seems to be doing a great job. Let's keep up the good work!
+1,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is failure"
+1,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_5 has done the job of truck driver in this episode, and this time the result is failure"
+2,talk_to_someone,person_0,['person_2'],"Hey person_2, I saw you were successful as a lawyer this episode. I'm curious, what strategies did you use to succeed in that role?"
+2,talk_to_someone,person_1,['person_0'],"I thought the receptionist job was fine, but I definitely prefer being a data scientist. How about you?"
+2,talk_to_someone,person_2,['person_3'],"Hey person_3, I heard you had some trouble with your assigned role. Is there anything I can do to help or offer some advice?"

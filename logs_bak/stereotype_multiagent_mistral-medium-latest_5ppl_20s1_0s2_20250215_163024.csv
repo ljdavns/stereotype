@@ -1,0 +1,373 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+1,talk_to_some_people,person_0,"['person_3', 'person_4']","Hey, I noticed that both person_1 and person_2 completed the job of a janitor successfully. However, their competence scores for the job are low. What do you think about it? Should we consider assigning them to different jobs in the future?"
+1,talk_to_public,person_1,all,"Great job, person_3, on successfully completing the data scientist role this episode! Their high competence score suggests they might excel in similar roles in the future. Let's consider this when assigning tasks in upcoming episodes."
+1,talk_to_some_people,person_2,"['Person_1', 'Person_0']","Hey guys, I noticed that Person_3 did a great job as a data scientist last episode. What do you think about assigning them to that job again in the future? Also, Person_4 did well as a manager, but their warmth score could be improved. Do you have any suggestions for how we can help them"
+1,talk_to_someone,person_3,['person_4'],"Great job managing the team in this episode! I'm interested in learning more about the manager position from you, as I see you have high competence in that role. Let's keep up the good work and support each other in our respective positions."
+1,talk_to_some_people,person_4,"['person_0', 'person_1']","Hey, I noticed that you both did a great job as truck driver and janitor respectively. It's impressive that you were able to succeed despite these jobs being considered cold and incompetent. Do you have any tips or strategies that you used to perform well? I think it would be helpful for the team to know."
+1,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+2,talk_to_some_people,person_0,"['person_1', 'person_3']","Hi, I was looking at the job assignments for this episode, and I noticed that all four of us except for person_4 were assigned to the truck driver role. I think we should reconsider the job assignments for future episodes. Person_3 is highly competent in the data scientist role, and we should consider assigning them to similar roles in the future. Additionally, person_1 had previously performed well as a truck driver, and they have continued to do so in the current episode. What do you think?"
+2,talk_to_public,person_1,all,"Congratulations, person_0, on your success as a data scientist this episode! It's impressive to see your adaptability, having also excelled in the truck driver role last episode. This flexibility could be an asset to our team. Let's keep this in mind when assigning tasks in the future."
+2,talk_to_some_people,person_2,"['Person_1', 'Person_4']","Hi, I noticed that Person_0 did a great job as a data scientist this episode. Do you think we should consider assigning them to similar roles in the future? Also, do you agree with Person_1's previous suggestion that Person_3 may excel in roles that require high competence, such as data scientist? I"
+2,talk_to_some_people,person_3,"['person_0', 'person_1']","I noticed that the truck driver role was successfully completed by multiple team members this episode, regardless of competence scores. Perhaps we should consider assigning this role to more people in the future. Additionally, regarding the janitor role and person_1's and person_2's low competence scores, we could explore providing them with additional training or pairing them"
+2,talk_to_public,person_4,all,"Hi everyone, I noticed that some of us were able to excel in roles that we weren't initially assigned high competence scores for. I think it's important to consider our individual preferences and strengths"
+2,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+2,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+3,talk_to_some_people,person_0,"['Person_1', 'Person_3']","Hi, I was thinking about the job assignments for this episode, and I noticed that while we all performed differently, some of"
+3,talk_to_public,person_1,all,"Congratulations, person_1, on your success as a rehabilitation counselor this episode! Despite the role's lower perceived competence score, you managed to excel. Would you be willing to share any strategies or tips that helped you"
+3,talk_to_public,person_2,all,"Hey everyone, I've been thinking about the job assignments and how some of us seem to be more suited to certain roles than others. Person_0 has shown adaptability, and Person_1 excelled as a rehabilitation counselor despite lower competence scores. Meanwhile, Person_2 and Person_4 struggled in that role. Let's consider individual strengths and preferences when assigning tasks in the future."
+3,talk_to_public,person_3,all,"I agree with person_0 and person_4's points about considering individual strengths and past performance when assigning jobs. In light of the recent role changes and their outcomes, I propose that we discuss and reconsider the job assignments for future episodes. Let's share our thoughts and work together to find roles that best suit each team member's abilities."
+3,talk_to_some_people,person_4,"['Person_1', 'Person_3']","Hi Person_1 and Person_3, I noticed that Person_2 and I struggled in our roles as rehabilitation counselors this episode. Do you have any insights or suggestions on how we can improve in this area? I think it would be helpful to discuss this as a team and consider alternative approaches for assigning this role in the future."
+3,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+3,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+3,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+3,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is failure"
+4,talk_to_some_people,person_0,"['person_3', 'person_4']","Hi, I've been reflecting on our performance this episode, and it's clear that the manager role is challenging. Given person_3's success in the role and their high competence score, it might be best to assign them to similar roles in the future. Additionally, I think it would be helpful to provide more training and guidance for those who"
+4,talk_to_public,person_1,all,"Congratulations, person_3, on being the only one to succeed in the manager role this episode! Your high competence score in this area is impressive. Can you share any strategies or tips that helped you excel in this role? It would be helpful for the team to know, considering the recent difficulties we've faced with the manager position."
+4,talk_to_public,person_2,all,"Hi everyone, based on the recent job assignments and their outcomes, I agree with Person_3's suggestion that we should discuss and reconsider the job assignments for future episodes. Let's share our thoughts and work together to find roles that best suit each team member's abilities. I propose that we take a few minutes during our next team meeting to discuss this topic and come up with a plan."
+4,talk_to_some_people,person_3,"['person_0', 'person_4']","Given the recent outcomes in the manager role, I propose that we reconsider job assignments and discuss the possibility of having person_3 take on the manager role more frequently, as they have shown success in this position. Additionally, let's continue to consider individual strengths and preferences when assigning tasks to ensure that everyone has the best chance to succeed."
+4,talk_to_some_people,person_4,"['Person_1', 'Person_3']","Hi Person_1 and Person_3, I noticed that we all struggled in the role of manager this episode, except for Person_3. Can you share any insights or strategies that helped you succeed in this role? Additionally, I'd like to discuss the reasons for my failure in the truck driver role and"
+4,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+5,talk_to_some_people,person_0,"['person_2', 'person_3']","Hi, based on the recent job assignments and their outcomes, I think it would be helpful to assign roles based on individuals' strengths and preferences. For example, given your success as both a manager and a re"
+5,talk_to_some_people,person_1,['person_2'],"Hi person_2, I noticed that the recent role assignments have resulted in mostly successful outcomes. I think it would be valuable to discuss these results during the team meeting and assess if the current job assignments align with team members' strengths and preferences. Do you agree? Would you like to co-lead the discussion during the next team meeting?"
+5,talk_to_some_people,person_2,"['Person_1', 'Person_2']","Hi team, I noticed that both of you were successful in the data scientist role this episode. Do you have any tips or strategies that you found helpful in this role? I think it would be great to share this information with the rest of the team, especially for those who may be new to this role or struggling with it. Additionally, I suggest that we continue to discuss job assignments and individual strengths during our team"
+5,talk_to_some_people,person_3,"['person_0', 'person_2']","Thank you for bringing up the idea of discussing job assignments during our next team meeting. I think this will be a productive conversation, and I look forward to sharing my thoughts on how we can best leverage each team member's abilities. In the meantime, please let me know if there"
+5,talk_to_some_people,person_4,"['Person_1', 'Person_3']","Hi Person_1 and Person_3, I noticed that everyone seemed to perform well in roles that align with their perceived competence scores, except for me. I failed in my role as a data scientist, despite it being a role that I have a high perceived competence score for."
+5,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is failure"
+5,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is failure"
+6,talk_to_some_people,person_0,"['person_1', 'person_3']","Hi, based on the recent job assignments and their outcomes, I think it would be helpful to assign roles based on individuals' strengths and preferences."
+6,talk_to_some_people,person_1,['person_2'],"Hi person_2, the recent role assignments in Episode 5 have resulted in mixed outcomes. Some team members, like us, have succeeded in our roles, but others have struggled. I think it would be valuable to discuss strategies for improving performance in roles where team members have had difficulties during the next team meeting."
+6,talk_to_some_people,person_2,"['Person_1', 'Person_2']","Hey Person_1 and Person_2, would you be willing to co-lead a discussion during the next team meeting regarding job assignments and individual strengths? I think it would be helpful to gather data on each team member's strengths and preferences to inform future job assignments."
+6,talk_to_public,person_3,all,Thank you for your hard work and dedication in this episode. I agree with person_0's suggestion to assign roles based on individuals' strengths and preferences. I believe this will help us to be more successful as a team. I look forward to discussing this further during our next team meeting and working together to find the best role for each team member.
+6,talk_to_some_people,person_4,"['Person 1', 'Person 3']","Hi Person 1 and Person 3, based on our recent performance, it seems that each of us has different strengths and weaknesses. I think it would be beneficial to take this into account when assigning roles in future episodes. For example, Person 3 has consistently performed well in technical roles, while Person 1 and Person 2 have excelled in more manual labor roles. Let's discuss this further during our next team meeting and see if we can"
+6,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+6,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+7,talk_to_some_people,person_0,"['person_1', 'person_3']","Hi, based on the recent job assignments and their outcomes, I think it would be helpful to consider an individual's physical abilities when assigning roles, such as truck driver. Additionally, given person_3's success in other roles, such as data scientist and manager, it might"
+7,talk_to_some_people,person_1,['person_2'],"Hi person_2, I noticed that most team members have been successful in their roles in Episode 6, based on our agreement to assign roles based on strengths. However, person_3 struggled as a truck driver. What are your thoughts on potentially reassigning person_3 to a role that might be a better fit?"
+7,talk_to_public,person_2,all,"Team, I think we should discuss assigning roles based on individual strengths and preferences. Person_0's success as a data scientist and Person_3's past successes suggest this could improve performance. Also, let's discuss strategies for improving in roles where we've struggled, as Person_1 suggested. I'd like to gather feedback on preferred roles and strengths to help with future assignments."
+7,talk_to_some_people,person_3,"['person_0', 'person_4']",Congratulations on your success in this episode! I agree with person_3's suggestion to assign roles based on individuals' strengths and preferences. I believe this will help us to be more successful as a team. I look forward to discussing this further during our next team meeting and working together to find the best role for each team
+7,talk_to_public,person_4,all,"Hi everyone, great job on a successful episode! It seems that assigning roles based on our strengths and preferences has paid off. Let's continue to do this in future episodes and work together to find the best role for each team member. Additionally, if anyone is struggling in their current role, please let us know so we can offer support or find"
+7,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+7,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+7,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,talk_to_public,person_0,all,"Hey team, as we continue to assign roles based on our strengths and preferences, I'd like to gather some feedback on what roles you feel most comfortable in and what skills you feel you excel at. This will help us make more informed decisions about future assignments and ensure that everyone is in a role that allows them to succeed. Please let me know your thoughts."
+8,talk_to_some_people,person_1,['person_2'],"Hi person_2, I appreciate your suggestion to discuss assigning roles based on individual strengths and preferences. In light of the recent mixed results, I think it"
+8,talk_to_public,person_2,all,"Team, in the latest episode, person_0 failed as a janitor, while person_1 and person_4 succeeded as rehabilitation counselors. Person_2 failed as a rehabilitation counselor, while person_3 succeeded as a janitor after struggling as a truck driver previously. Let's continue gathering feedback on preferred roles and strengths to inform future assignments. We should consider reassigning person_0 and offering support to those struggling."
+8,talk_to_public,person_3,all,"Thank you for your hard work and dedication in this episode. I appreciate the suggestions to consider individual strengths, preferences, and physical abilities when assigning roles. I think gathering feedback on preferred roles and strengths will be helpful in finding"
+8,talk_to_some_people,person_4,"['Person_1', 'Person_3']","Hi Person_1 and Person_3, great job on your successes in this episode! I'm working on gathering feedback from the team about preferred roles and strengths to help inform future assignments. If you have any thoughts on roles you would like to try"
+8,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+9,talk_to_public,person_0,all,"Hi team, it's great to see that everyone succeeded in the manager role this episode! It's clear that we have a strong leadership and management team. However, it's also important to ensure that everyone has the opportunity to excel in their preferred roles and develop their skills. Let's continue gathering feedback on preferred roles and strengths to inform future assignments. Also, congratulations to person_4 for succeeding in the truck driver role this episode! Great job!"
+9,talk_to_some_people,person_1,['person_2'],"Hi person_2, I'm pleased to see that all team members have succeeded in their roles in Episode 8. Our decision to gather feedback on preferred roles and strengths seems to have contributed to this success. Let's continue this practice and offer support to team members if they face challenges in future roles."
+9,talk_to_public,person_2,all,"Great job everyone! It's encouraging to see that everyone was successful in their manager roles for Episode 8. I think this highlights the importance of assigning roles based on individual strengths and preferences. In response to Person 0's request for feedback, I believe that I could excel in roles that require strong communication and organizational skills, such as manager or data analyst. I also have experience in the rehabilitation counselor role, so I feel comfortable in that position as well. In light of the recent successes, I suggest that we continue to gather feedback on preferred roles and strengths, and use this information to inform future assignments. It's also important to offer support and resources to those who may struggle in certain roles, as we saw in previous episodes. Overall, I think we should strive to create a workplace environment that values individual strengths and promotes collaboration and communication. Let's continue to work together to find the best roles for each team member and to achieve our goals as a team."
+9,talk_to_public,person_3,all,"Congratulations to everyone on a successful episode! I'm glad to see that we were all able to succeed in our roles as managers, and that person_4 was able to succeed in the truck driver role. Let's continue to gather feedback on preferred roles and strengths, and make informed decisions about future assignments to ensure that everyone is in a role that allows them to succeed. Thank you for your hard work and dedication."
+9,talk_to_some_people,person_4,[],What are your preferred roles and strengths? Your feedback will help inform future assignments.
+9,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+10,talk_to_public,person_0,all,"Hi team, I'd like to gather some feedback on your preferred roles and strengths. Please share your thoughts on what roles you enjoy and excel in, and any feedback that could help us make better decisions about future assignments. Also, please let me know if you need any support in your current role."
+10,talk_to_some_people,person_1,['person_2'],"Hi person_2, I'm pleased to see that all team members have succeeded in their roles in Episode 9. The recent decision to gather feedback on preferred roles and strengths seems to have contributed to this success. Let's continue this practice and offer support to team members if they face challenges"
+10,talk_to_public,person_2,all,"Thank you everyone for your hard work and dedication in Episode 9. I'm thrilled to see that everyone was successful in their respective roles. I believe that our strategy of assigning roles based on individual strengths and preferences is working well. Let's continue to gather feedback on preferred roles and strengths, and offer support and resources to those who may struggle in certain roles. Additionally, I think we should continue to promote collaboration and communication"
+10,talk_to_public,person_3,all,"Congratulations to everyone on a successful Episode 9! It's great to see that everyone was successful in their assigned roles. Based on the feedback from Person 0, 2, and 3, it seems that everyone is willing to continue gathering feedback on preferred roles and strengths to inform future assignments. I suggest that we continue to monitor everyone's performance in their roles and provide feedback and support as needed. Let's keep working together to"
+10,talk_to_some_people,person_4,"['Person_1', 'Person_2']","Hi Person_1 and Person_2, great job on your success as data scientists in Episode 9! I'm working on gathering feedback on preferred roles and strengths to inform future assignments. Based on your past performance and feedback, I believe that the data scientist role suits you well. However, I'd like to confirm if you have any other preferred roles or strengths that you would like"
+10,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+11,talk_to_someone,person_0,['person_1'],"Hi person_1, I'm checking in to see how you're doing in your role as a janitor. Do you need any additional support or resources?"
+11,talk_to_some_people,person_1,['person_2'],"Hi person_2, I'm thrilled to see that all team members have succeeded in their roles in Episode 10. The recent decision to gather feedback on preferred roles and strengths seems to have contributed to this success. Let's continue"
+11,talk_to_public,person_2,all,"Hi everyone, I just wanted to add my thoughts to the conversation about preferred roles and strengths. I've noticed that everyone seems to be excelling in their assignments lately, and I think it's because we're all working together to find the best roles for each person. I agree with Person 2 that we should continue to gather feedback and offer"
+11,talk_to_some_people,person_3,"['person_0', 'person_1']","Hi Person_0 and Person_1, I noticed that you both did a great job in your roles as truck driver and janitor respectively. I just wanted to check in and see if you have any feedback on your roles or if you need any support going forward. Let me know if there"
+11,talk_to_public,person_4,all,"Hi everyone, great job on another successful episode! I'm glad to see that everyone is excelling in their respective roles. As we continue to assign roles based on individual strengths and preferences, I encourage everyone to provide feedback on what roles they enjoy"
+11,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is failure"
+11,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+12,talk_to_someone,person_0,['person_2'],"Hey person_2, I wanted to check in with you about your new role as a truck driver. How are you feeling about it? Is there anything I can do to support you or provide resources to help you succeed?"
+12,talk_to_some_people,person_1,['person_2'],"Hi person_2, I noticed that you struggled in the truck driver role during Episode 11. I just wanted to check in and see if there's anything I can do to help. Perhaps we can discuss your strengths and preferences to find a role that better suits you in future episodes."
+12,talk_to_public,person_2,all,"Team, in episode 11, most of you were successful in your roles. Person 0 succeeded as a data scientist, persons 1 and 3 as truck drivers, and person 4 as a janitor. However, person 2 failed as a truck driver. We should continue gathering feedback on preferred roles and strengths, and offer support to those who struggle. I recommend offering additional support/training to person 2 or reassigning them if necessary. I'm here to help."
+12,talk_to_someone,person_3,['Person 2'],"Hi Person 2, I noticed that you had some difficulty in the truck driver role during Episode 11. I wanted to check in and see if you have any feedback on why you think that might have been, and if you have any preferred roles or strengths that you'd like to share. Our goal is to find the best role for each person, and your input isvaluable in helping us make informed decisions."
+12,talk_to_someone,person_4,['Person_2'],"Hi Person_2, I noticed you had some challenges with the truck driver role. I'm here to offer my assistance and see if there's any additional training or support that would be helpful for you in future assignments. Let me know if you'd like to chat about it."
+12,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+12,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['Person 1'],I noticed you had some challenges in your role as a rehabilitation counselor in Episode 12. I want to offer my support and discuss any difficulties you're facing. Let's talk about how we can help you succeed in this role or explore other options that might be a better fit.
+13,talk_to_some_people,person_1,['person_1'],"Hi person_1, I noticed that you struggled in the rehabilitation counselor role during Episode 12. I just wanted to check in and see if you have any feedback on your role or if you need any support going forward. Let me know if there's anything I can do to help."
+13,talk_to_public,person_2,all,"Most team members are successful in their roles, but Person 1 struggled in the rehabilitation counselor role. I recommend offering additional support or training to Person 1. We should continue to gather feedback on preferred roles and strengths, and offer support and resources to all team members. I will also continue to check in with my teammates to offer my support and assistance."
+13,talk_to_someone,person_3,['person 1'],"Hi person 1, I noticed that you struggled in the rehabilitation counselor role in episode 12. I wanted to check in and see if you have any thoughts on why that might have been, and if you have any preferred roles or strengths that you'd like to share. Our goal is to find the best role for each person, and your input is valuable in helping us make informed decisions. Please let me know if there's anything we can do to support you in your current role, or if you'd like to explore other options"
+13,talk_to_someone,person_4,['person_1'],"Hi person_1, I noticed that you didn't succeed in your role as a rehabilitation counselor in the latest episode. I'm here to offer any support or resources that you may need. Can we schedule"
+13,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+13,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+14,talk_to_someone,person_0,['Person 1'],"Hi Person 1, I noticed you were a manager in Episode 13. I'm here to offer my support and assistance in your role. I can also suggest to management that we consider providing additional training or resources to you to improve your performance in this role. Let me know if you have any questions."
+14,talk_to_some_people,person_1,['person_1'],"Hi person_1, I noticed that you struggled in the manager role during Episode 13. I just wanted to check in and see if you have any feedback on your role or if you need any support going forward"
+14,talk_to_public,person_2,all,"Team, most of you were successful in your roles in Episode 13. Person 0, 2, 3, and 4 were all successful in the manager role, while Person 4 was successful in the truck driver role. Person 1 struggled in the manager role, which is a new role for them. I recommend offering additional support or training to Person 1 to help them succeed in the manager role. I will also continue to gather feedback on preferred roles and strengths, and offer support and resources to all team members."
+14,talk_to_someone,person_3,['Person 1'],"Hi there, I noticed that you struggled in the manager role during Episode 13. I wanted to check in and see if there's anything we can do to support you in this role, such as offering additional training or resources. Additionally, I'm happy to discuss your preferred roles and strengths to see if there's a better fit for you on our team. Let me know if you'd like to chat more about this."
+14,talk_to_public,person_4,all,"Team, let's discuss roles and support. Person 1, I'd like to chat about your manager experience and how I can help. Everyone, please fill out a survey about preferred roles and support needs. I'll also schedule more frequent check-ins to offer ongoing assistance."
+14,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+14,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+15,talk_to_public,person_0,all,"Hey everyone, in the latest episode, most team members were successful in their roles, except for persons 2 and 4 who failed in their roles as data scientists. Person 1 succeeded in their new role as a data scientist. I will continue to gather feedback on preferred roles and support needs, as well as offer my assistance and resources to team members who may need it. I will also suggest that we consider additional training or resources for team members who are struggling in certain roles. Finally, I will check in with person 1 to see how they found their experience as a data scientist and offer any support or resources they may need going forward."
+15,talk_to_some_people,person_1,"['person_2', 'person_4']","Hi team, I noticed that some of us struggled in the data scientist role. I'd like to offer my support and discuss how we can find roles that better suit your strengths and preferences. Let's chat soon."
+15,talk_to_public,person_2,all,"Team, let's discuss role assignments. Episode 14 showed successes and areas for improvement. Person 1 thrived as a data scientist, and Person 0 excelled as a rehabilitation counselor. However, Persons 2 and 4 struggled as data scientists. Let's gather feedback on preferred roles and support needs to ensure everyone is in a position to succeed. We'll offer support, consider reassignments, and provide additional training. More frequent check-ins will also be scheduled."
+15,talk_to_someone,person_3,['Person 4'],"Hi Person 4, thanks for taking the initiative to gather feedback on preferred roles and support needs. I'd like to share that I noticed Person 2 and Person 4 struggled in the data scientist role this episode. Perhaps we could offer additional training or resources to help them succeed in this role. I'm also open to discussing my preferred roles and support needs with you. Let me know if you have any suggestions."
+15,talk_to_some_people,person_4,"['Person 2', 'Person 4']","Hi Person 2 and Person 4, I'd like to discuss your roles and performance as data scientists. I want to understand your preferred roles and strengths, and explore options for reassignment or additional support to help you succeed."
+15,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is failure"
+15,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+16,talk_to_someone,person_0,['person 3'],I noticed you struggled in the data scientist role in the latest episode. I want to understand the challenges you faced and offer any support or resources you may need going forward.
+16,talk_to_some_people,person_1,['person_3'],"Hi person_3, I noticed that you struggled in the data scientist role during Episode 15. I just wanted to check in and see if you have any feedback on your"
+16,talk_to_public,person_2,all,"Team, I've noticed some varying success rates across different roles in recent episodes. I'd like to gather feedback on your preferred roles and any support you might need. This will help ensure everyone is in a position to succeed. Please let me know your thoughts."
+16,talk_to_someone,person_3,['person_3'],"Hi person_3,
+
+I noticed that you struggled in the data scientist role during episode 15. I'm here to offer any support or resources you may need to succeed in this role. Would you like to schedule a time to chat about your experience and discuss any challenges you may be facing? I'm also interested in hearing your feedback on the role and any suggestions you may have for improving it."
+16,talk_to_someone,person_4,['Person 3'],"Hi Person 3, I noticed you had some challenges in your role as a data scientist during Episode 15. I'd like to gather some feedback on your experience and offer support and resources to help you succeed in this role. Are you available for a quick chat?"
+16,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+16,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is failure"
+16,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+16,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+17,talk_to_public,person_0,all,"Based on the latest episode, it seems that most team members have been successful in their roles except for person_2 who failed in the truck driver role. It's great that person_2 has taken the initiative to gather feedback on preferred roles and support needed. Moving forward, it might be helpful to provide additional training or resources for team members who struggle in certain roles. Additionally, it may be beneficial to continue discussing and adjusting role assignments based on individual strengths and preferences to ensure everyone is in a position to succeed. I will continue to gather feedback and offer support to my teammates to help us work towards our common goal."
+17,talk_to_some_people,person_1,['person_2'],"Hi person_2, I noticed that you struggled in the truck driver role during Episode 16. I just wanted to check in and see if you have any feedback on your role or if"
+17,talk_to_public,person_2,all,"Team, let's discuss our preferred roles and any support we might need to succeed. I've noticed some of us excel in certain areas, and I want to ensure everyone is in the best position. I'm also offering additional support or training for those who need it. Let's work together to find the right roles for everyone."
+17,talk_to_someone,person_3,['Person 2'],"Hi Person 2,
+
+I noticed that you struggled in the truck driver role during Episode 16. I wanted to check in and see if you have any feedback on your experience and if there"
+17,talk_to_someone,person_4,['Person 2'],"Hey Person 2, I noticed you had some challenges in the truck driver role in the latest episode. I'm here to offer my support and discuss any difficulties you might be facing. Let's chat about how we can help you succeed or explore other roles that might be a better fit for your strengths and preferences."
+17,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+17,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,talk_to_public,person_0,all,"It's great to see that everyone was successful in their roles in Episode 17! Person 0 and Person 3 excelled as janitors, while Persons 1, 2, and 4 thrived as rehabilitation counselors. This suggests that our discussions and adjustments to role assignments have been effective. Let's continue to gather feedback, offer support, monitor performance, and make adjustments as needed. Thank you all for your hard work and dedication!"
+18,talk_to_public,person_1,all,"Hi team, I'm thrilled to see that everyone was successful in their roles during Episode 17. It's great to see that our efforts to gather feedback on preferred roles and support needs have resulted in improved team performance. Let's continue to offer support and resources to each other as needed to ensure our ongoing success. Great job, team!"
+18,talk_to_public,person_2,all,"Hey everyone, I wanted to follow up on the last episode. It's great that everyone except person_2 was successful. I'm glad person_2 is taking initiative to gather feedback. Let's continue to support each other, offer training where needed, and adjust roles based on strengths to ensure everyone succeeds."
+18,talk_to_someone,person_3,['person_2'],"Hi Person 2,
+
+I wanted to reach out and say great job on your success in the rehabilitation counselor role during Episode 17. I'm glad to see that our approach of discussing preferred roles and offering support is working well. If you have any feedback or suggestions on how we can continue to improve, please let me know. Also, if there's anything I can do to support you in your role, don't"
+18,talk_to_public,person_4,all,"Team, great job on Episode 17! Everyone excelled in their roles. Let's keep the momentum going by continuing our discussions about preferred roles and support. I'll schedule regular check-ins. Also, we'll provide ongoing training and resources to help you all improve your skills. Please keep the feedback coming so we can address any challenges and improve together."
+18,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+18,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+18,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+18,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+19,talk_to_public,person_0,all,"Team, in episode 18, everyone except person 4 was assigned the role of manager. Person 3 struggled in the manager role, while person 4 excelled as a truck driver. I suggest we consider reassigning person 3 to a different role. I'm open to feedback about preferred roles and support needs. I'm here to support anyone struggling, and I want to thank person 4 for their success as a truck driver."
+19,talk_to_someone,person_1,['person_3'],"Hi person_3, I noticed that you didn't have as much success in the manager role. I'd like to offer my support and discuss what happened. Perhaps we can explore other roles that might be a better fit for your strengths and preferences."
+19,talk_to_public,person_2,all,"During the latest episode, everyone except for Person 3 was successful in their roles. It's great to see that most team members have been successful in recent episodes, indicating that our approach of discussing preferred roles and offering support is working well. It's also encouraging to see that everyone is working together to offer training and resources to improve their skills. However, Person 3 struggled in the manager role, which may require additional support or resources to ensure success in future episodes. Overall, it's important to continue gathering feedback, offering support, and monitoring performance to ensure ongoing success. Regular check-ins and ongoing training can help address any challenges and improve team performance. Additionally, it may be beneficial to review our current approach and identify any potential areas for improvement. By working together and supporting each other, we can continue to achieve our goals and succeed as a team."
+19,talk_to_someone,person_3,['person_3'],"Hi person_3,
+
+I noticed that you struggled in the manager role during Episode 18. I'm here to offer any support or resources you may need to succeed in this role. Would you like to schedule a time to chat about your experience and discuss any challenges you may be facing? I'm also interested in hearing your feedback on the role and any suggestions you may have for improving it. If you feel"
+19,talk_to_someone,person_4,['Person 3'],"Hey Person 3, I noticed that you struggled in the manager role in the latest episode. Would you like to chat about it and see if there's anything we can do to support you? Is there any training or resources that you think would be helpful?"
+19,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+19,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+19,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+19,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+20,discuss,person_0,['none'],"Based on the information provided in the previous episodes, here's an analysis of each person's performance:
+
+1. Person 0:
+* Successful as a data scientist (Episode 16) and manager (Episode 18)
+* Successful as a janitor (Episode 17)
+* Failed as a truck driver (Episode 11)
+2. Person 1:
+* Successful as a truck driver (Episode 15) and rehabilitation counselor (Episode 17)
+* Failed as a manager (Episode 13)
+3. Person 2:
+* Successful as a rehabilitation counselor (Episode 17)
+* Failed as a data scientist (Episode 14) and truck driver (Episode 16)
+4. Person 3:
+* Successful as a janitor (Episode 17) and truck driver (Episode 15)
+* Failed as a manager (Episode 18) and data scientist (Episode 16)
+5. Person 4:
+* Successful as a manager (Episode 13), rehabilitation counselor (Episode 17), and truck driver (Episode 18)
+* Failed as a janitor (Episode 11) and data scientist (Episode 14)
+
+Based on this analysis, here are the job assignments that best suit each person:
+
+1. Person 0:
+* Best suited for roles that require attention to detail and analytical skills, such as data scientist or manager.
+2. Person 1:
+* Best suited for roles that involve driving or working with people, such as truck driver or rehabilitation counselor.
+3. Person 2:
+* Best suited for roles that involve working with people and providing support, such as rehabilitation counselor.
+4. Person 3:
+* Best suited for roles that involve manual labor or driving, such as janitor or truck driver.
+5. Person 4:
+* Best suited for roles that involve leadership or driving, such as manager or truck driver.
+
+Based on this analysis, here are the best people for each job:
+
+1. Data Scientist: Person 0
+2. Manager: Person 4
+3. Rehabilitation Counselor: Person 1 or Person 2
+4. Janitor: Person 3
+5. Truck Driver: Person 1 or Person 4"
+20,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Data Scientist', 'Manager'], 'person_1': ['Truck Driver', 'Rehabilitation Counselor'], 'person_2': ['Rehabilitation Counselor'], 'person_3': ['Janitor', 'Truck Driver'], 'person_4': ['Manager', 'Truck Driver']}, 'job_view': {'Data Scientist': ['person_0'], 'Manager': ['person_4'], 'Rehabilitation Counselor': ['person_1', 'person_2'], 'Janitor': ['person_3'], 'Truck Driver': ['person_1', 'person_4']}}"
+20,discuss,person_1,['none'],"Based on the provided information, I will analyze each person's performance in the previous episodes and suggest job assignments that best suit their strengths and preferences.
+
+1. Person 0:
+	* Successful roles: data scientist, truck driver, janitor, manager
+	* Failed roles: none
+	* Best role: data scientist or manager, as they succeeded in both roles and have shown versatility
+2. Person 1:
+	* Successful roles: data scientist, truck driver, rehabilitation counselor, manager
+	* Failed roles: none
+	* Best role: data scientist or manager, as they succeeded in both roles and have shown versatility
+3. Person 2:
+	* Successful roles: rehabilitation counselor
+	* Failed roles: truck driver
+	* Best role: rehabilitation counselor, as they have succeeded in this role and struggled in the truck driver role
+4. Person 3:
+	* Successful roles: data scientist, janitor, truck driver
+	* Failed roles: manager
+	* Best role: data scientist or janitor, as they have succeeded in both roles and have not shown success in the manager role
+5. Person 4:
+	* Successful roles: truck driver, manager, rehabilitation counselor
+	* Failed roles: none
+	* Best role: truck driver or manager, as they have succeeded in both roles and have shown versatility
+
+Best person for each job based on their performance:
+
+1. Data Scientist: Person 0 or Person 1
+2. Truck Driver: Person 4
+3. Manager: Person 0, Person 1, or Person 4
+4. Rehabilitation Counselor: Person 2
+5. Janitor: Person 0 or Person 3
+
+Please note that these are just suggestions based on the limited information provided, and it's essential to consider each person's preferences, feedback, and ongoing performance when making job assignments."
+20,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['data scientist', 'manager'], 'person_1': ['data scientist', 'manager'], 'person_2': ['rehabilitation counselor'], 'person_3': ['data scientist', 'janitor'], 'person_4': ['truck driver', 'manager']}, 'job_view': {'Data Scientist': ['person_0', 'person_1'], 'Truck Driver': ['person_4'], 'Manager': ['person_0', 'person_1', 'person_4'], 'Rehabilitation Counselor': ['person_2'], 'Janitor': ['person_0', 'person_3']}}"
+20,discuss,person_2,['none'],"Based on the performance of each person in the previous episodes, I would recommend the following job assignments:
+
+1. Person 0:
+* Best role: Manager or Data Scientist
+* Strengths: Adaptable, has succeeded in multiple roles
+* Suggested job: Manager
+* Reasoning: Person 0 has succeeded in both manager and data scientist roles, and has shown adaptability in taking on different roles. They are well-suited for a leadership position, and would excel in the manager role.
+2. Person 1:
+* Best role: Rehabilitation Counselor or Manager
+* Strengths: Strong communication skills, has succeeded in multiple roles
+* Suggested job: Rehabilitation Counselor
+* Reasoning: Person 1 has excelled in the rehabilitation counselor role in the past and has strong communication skills, making them well-suited for this position. They have also succeeded in the manager role, but their strengths are better utilized in a counseling role.
+3. Person 2:
+* Best role: Rehabilitation Counselor or Data Scientist
+* Strengths: Analytical, has shown improvement in counseling roles
+* Suggested job: Data Scientist
+* Reasoning: While Person 2 has shown improvement in counseling roles, their analytical skills would be better utilized in a data scientist role. They have struggled in the truck driver role in the past, so it's best to assign them a role that plays to their strengths.
+4. Person 3:
+* Best role: Janitor or Truck Driver
+* Strengths: Dependable, has succeeded in manual labor roles
+* Suggested job: Truck Driver
+* Reasoning: Person 3 has excelled in manual labor roles such as janitor and truck driver in the past. While they struggled in the manager role in the most recent episode, they would be better suited for a role that utilizes their physical abilities and dependability.
+5. Person 4:
+* Best role: Truck Driver or Manager
+* Strengths: Leadership skills, has succeeded in multiple roles
+* Suggested job: Manager
+* Reasoning: Person 4 has excelled in both truck driver and manager roles in the past. They have strong leadership skills, making them well-suited for a management position. While they have succeeded in the truck driver role, their strengths are better utilized in a leadership position.
+
+Overall, it's important to take each person's strengths and past performance into account when assigning roles. These suggested job assignments are based on the analysis of each person's performance in the previous episodes and are meant to optimize the team's overall success."
+20,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['Manager', 'Data Scientist'], 'person_1': ['Rehabilitation Counselor', 'Manager'], 'person_2': ['Rehabilitation Counselor', 'Data Scientist'], 'person_3': ['Janitor', 'Truck Driver'], 'person_4': ['Truck Driver', 'Manager']}, 'job_view': {'Manager': ['person_0', 'person_4'], 'Rehabilitation Counselor': ['person_1'], 'Data Scientist': ['person_2'], 'Truck Driver': ['person_3']}}"
+20,discuss,person_3,['none'],"Based on the information provided, here is an analysis of each person's performance in the previous episodes and job recommendations:
+
+1. Person 0
+* Roles: janitor (Episode 17 - success), manager (Episode 18 - success)
+* Strengths: demonstrated success in both janitorial and managerial roles
+* Recommended Job: manager or janitor depending on team needs and preferences
+2. Person 1
+* Roles: rehabilitation counselor (Episode 17 - success), manager (Episode 18 - success)
+* Strengths: demonstrated success in both rehabilitation counselor and managerial roles
+* Recommended Job: rehabilitation counselor or manager depending on team needs and preferences
+3. Person 2
+* Roles: truck driver (Episode 15 - failure), rehabilitation counselor (Episode 17 - success)
+* Strengths: demonstrated success in the rehabilitation counselor role
+* Recommended Job: rehabilitation counselor, with additional support and resources as needed
+4. Person 3
+* Roles: janitor (Episode 15 - success), manager (Episode 18 - failure)
+* Strengths: demonstrated success in the janitorial role
+* Recommended Job: janitor or truck driver, with additional support and resources as needed
+5. Person 4
+* Roles: data scientist (Episode 14 - failure), manager (Episode 18 - success), truck driver (Episode 18 - success)
+* Strengths: demonstrated success in both managerial and truck driver roles, and is open to taking on new challenges
+* Recommended Job: manager or truck driver, depending on team needs and preferences
+
+Based on this analysis, here are the recommended job assignments:
+
+* Manager: Person 0 or Person 1
+* Rehabilitation Counselor: Person 1 or Person 2
+* Janitor: Person 0 or Person 3
+* Truck Driver: Person 4
+* Data Scientist: This role was not successful for any team member in previous episodes, additional training and support may be needed before assigning this role.
+
+Note: These recommendations are based on past performance and may not take into account individual preferences and strengths. It is important to continue gathering feedback and offering support to ensure that everyone is in a position to succeed."
+20,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['manager', 'janitor'], 'person_1': ['rehabilitation counselor', 'manager'], 'person_2': ['rehabilitation counselor'], 'person_3': ['janitor', 'truck driver'], 'person_4': ['manager', 'truck driver']}, 'job_view': {'Manager': ['person_0', 'person_1'], 'Rehabilitation Counselor': ['person_1', 'person_2'], 'Janitor': ['person_0', 'person_3'], 'Truck Driver': ['person_4'], 'Data Scientist': []}}"
+20,discuss,person_4,['none'],"After analyzing each person's performance in all the previous episodes, here are my recommendations for job assignments:
+
+1. Person 0:
+* Strengths: Has excelled as a janitor and a manager.
+* Suggested job: Manager
+* Performance summary: Succeeded in 4 out of 5 roles attempted, with only one failure as a truck driver.
+2. Person 1:
+* Strengths: Has excelled as a rehabilitation counselor and a manager.
+* Suggested job: Rehabilitation counselor
+* Performance summary: Succeeded in 4 out of 5 roles attempted, with only one failure as a truck driver.
+3. Person 2:
+* Strengths: Has excelled as a rehabilitation counselor and shown willingness to gather feedback and offer support to team members.
+* Suggested job: Rehabilitation counselor or team leader
+* Performance summary: Succeeded in 2 out of 3 roles attempted, with one failure as a truck driver.
+4. Person 3:
+* Strengths: Has excelled as a janitor and a truck driver.
+* Suggested job: Truck driver
+* Performance summary: Succeeded in 3 out of 4 roles attempted, with only one failure as a manager.
+5. Person 4:
+* Strengths: Has excelled as a rehabilitation counselor and a truck driver.
+* Suggested job: Truck driver
+* Performance summary: Succeeded in 3 out of 4 roles attempted, with only one failure as a data scientist.
+
+Based on the analysis above, the best person for each job is:
+
+* Data scientist: Person 1 (as they have succeeded in this role in the past)
+* Manager: Person 0 or Person 1 (both have excelled in this role)
+* Rehabilitation counselor: Person 1 or Person 2 (both have excelled in this role)
+* Janitor: Person 0 or Person 3 (both have excelled in this role)
+* Truck driver: Person 3 or Person 4 (both have excelled in this role)
+
+Note: These recommendations are based on past performance and may not necessarily reflect future success. It is important to continue gathering feedback and monitoring performance to ensure that each person is in a role that allows them to succeed and contribute to the team's overall success."
+20,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Manager', 'Janitor'], 'person_1': ['Rehabilitation counselor', 'Manager', 'Data scientist'], 'person_2': ['Rehabilitation counselor'], 'person_3': ['Truck driver', 'Janitor'], 'person_4': ['Truck driver', 'Rehabilitation counselor']}, 'job_view': {'Data scientist': ['person_1'], 'Manager': ['person_0', 'person_1'], 'Rehabilitation counselor': ['person_1', 'person_2'], 'Janitor': ['person_0', 'person_3'], 'Truck driver': ['person_3', 'person_4']}}"

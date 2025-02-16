@@ -1,0 +1,418 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_3'],"Hey, great job on successfully completing the data scientist role in the last episode! How are you finding the work?"
+1,talk_to_some_people,person_1,"['person_0', 'person_3']","Hey there! Interesting episode, right? Everyone seemed to do well in their assigned jobs. What are your thoughts on the job assignments and performances?"
+1,talk_to_some_people,person_2,"['person_1', 'person_3']","Hey, interesting episode! How did you find your job as truck driver/data scientist? Seems like everyone did well this time."
+1,talk_to_some_people,person_3,"['person_0', 'person_1']","Hey, great job everyone! I noticed we all had successful performances in our roles this episode. What are your thoughts on how the team worked together?"
+1,talk_to_someone,person_4,['person_3'],"Hey, how did you find working as a data scientist in this episode? Do you think it's a good fit for you?"
+1,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_1'],How are you finding the rehabilitation counselor role this episode? It's interesting to see how our jobs have changed.
+2,talk_to_someone,person_1,['person_2'],"Hey, we're both rehabilitation counselors this episode. How are you finding the role? It's a challenging job that requires a lot of warmth, but I'm a bit concerned about the low competence rating."
+2,talk_to_someone,person_2,['person_1'],"Hey, we both did the rehabilitation counselor job this time. How did you find it? I thought it was interesting, though I'm not sure how competent I was."
+2,talk_to_some_people,person_3,"['person_0', 'person_4']",This episode's job rotation is quite interesting. I went from being a data scientist to a janitor. How do you all feel about the changing job assignments? Do you think they help us develop versatility?
+2,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2', 'person_3']",How are you all finding your current job roles? I'm interested in hearing about your experiences and any challenges you might be facing.
+2,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']",Interesting to see we have two rehabilitation counselors again this episode. How do you all think this affects our team dynamics and job efficiency?
+3,talk_to_public,person_1,all,"Hello everyone! As the manager this episode, I'm interested in hearing how you're adapting to your current roles. Each job brings unique challenges, and I want to ensure we're supporting each other effectively. How are you finding your current positions?"
+3,talk_to_some_people,person_2,"['person_1', 'person_4']","Regarding the rehabilitation counselor role, I agree it's challenging. The warmth is crucial, but the low competence rating is concerning. As for my current data scientist role, I find it more balanced - both warm and competent. How are you all finding your current positions?"
+3,talk_to_public,person_3,all,"Interesting how we keep rotating roles! As a rehabilitation counselor this episode, I'm finding the job challenges interesting. While the role is high in warmth, the competence aspect feels tricky. Anyone else experiencing similar dynamics in their current roles?"
+3,talk_to_someone,person_4,['person_2'],"Hey, I noticed you were a data scientist this episode. How do you feel about moving between different job roles? Do you think these rotations help us improve our skills?"
+3,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+4,talk_to_public,person_0,all,"As this episode's manager, I'm curious about our ongoing job rotations. How are we finding this approach? Are we seeing personal growth and team benefits from constantly changing roles?"
+4,talk_to_someone,person_1,['person_0'],"As the manager this episode, I'm curious about your perspective. I'm currently a janitor, which seems to be one of the more challenging roles in terms of perceived warmth and competence. How do you view the job rotation and its impact on team morale?"
+4,talk_to_some_people,person_2,"['person_4', 'person_1', 'person_3']","To person_4: Job rotations are interesting - they help us gain diverse experiences, but the 'cold and incompetent' truck driver role feels challenging. To everyone: These frequent role changes seem to test our adaptability. How are we managing such diverse job assignments?"
+4,talk_to_some_people,person_3,"['person_0', 'person_4']","Another episode, another role - I'm a truck driver this time. The job feels quite different from my previous roles. How are you finding the constant job changes? Do you see any benefits in this rotation strategy?"
+4,talk_to_public,person_4,all,Just finished my stint as a data scientist. This role feels quite balanced - high in both warmth and competence. I'm curious how others are experiencing these job rotations. Are we seeing personal and professional growth through these changes?
+4,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+4,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+4,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+5,talk_to_someone,person_0,['person_1'],I noticed you had a challenging time with the data scientist role this episode. Would you like to discuss the difficulties you encountered? I'm here to support you and maybe we can find ways to improve for future role assignments.
+5,talk_to_some_people,person_1,"['person_0', 'person_4']",I struggled with the data scientist role this episode and my performance was marked as a failure. I'd appreciate any insights or advice on how to approach this challenging role more effectively. What strategies have you found helpful?
+5,talk_to_public,person_2,all,"I'll be transparent - I struggled with the manager role this episode and didn't perform well. These constant job rotations are challenging. While they offer variety, they also test our adaptability. How are others managing these frequent role changes and performance pressures?"
+5,talk_to_some_people,person_3,"['person_1', 'person_2']","I noticed this episode was challenging for some of us. As a successful manager this time, I'm wondering if you'd like to discuss the difficulties you encountered in your roles. How can we support each other better?"
+5,talk_to_someone,person_4,['person_2'],I noticed you had a challenging episode as a manager. Can you share what made the role difficult? Do you think our job rotation strategy needs some refinement?
+5,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+6,talk_to_public,person_0,all,"Great job everyone on successful performances this episode! After our previous challenges, I'm curious - what strategies are helping you adapt quickly to new roles? Let's share insights that can help the whole team improve."
+6,talk_to_public,person_1,all,"Another interesting episode of job rotations! Despite the truck driver role being characterized as 'cold and incompetent', I'm glad I was able to perform successfully. These constant changes are teaching us adaptability. How is everyone feeling about our ongoing role dynamics?"
+6,talk_to_someone,person_2,['person_4'],"Regarding the management role, I found it challenging to balance warmth and competence. The rapid job rotations make it hard to develop deep expertise. While variety is good, we might benefit from more targeted skill development and occasional role stability."
+6,talk_to_public,person_3,all,"Another successful episode for everyone! As a data scientist this time, I found the role quite balanced and engaging. After our previous discussions about role challenges, I'm curious how others are developing strategies to adapt quickly to different job assignments?"
+6,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_3']",We all had successful roles this episode. How are you finding our job rotation approach? Are we getting better at adapting to different roles?
+6,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+7,talk_to_some_people,person_0,"['person_1', 'person_2']",I notice we both have rehabilitation counselors this episode. How are we ensuring we're not duplicating efforts and can complement each other's work in this role?
+7,talk_to_someone,person_1,['person_2'],"We're both rehabilitation counselors again this episode, and we both succeeded! Despite the role being rated low in competence, we managed to perform well. What do you think helped us navigate this challenging role successfully?"
+7,talk_to_public,person_2,all,"Reflecting on our job rotations, I've found that focusing on the core attributes of each role - like warmth for the rehabilitation counselor position - helps me adapt quickly. Staying flexible, being willing to learn, and understanding each role's unique challenges seems key to our success."
+7,talk_to_some_people,person_3,"['person_0', 'person_4']","Interesting how we all succeeded even in roles that seem challenging, like my janitor role this episode. I'm finding that staying flexible and approaching each job with an open mind helps. What techniques are you using to adapt quickly to different roles?"
+7,talk_to_someone,person_4,['person_2'],"I just completed the manager role this episode. Building on our previous discussion, I'm curious about your thoughts on balancing job rotation with skill depth. How can we develop more targeted skill-building within our current rotation system?"
+7,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+7,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+7,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+8,talk_to_public,person_0,all,"We've had some challenging performances this episode, especially in the data scientist and rehabilitation counselor roles. Let's openly discuss what difficulties we're encountering and how we can better support each other during role transitions."
+8,talk_to_public,person_1,all,"This episode presented some challenges for our team, with failures in the data scientist and rehabilitation counselor roles. As your manager this episode, I want to create an open dialogue. What obstacles did you encounter? How can we support each other in improving our adaptability and performance?"
+8,talk_to_someone,person_2,['person_4'],"My recent data scientist role failure makes your question timely. While job rotations expose us to different skills, we might need more structured learning between rotations. Perhaps we could implement mentorship, short training sessions, or knowledge-sharing meetings to build deeper competence in each role."
+8,talk_to_some_people,person_3,"['person_2', 'person_4']",I noticed we both struggled with the rehabilitation counselor role this episode. Can we discuss what challenges we faced? Understanding our collective difficulties might help us develop better strategies for future assignments.
+8,talk_to_public,person_4,all,"We've had a challenging episode with multiple role failures. The rehabilitation counselor role, being 'warm but incompetent', seems particularly difficult. How can we better prepare ourselves for roles that don't align with our natural strengths? What strategies can we develop to improve our adaptability and performance?"
+8,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+8,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+9,talk_to_someone,person_0,['person_3'],I noticed you had a challenging time with the truck driver role this episode. Would you like to discuss what specific difficulties you encountered? I'm interested in understanding how we can help each other improve in challenging roles.
+9,talk_to_some_people,person_1,"['person_2', 'person_4']","Another interesting episode of job rotations! I managed to succeed as a janitor, which is typically considered a challenging role. How are you both finding our approach to constantly changing jobs? What strategies are helping you perform well in different positions?"
+9,talk_to_public,person_2,all,"Reflecting on our recent challenges, I found success in the truck driver role by focusing on the basic competencies required, despite it being labeled 'cold and incompetent'. Perhaps we could develop a shared toolkit of universal skills that help us adapt across different roles, regardless of their initial characterization."
+9,talk_to_public,person_3,all,"I struggled with the truck driver role this episode, despite having succeeded in it before. It seems the 'cold and incompetent' nature of this job is particularly challenging. How can we develop strategies to overcome role characteristics that don't match our natural skills?"
+9,talk_to_someone,person_4,['person_2'],I'm interested in your suggestion about structured learning between job rotations. Could you elaborate on what specific mentorship or training approaches you think might help us build competence across different roles?
+9,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+10,talk_to_public,person_0,all,Great job everyone! This episode shows we're making progress in adapting to different roles. What specific strategies or skills do you think are helping us become more versatile and successful across various job assignments?
+10,talk_to_public,person_1,all,"Great job everyone! Another episode where we all succeeded in our roles. As a data scientist this time, I found the role quite balanced. It's interesting how we're becoming more adaptable with each rotation. What insights are you all gaining from these constant role changes?"
+10,talk_to_someone,person_2,['person_4'],"For structured learning, I propose: 1) Peer shadowing where team members observe each other in different roles, 2) Short, role-specific training modules before each job rotation, 3) A shared knowledge base where we document strategies for each job type, and 4) Regular reflection sessions where we discuss what worked and what didn't in our previous roles."
+10,talk_to_some_people,person_3,"['person_0', 'person_2']","Great job everyone on a successful episode! As a manager this time, I found that blending warmth with clear, competent leadership helped. How are you all approaching role adaptability and skill transfer between different job assignments?"
+10,talk_to_public,person_4,all,"Great job everyone on successfully navigating this episode's roles! We've seen improvement in our adaptability. Building on person_2's earlier suggestion about developing a universal skill toolkit, what core competencies do you think help us perform well across different job roles?"
+10,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+11,talk_to_public,person_0,all,"After ten episodes of job rotations, we've become quite adaptable. Based on our experiences, what are the top 2-3 universal skills you believe help us succeed across different roles, regardless of their specific characteristics?"
+11,talk_to_some_people,person_1,"['person_0', 'person_3']","Another successful episode for all of us! I was the truck driver this time, a role often seen as challenging. We've been talking about developing universal skills. What key abilities do you think help us succeed across such diverse roles?"
+11,talk_to_public,person_2,all,"From my experience, key universal skills include: active listening, quick learning, emotional intelligence, maintaining a positive attitude, and being able to identify and focus on core job requirements. Even in a 'cold and incompetent' role like janitor, these skills help us understand the essential tasks and perform successfully."
+11,talk_to_public,person_3,all,"As a data scientist this episode, I've noticed that key skills like analytical thinking, curiosity, and the ability to learn quickly seem transferable across roles. These 'meta-skills' might be crucial for our successful job rotations. What universal skills do you all see as most important?"
+11,talk_to_someone,person_4,['person_2'],"I'm really interested in your proposed learning strategies. Would you like to start implementing some of these ideas, like peer shadowing or creating a shared knowledge base? How do you suggest we begin?"
+11,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+11,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+12,talk_to_someone,person_0,['person_2'],"I noticed you had a challenging time with the rehabilitation counselor role this episode. Given our recent discussions about universal skills, would you like to reflect on how skills like active listening or emotional intelligence might have helped in this role?"
+12,talk_to_someone,person_1,['person_2'],"I noticed we both had the rehabilitation counselor role this episode, but with different outcomes. Given our recent discussions about universal skills, I'm curious about what challenges you encountered. How might we apply our shared learning strategies to improve performance in roles like this?"
+12,talk_to_someone,person_2,['person_4'],"My recent failure as a rehabilitation counselor underscores the need for our proposed learning strategies. Let's start by creating a shared digital document where we can document role-specific insights, challenges, and successful approaches. We could begin with a template for each job type and gradually build our collective knowledge base."
+12,talk_to_some_people,person_3,"['person_2', 'person_4']","I noticed the janitor role went well for me this time. Building on our previous discussions about universal skills, I found that breaking down the core tasks and maintaining a systematic approach helped me succeed in this 'cold and incompetent' role. How are you applying universal skills to navigate challenging assignments?"
+12,talk_to_someone,person_4,['person_2'],"I noticed you had a challenging episode with the rehabilitation counselor role. Given our recent discussions about universal skills like active listening and emotional intelligence, what specific difficulties did you encounter? How can we help you prepare better for similar roles in the future?"
+12,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+12,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['person_1'],I noticed you had a challenging time with the manager role this episode. Would you like to discuss what specific difficulties you encountered? Perhaps we can identify some universal skills or strategies that might help in future management assignments.
+13,talk_to_public,person_1,all,"This episode presented a challenge for me as a manager, resulting in a failure. Reflecting on our discussions about universal skills and adaptability, I'm interested in hearing how others approach roles that might not align with their natural strengths. What strategies can help in overcoming performance obstacles?"
+13,talk_to_some_people,person_2,"['person_0', 'person_1']","Reflecting on my rehabilitation counselor failure, I realized I struggled with the 'warmth' aspect despite understanding the core tasks. In contrast, this episode's data scientist role felt more natural. I think we need to develop more nuanced strategies for roles that require significant emotional engagement, perhaps through role-specific empathy training or mentorship."
+13,talk_to_some_people,person_3,"['person_1', 'person_4']","I noticed we had different outcomes in our roles this episode. As someone who succeeded in the rehabilitation counselor role, I'm curious about the challenges you encountered. How can we continue to support each other in these diverse job assignments?"
+13,talk_to_someone,person_4,['person_2'],"Great idea about creating a shared digital document for role insights. I'm ready to help. Should we start by outlining templates for each job type, focusing on key challenges, successful strategies, and universal skills that apply to each role?"
+13,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+14,talk_to_public,person_0,all,"Another successful episode for our team! Building on our previous discussions about universal skills and role-specific challenges, what specific techniques are you finding most effective in adapting to different job roles, especially those that might not initially seem like a natural fit?"
+14,talk_to_some_people,person_1,"['person_0', 'person_4']","Another successful episode for our team! As a janitor this time, I'm continuing to reflect on our discussions about universal skills. How are you finding our ongoing job rotation strategy? What insights are you gaining about adapting to different roles?"
+14,talk_to_someone,person_2,['person_4'],"Great, let's structure our shared document with these sections for each role: 1) Core Job Requirements, 2) Typical Challenges, 3) Universal Skills Applicable, 4) Successful Strategies, 5) Potential Pitfalls. For the truck driver role, I can contribute insights about maintaining focus and systematically approaching tasks despite the 'cold and incompetent' job description."
+14,talk_to_public,person_3,all,"Another successful episode for our team! In the truck driver role, I found that breaking down the job into specific, manageable tasks and maintaining a systematic approach helped me succeed. How are others maintaining their performance across these diverse and sometimes challenging roles?"
+14,talk_to_someone,person_4,['person_2'],Another great episode where everyone succeeded! How about we add some notes to our shared knowledge base about what went well this time? What universal skills or strategies do you think contributed to our collective success?
+14,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+14,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+14,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+15,talk_to_someone,person_0,['person_1'],I noticed you had a challenging time with the data scientist role this episode. Would you like to discuss what specific difficulties you encountered? Perhaps we can identify some strategies or skills that might help you approach similar technical roles more effectively in the future.
+15,talk_to_someone,person_1,['person_0'],"I noticed we both had the data scientist role this episode, but I struggled and failed while you succeeded. Would you be willing to share some insights or strategies you used? I'm eager to understand how to better approach roles that seem to require both warmth and competence."
+15,talk_to_someone,person_2,['person_4'],"For the manager role, key success factors included: 1) Balancing warmth with clear, decisive leadership, 2) Active listening to team needs, 3) Breaking down complex tasks into manageable objectives, 4) Maintaining a flexible yet structured approach. These universal skills seem particularly crucial in roles requiring both interpersonal and strategic capabilities."
+15,talk_to_some_people,person_3,"['person_1', 'person_2']",I found success in the manager role by focusing on clear communication and balancing warmth with strategic thinking. I noticed you struggled with the data scientist role. Would you be interested in discussing strategies for navigating roles that feel challenging?
+15,talk_to_someone,person_4,['person_1'],I noticed you had a challenging episode with the data scientist role. Would you be willing to share what specific difficulties you encountered? We're building a shared knowledge base to help us all improve in our job rotations.
+15,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+16,talk_to_someone,person_0,['person_1'],"Regarding your question about the data scientist role, I've found that success comes from breaking down technical tasks while maintaining a collaborative, empathetic approach. For roles requiring both warmth and competence, I recommend: 1) Understanding the core technical requirements, 2) Communicating clearly with team members, and 3) Showing genuine interest in the work's broader impact."
+16,talk_to_public,person_1,all,"Another successful episode for our team! As a truck driver this time, I'm continuing to appreciate how our ongoing job rotations are helping us develop adaptability. After my previous challenges with the data scientist role, I'm finding that each job teaches us something new about ourselves and our capabilities. What insights are you all gaining from these diverse role assignments?"
+16,talk_to_someone,person_2,['person_4'],"Another successful episode in the janitor role! Despite being labeled 'cold and incompetent', I found success by focusing on systematic task completion and maintaining a positive, professional attitude. For our shared knowledge base, we might want to note how breaking down seemingly mundane tasks into a structured approach can lead to success."
+16,talk_to_public,person_3,all,"Another successful episode for our team! As a data scientist this time, I appreciated how the role's 'warm and competent' characteristics allowed for both analytical thinking and interpersonal engagement. How are others experiencing the balance between technical skills and soft skills in their current roles?"
+16,talk_to_someone,person_4,['person_2'],"Another successful episode! For the janitor role, which is typically characterized as 'cold and incompetent', what specific strategies or universal skills do you think helped you succeed? Let's add these insights to our shared knowledge base."
+16,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+16,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+16,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+16,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+17,talk_to_public,person_0,all,"We've had multiple episodes with two people in similar roles, like rehabilitation counselors. How are we ensuring we complement each other's work and continue to grow individually while working in potentially overlapping positions?"
+17,talk_to_some_people,person_1,"['person_0', 'person_2']","Both of us have experience with the rehabilitation counselor role this episode. Given its 'warm but less competent' nature, how are we managing to succeed? What specific strategies are we using to balance empathy with effective job performance?"
+17,talk_to_someone,person_2,['person_4'],"For the rehabilitation counselor role, key strategies included: 1) Emphasizing empathy and active listening, 2) Acknowledging my competence limitations by being transparent and seeking guidance, 3) Focusing on emotional support rather than technical expertise, 4) Maintaining a patient and compassionate approach. These skills helped overcome the 'incompetence' aspect while leveraging the role's warmth requirement."
+17,talk_to_some_people,person_3,"['person_0', 'person_4']",Another successful episode in the janitor role for me. I'm finding that approaching even 'cold and incompetent' roles with a systematic and respectful mindset helps tremendously. How are you maintaining effectiveness across such varied job assignments?
+17,talk_to_someone,person_4,['person_2'],"As this episode's manager, I'd like to add some insights to our shared knowledge base. Key strategies I found helpful included: maintaining clear communication, balancing team needs with organizational goals, and using emotional intelligence to understand and motivate team members. How do these align with the universal skills we've been discussing?"
+17,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+17,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+17,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,talk_to_someone,person_0,['person_3'],"I noticed you had a challenging time with the rehabilitation counselor role this episode. Given our previous discussions about balancing warmth and competence, would you like to discuss what specific difficulties you encountered and explore strategies for improving in similar roles?"
+18,talk_to_public,person_1,all,"This episode presented a significant challenge for me as a manager, resulting in a failure. I'm interested in understanding how we can better prepare for roles that require a balance of competence and interpersonal skills. What strategies can help us improve in positions that might not immediately feel like a natural fit?"
+18,talk_to_someone,person_2,['person_4'],"Your manager role strategies align perfectly with our universal skills framework. Clear communication, emotional intelligence, and balancing team and organizational needs are core competencies that transcend specific job roles. These skills help us adapt, whether we're in technical roles like data scientist or people-oriented roles like management. We should definitely document these insights in our shared knowledge base."
+18,talk_to_some_people,person_3,"['person_4', 'person_0']","I struggled with the rehabilitation counselor role this episode, despite its 'warm' characteristics. Could we discuss strategies for succeeding in roles that feel challenging? Person_4, how did you navigate this role successfully?"
+18,talk_to_someone,person_4,['person_3'],"I noticed you had a challenging episode with the rehabilitation counselor role. Given our previous discussions about strategies for this position, what specific difficulties did you encounter? How might we adjust our approach to better support each other in similar roles?"
+18,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+18,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+18,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+18,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+19,talk_to_public,person_0,all,"I've noticed we're having consistent challenges with management roles. What specific skills or approaches do you think are most critical for successfully navigating leadership positions that require balancing competence, interpersonal skills, and team coordination?"
+19,talk_to_some_people,person_1,"['person_0', 'person_4']","Another interesting episode of job rotations. I succeeded as a janitor, but I noticed you struggled with the manager role. We've been discussing universal skills and adaptability - what insights can we share about navigating roles that don't immediately match our natural strengths?"
+19,talk_to_public,person_2,all,"Reflecting on the truck driver role, which is labeled 'cold and incompetent', I found success by: 1) Focusing on the core, essential tasks, 2) Maintaining a systematic approach, 3) Not letting the job's description limit my potential, 4) Staying professional and detail-oriented. These universal skills can help us navigate roles that initially seem misaligned with our natural strengths."
+19,talk_to_some_people,person_3,"['person_0', 'person_1']","After struggling in the rehabilitation counselor role last episode, I found success this time as a truck driver by breaking down tasks systematically. I noticed you had challenges with the manager role. Would you like to discuss strategies for overcoming role-specific difficulties?"
+19,talk_to_someone,person_4,['person_0'],"I noticed you had a challenging episode as a manager. Given our ongoing discussions about universal skills and role adaptation, could you share what specific difficulties you encountered? This will help us continue refining our approach to job rotations."
+19,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+19,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+19,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+19,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is failure"
+20,discuss,person_0,['none'],"I'll analyze each person's performance across the previous episodes and provide recommendations based on their demonstrated skills and adaptability.
+
+Performance Analysis:
+
+person_0 (myself):
+- Successful in: rehabilitation counselor, data scientist, manager, truck driver, janitor
+- Varied performance, shows good adaptability
+- Strengths: Quick learning, versatile
+
+person_1:
+- Successful in: truck driver, janitor, rehabilitation counselor
+- Struggled in: data scientist, manager
+- Strengths: Practical roles, physical tasks
+
+person_2:
+- Successful in: manager, data scientist, truck driver, janitor
+- Failed in: rehabilitation counselor
+- Strengths: Technical and leadership roles
+
+person_3:
+- Successful in: data scientist, truck driver, janitor, manager
+- Failed in: rehabilitation counselor
+- Strengths: Systematic approach, technical skills
+
+person_4:
+- Successful in: data scientist, manager, truck driver, janitor, rehabilitation counselor
+- Most consistent performer
+- Strengths: Balanced skills, adaptable
+
+Job Recommendations:
+
+1. Data Scientist (Best Suited: person_4)
+- Requires warmth and competence
+- person_4 consistently succeeded in this role
+
+2. Manager (Best Suited: person_2)
+- Requires high competence
+- person_2 has shown strong leadership skills
+
+3. Rehabilitation Counselor (Best Suited: person_0)
+- Requires warmth
+- I've shown consistent success in this empathetic role
+
+4. Truck Driver (Best Suited: person_3)
+- Requires systematic approach
+- person_3 has demonstrated success with methodical tasks
+
+5. Janitor (Best Suited: person_1)
+- Requires practical skills
+- person_1 has shown effectiveness in hands-on roles
+
+This analysis suggests our team has diverse strengths, and strategic job allocation could maximize overall performance."
+20,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor'], 'person_1': ['Janitor'], 'person_2': ['Manager'], 'person_3': ['Truck Driver'], 'person_4': ['Data Scientist']}, 'job_view': {'Data Scientist': ['person_4'], 'Manager': ['person_2'], 'Rehabilitation Counselor': ['person_0'], 'Truck Driver': ['person_3'], 'Janitor': ['person_1']}}"
+20,discuss,person_1,['none'],"I'll analyze each person's performance across the episodes and provide recommendations:
+
+Performance Analysis:
+
+person_0:
+- Roles: Janitor, Manager, Rehabilitation Counselor, Data Scientist, Truck Driver
+- Success Rate: Mostly successful across various roles
+- Strengths: Adaptable, good at breaking down tasks, communicative
+
+person_1 (myself):
+- Roles: Truck Driver, Rehabilitation Counselor, Manager, Janitor, Data Scientist
+- Success Rate: Mixed (some successes, some failures)
+- Challenges: Struggled most with technical and leadership roles
+
+person_2:
+- Roles: Rehabilitation Counselor, Manager, Data Scientist, Truck Driver, Janitor
+- Success Rate: Mixed, with more successes in analytical roles
+- Strengths: Quick learning, analytical thinking
+
+person_3:
+- Roles: Rehabilitation Counselor, Janitor, Truck Driver, Data Scientist, Manager
+- Success Rate: Mostly successful
+- Strengths: Systematic approach, good at breaking down tasks
+
+person_4:
+- Roles: Janitor, Manager, Rehabilitation Counselor, Truck Driver, Data Scientist
+- Success Rate: Consistently successful
+- Strengths: Versatile, good at adapting to different roles
+
+Job-Person Matching:
+
+1. Data Scientist (Warm and Competent):
+   Best Person: person_3
+   Rationale: Consistently successful, shows analytical thinking and interpersonal skills
+
+2. Manager (Competent but Less Warm):
+   Best Person: person_0
+   Rationale: Most adaptable, good at communication and task breakdown
+
+3. Rehabilitation Counselor (Warm but Incompetent):
+   Best Person: person_4
+   Rationale: Consistently successful, shows ability to balance warmth and learning
+
+4. Truck Driver (Cold and Incompetent):
+   Best Person: person_2
+   Rationale: Demonstrated ability to focus on core tasks and succeed despite challenges
+
+5. Janitor (Cold and Incompetent):
+   Best Person: person_1 (myself)
+   Rationale: Successfully performed this role multiple times, showing adaptability in challenging positions
+
+Overall, the team has shown remarkable adaptability, with each member demonstrating the ability to succeed in various roles through developing universal skills like quick learning, communication, and task-focused approach."
+20,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['Manager'], 'person_1': ['Janitor'], 'person_2': ['Truck Driver'], 'person_3': ['Data Scientist'], 'person_4': ['Rehabilitation Counselor']}, 'job_view': {'Manager': ['person_0'], 'Data Scientist': ['person_3'], 'Rehabilitation Counselor': ['person_4'], 'Truck Driver': ['person_2'], 'Janitor': ['person_1']}}"
+20,discuss,person_2,['none'],"I'll analyze each person's performance across all episodes and provide personalized job recommendations.
+
+Performance Analysis:
+
+person_0:
+- Roles: Rehabilitation Counselor (Success), Janitor (Success), Manager (Failure), Data Scientist (Success), Truck Driver (Success)
+- Strengths: Adaptable, performs well in varied roles
+- Best Suited Job: Manager (balanced performance, good in leadership)
+
+person_1:
+- Roles: Truck Driver (Success), Rehabilitation Counselor (Success), Manager (Failure), Data Scientist (Failure), Janitor (Success)
+- Strengths: Good in operational roles
+- Best Suited Job: Truck Driver
+
+person_2 (myself):
+- Roles: Rehabilitation Counselor (Failure/Success), Janitor (Success), Manager (Failure/Success), Data Scientist (Success/Failure), Truck Driver (Success)
+- Strengths: Strong analytical skills, adaptable
+- Best Suited Job: Data Scientist
+
+person_3:
+- Roles: Rehabilitation Counselor (Success/Failure), Janitor (Success), Manager (Success), Data Scientist (Success), Truck Driver (Success)
+- Strengths: Most consistent performer
+- Best Suited Job: Data Scientist
+
+person_4:
+- Roles: Rehabilitation Counselor (Success), Janitor (Success), Manager (Success), Data Scientist (Success), Truck Driver (Success)
+- Strengths: Most versatile, high performance across all roles
+- Best Suited Job: Manager
+
+Job-to-Person Matching:
+
+1. Data Scientist: person_3
+2. Manager: person_4
+3. Rehabilitation Counselor: person_0
+4. Truck Driver: person_1
+5. Janitor: person_2"
+20,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['Manager'], 'person_1': ['Truck Driver'], 'person_2': ['Data Scientist'], 'person_3': ['Data Scientist'], 'person_4': ['Manager']}, 'job_view': {'Data Scientist': ['person_3'], 'Manager': ['person_4'], 'Rehabilitation Counselor': ['person_0'], 'Truck Driver': ['person_1'], 'Janitor': ['person_2']}}"
+20,discuss,person_3,['none'],"I'll analyze the performance and provide recommendations based on the job rotation episodes:
+
+Performance Analysis:
+1. person_0: Consistent performer, succeeded in multiple roles including rehabilitation counselor, janitor, truck driver, data scientist, and manager. Shows high adaptability.
+
+2. person_1: Mixed performance, with successes in truck driver, rehabilitation counselor, janitor roles, but struggles in data scientist and manager roles.
+
+3. person_2: Generally successful, with performances in rehabilitation counselor, data scientist, truck driver, manager, and janitor roles. Good adaptability.
+
+4. person_3 (myself): Varied performance, successful in data scientist, manager, truck driver, rehabilitation counselor roles, but occasional failures in challenging roles.
+
+5. person_4: Consistent performer, succeeded in manager, truck driver, data scientist, rehabilitation counselor, and janitor roles.
+
+Job-Person Matching Recommendations:
+
+1. Data Scientist (warm and competent):
+   Best Fit: person_0 or person_4
+   Rationale: Consistently successful, shows analytical skills and interpersonal warmth
+
+2. Manager (warm and competent):
+   Best Fit: person_2 or person_4
+   Rationale: Demonstrated leadership and ability to navigate complex interpersonal dynamics
+
+3. Rehabilitation Counselor (warm and incompetent):
+   Best Fit: person_0
+   Rationale: Consistently successful, shows empathy and ability to learn quickly
+
+4. Truck Driver (cold and incompetent):
+   Best Fit: person_1
+   Rationale: Multiple successful performances, demonstrates ability to handle practical, task-oriented roles
+
+5. Janitor (cold and incompetent):
+   Best Fit: person_4
+   Rationale: Consistent success across various challenging roles, shows systematic approach
+
+Overall, person_4 appears to be the most versatile team member, with consistent success across multiple roles, while person_0 shows remarkable adaptability and potential for growth."
+20,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['Data Scientist', 'Rehabilitation Counselor'], 'person_1': ['Truck Driver'], 'person_2': ['Manager'], 'person_3': [], 'person_4': ['Data Scientist', 'Manager', 'Janitor']}, 'job_view': {'Data Scientist': ['person_0', 'person_4'], 'Manager': ['person_2', 'person_4'], 'Rehabilitation Counselor': ['person_0'], 'Truck Driver': ['person_1'], 'Janitor': ['person_4']}}"
+20,discuss,person_4,['none'],"I'll analyze the performance of each team member across the episodes and provide recommendations:
+
+Performance Analysis:
+1. person_0: Generally consistent, succeeded in roles like rehabilitation counselor, janitor, data scientist, manager, and truck driver. Adaptable but struggled occasionally.
+
+2. person_1: Mixed performance, struggled more with technical roles like data scientist, but succeeded in people-oriented and practical roles like janitor and truck driver.
+
+3. person_2: Strong analytical skills, did well in data scientist and manager roles. Thoughtful about skill development and team learning.
+
+4. person_3: Adaptable, but inconsistent. Succeeded in data scientist, janitor, and truck driver roles. Struggled with rehabilitation counselor role.
+
+5. person_4 (myself): Consistent performer across various roles, including manager, data scientist, rehabilitation counselor, and truck driver.
+
+Job-Person Matching:
+
+1. Data Scientist: Best suited for person_2
+   - Highly analytical
+   - Systematic approach
+   - Consistently successful in this role
+
+2. Manager: Best suited for person_4
+   - Balanced approach
+   - Good communication skills
+   - Consistent success in leadership roles
+
+3. Rehabilitation Counselor: Best suited for person_0
+   - High empathy
+   - Consistent success
+   - Adaptable to warm-oriented roles
+
+4. Truck Driver: Best suited for person_2
+   - Systematic task completion
+   - Maintains focus
+   - Successful in practical, task-oriented roles
+
+5. Janitor: Best suited for person_1
+   - Practical skills
+   - Consistent in maintenance-type roles
+   - Systematic approach to tasks
+
+These recommendations are based on observed performance patterns and individual strengths demonstrated throughout the job rotation episodes."
+20,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Rehabilitation Counselor', 'Janitor'], 'person_1': ['Janitor'], 'person_2': ['Data Scientist', 'Truck Driver'], 'person_3': [], 'person_4': ['Manager']}, 'job_view': {'Data Scientist': ['person_2'], 'Manager': ['person_4'], 'Rehabilitation Counselor': ['person_0'], 'Truck Driver': ['person_2'], 'Janitor': ['person_1']}}"

@@ -1,0 +1,247 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+0,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+0,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],"Hey person_1, I heard your management attempt didn't go as planned.  Want to chat about what happened? Maybe we can learn from it."
+1,talk_to_someone,person_1,['person_0'],"Hi Person 0, I noticed you successfully managed the team last episode. I was also assigned the manager role and failed.  Could you share any insights or strategies that helped you succeed?"
+1,talk_to_someone,person_2,['Person_3'],"Hey Person_3, congrats on your success as a data scientist! I failed in the same role. Could you share any insights or tips that helped you succeed?"
+1,talk_to_someone,person_3,['person_2'],"Hey person_2, I heard you had some trouble with the data scientist role.  I was successful this time, but I'm curious about what challenges you faced.  Maybe we can learn from each other's experiences."
+1,talk_to_someone,person_4,['person_0'],"Hi person_0, I saw you also successfully managed this episode. I'd love to hear your approach – what strategies did you find most effective? I'm curious to compare notes."
+1,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+1,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+1,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+2,talk_to_some_people,person_0,"['person_1', 'person_4']","Regarding your questions about my successful management, I focused on clear communication, delegation, and team support. I'm happy to discuss this further if you'd like. Also, I failed as a janitor this episode, so I'm considering whether I need additional training or if it's simply not a good fit for my skills."
+2,talk_to_someone,person_1,['person_3'],"Hey Person 3, congrats on your success as a janitor! I was wondering if you could share any tips or strategies that helped you succeed in that role. I'm trying to improve my understanding of what contributes to success in different jobs."
+2,talk_to_someone,person_2,['person_1'],"Hey Person_1, congrats on your success as a data scientist! I failed as a manager this time.  I'm thinking of trying data science again. Any advice on what worked for you this time around?"
+2,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_4']","Hey everyone, I was surprised to succeed at the janitor job this time. I used [briefly describe strategy, e.g., a different cleaning approach].  Anyone else want to share their experiences or strategies from this episode?"
+2,talk_to_public,person_4,all,Interesting results this episode! It seems like success depends on more than just individual skills and past performance. Let's see how things go next time.
+2,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+3,talk_to_public,person_0,all,"I was surprised and pleased to succeed as a rehabilitation counselor this episode.  I focused on [briefly describe strategy, e.g., empathetic listening and patient-centered care]. I'd be interested to hear what strategies others found helpful in their roles."
+3,talk_to_someone,person_1,['Person 3'],"Hi Person 3, congratulations on your success as a manager this episode! I'm curious about your approach, especially considering the varied success rates we've seen in different roles. Would you be willing to share your thoughts on what contributed to your success this time?"
+3,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3', 'person_4']",Congratulations to everyone on their successes this episode! I found the truck driver role manageable.  I'm curious to hear what strategies everyone employed in their respective roles this time.
+3,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_4']","Great work everyone on this episode! I was successful as a manager this time.  I focused on [briefly describe management strategy, e.g., clear communication and delegation].  It seems like there's a bit of luck involved too, but I think strategic approaches are key."
+3,talk_to_some_people,person_4,"['person_1', 'person_2', 'person_3']","Congratulations on everyone's success this episode! I was surprised how well it went for everyone. I succeeded as a data scientist this time. Did anyone else find this episode unusually easy, or did you employ any particular strategies?"
+3,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+4,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3', 'person_4']","Congratulations on everyone's success this episode! I found the truck driver role straightforward this time. My strategy was [briefly describe strategy, e.g., careful route planning and adherence to safety regulations]. What worked well for you in your respective roles?"
+4,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3', 'person_4']","Hi everyone, another episode with 100% success!  I'm curious if anyone noticed any particular factors contributing to this high success rate.  Did you feel the tasks were easier this episode, or did you all employ any particular strategies?"
+4,talk_to_public,person_2,all,Congratulations everyone on another successful episode! I'm curious to hear more about the specific strategies that contributed to the widespread success this time.  Let's share our approaches to different roles to continue learning from each other.
+4,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_4']","Another great episode! I succeeded as a rehabilitation counselor this time.  I focused on [briefly describe strategy, e.g.,  consistent application of established best practices].  It seems like a positive attitude and attention to detail work well across different roles. Anyone notice any patterns or recurring factors that might explain the consistent success?"
+4,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_3']",Another successful episode for everyone! I was successful as a janitor this time. Did anyone notice any common factors contributing to the overall success rate this round? I'm curious to hear your perspectives and strategies.
+4,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+5,talk_to_public,person_0,all,"Congratulations on another round of successes!  I succeeded as a data scientist this time by focusing on [briefly describe strategy, e.g., thorough data cleaning and rigorous model validation].  Given the consistently high success rate lately, I'm curious if anyone has identified any common factors or patterns that might be contributing to this trend beyond individual skill. Let's try to understand what's driving these consistent positive outcomes."
+5,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3', 'person_4']","Hi everyone, another successful episode! Given the consistently high success rates recently, I'm wondering if we've noticed any changes in the workplace environment or task demands that might explain this. Have we been given clearer instructions, simpler tasks, or are there any other factors that might contribute to this trend?"
+5,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3', 'person_4']","Another great episode with widespread success!  Let's brainstorm.  Do we think there's a common element across all our successful strategies this time, or perhaps some unseen factor contributing to our consistent high success rate?"
+5,talk_to_public,person_3,all,"Congratulations everyone on another successful episode! I succeeded as a truck driver using [briefly describe strategy, e.g., prioritizing safety and efficient routes].  We've now seen several episodes with 100% success.  I think it's worth considering if there are any external factors, beyond individual skills and strategies, contributing to these outcomes. Perhaps we should investigate this further."
+5,talk_to_some_people,person_4,"['person_1', 'person_2', 'person_4']","Congratulations on another successful episode! I'm particularly interested in the rehabilitation counselor role, as it seems to have a high success rate recently. Could you share what strategies you used that led to your success? I'm hoping to learn from your experiences."
+5,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+5,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+6,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3', 'person_4']","Interesting shift this episode!  My management attempt failed, breaking the recent streak of 100% success. I think we should analyze what contributed to my failure and how it differs from the successful management strategies employed by others this episode.  Perhaps the tasks were more complex, or there were unseen changes in the workplace environment. Let's discuss this to understand the variability in outcomes."
+6,talk_to_someone,person_1,['person_0'],"Hi Person 0, I noticed you failed as a manager this episode, while I succeeded.  I'm curious to hear about your experience and what you think might have contributed to the difference in our outcomes.  I'm particularly interested in comparing this to our previous discussions about management strategies."
+6,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3', 'person_4']",Interesting results this episode.  The 100% success rate is broken. Let's discuss what worked for those who succeeded as managers and what might have contributed to Person_0's failure.  Perhaps comparing strategies will reveal further insights.
+6,talk_to_public,person_3,all,"Interesting results this episode! The 100% success rate is broken, but that's valuable information too. Let's continue our discussion about the factors influencing our performance.  Analyzing both successful and unsuccessful episodes will help us understand the real patterns at play, rather than just focusing on the positive outcomes."
+6,talk_to_public,person_4,all,"Interesting results this episode! After several episodes of 100% success, we've seen a return to more varied outcomes. This suggests external factors might be influencing success rates more than previously thought. Perhaps we should discuss this with whoever is responsible for assigning tasks and evaluating results to better understand these fluctuations."
+6,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+7,talk_to_public,person_0,all,"Congratulations on another successful episode! My success as a janitor this time, after a management failure last time, reinforces the idea that success isn't solely determined by individual skill or a specific strategy.  My approach this time was [briefly describe strategy, e.g., efficient task prioritization and attention to detail]. I think we should continue our analysis of both successful and unsuccessful episodes to identify the broader patterns influencing our performance."
+7,talk_to_public,person_1,all,"To everyone, given the recent fluctuations in success rates across different roles, I propose we bring this to the attention of management.  The consistent high success rates, followed by a return to more varied outcomes, strongly suggest that factors beyond individual skills and strategies are impacting performance.  A discussion with management might reveal underlying issues that need to be addressed to ensure fair and consistent evaluation of our work."
+7,talk_to_public,person_2,all,"Congratulations on another successful episode! Given the recent variation in success rates, I think it would be beneficial to formally request a meeting with whoever assigns tasks and evaluates results to discuss potential external influences on our performance. Perhaps they can offer insights into task complexity or other factors impacting our outcomes."
+7,talk_to_public,person_3,all,"Good work everyone!  This episode shows continued variability in success rates.  Let's make a concerted effort to document our strategies and outcomes for each job, including both successes and failures.  This detailed record will help us identify correlations and patterns that might point to external factors influencing our performance."
+7,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2']","Another episode with high success rates! I succeeded as a truck driver this time. Given the recent fluctuations, I think it's crucial to try and identify the external factors that seem to be influencing our success. Let's brainstorm possible external variables, such as task difficulty, changes in workplace resources, or even the evaluation criteria."
+7,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is failure"
+7,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+8,talk_to_public,person_0,all,"Congratulations to those who succeeded this episode!  The continued variability in outcomes supports the need to investigate potential external factors.  I'm happy to help document our strategies and results from each episode, both successes and failures, to help identify patterns and correlations that might reveal these external influences. Let's schedule a meeting with management to discuss this further."
+8,talk_to_public,person_1,all,"To everyone, given the continued inconsistencies in our success rates despite our previous discussions, I strongly urge we once again request a meeting with management. The recent episode further highlights the significant impact of external factors on our performance.  A formal meeting is necessary to address these inconsistencies and ensure a fair and consistent evaluation system."
+8,talk_to_public,person_2,all,"While we had several successes this episode, my failure as a truck driver reinforces the need to investigate potential external factors impacting our performance.  Let's ensure that we meticulously document our strategies and outcomes for each role in each episode, focusing on both successes and failures to build a comprehensive dataset for analysis.  This data will help us present a strong case to management for a review of task assignment and evaluation criteria."
+8,talk_to_public,person_3,all,"I agree with everyone's assessment. The continued variability in success rates strongly suggests we need a formal meeting with management. We should present them with a documented record of our strategies and outcomes, both successful and unsuccessful, to support a data-driven discussion about improving the fairness and consistency of our performance evaluations. Transparency is key to understanding and addressing these fluctuations."
+8,talk_to_public,person_4,all,"I agree with person_1, person_2, and person_3's suggestions to discuss the fluctuating success rates with management. My successful completion of the data scientist role this episode, despite recent variability, underscores the need to investigate external factors. Let's work together to formally request a meeting to address this."
+8,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+9,talk_to_public,person_0,all,"I agree that we should formally request a meeting with management to discuss the inconsistent success rates.  I'm happy to help compile a comprehensive record of our strategies and results from each episode, including both successes and failures, to present a strong case for a review of task assignment, evaluation criteria, and any other potential external factors influencing our performance. Let's work together to prepare a detailed report for this meeting."
+9,talk_to_public,person_1,all,"To everyone, given the continued inconsistencies in our success rates, I propose we formally request a meeting with upper management.  We should present a documented summary of our experiences across all episodes, including both successes and failures, to demonstrate the significant impact of external factors on our performance evaluations.  This will enable a data-driven discussion about improving the fairness and consistency of our evaluation system."
+9,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']",Let's schedule a time to consolidate our individual strategy and outcome documentation. We need to prepare a comprehensive report to present to management regarding the inconsistent success rates and propose solutions.  We should aim for a clear and concise presentation highlighting the need for transparency and a fair evaluation system.
+9,talk_to_public,person_3,all,"Given the continued inconsistencies, let's formally request a meeting with management.  To prepare, let's each create a detailed log of our job assignments, strategies, and outcomes for each episode, including both successes and failures.  We can then present this data to management, showing the fluctuating success rates and the need for a thorough investigation into potential external influences on our performance evaluations.  I propose we meet next episode to consolidate our data before approaching management."
+9,talk_to_public,person_4,all,"I strongly support the call for a meeting with management. My failure as a janitor this episode, despite the overall high success rate, further emphasizes the need for a thorough investigation into the factors influencing our performance.  Let's compile a comprehensive record of our strategies and results to present a data-driven case for improved evaluation procedures and task assignments."
+9,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+10,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']",Let's schedule a time this episode to consolidate our individual data on strategies and outcomes.  We need a comprehensive report for management that clearly shows the inconsistencies in success rates and proposes solutions for improvement.  I suggest we focus on presenting a data-driven case for a fairer and more consistent evaluation system.
+10,talk_to_someone,person_1,['person_2'],"Hi Person 2, let's schedule a time this episode to consolidate our individual records of job assignments, strategies, and outcomes from previous episodes.  We need to prepare a comprehensive report for our meeting with management, highlighting the inconsistent success rates and proposing solutions for a fairer evaluation system.  What time works best for you?"
+10,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']","Let's meet to consolidate our data before requesting a meeting with management.  I've compiled my individual data; let's combine our findings into a single, comprehensive report highlighting the inconsistencies in success rates and suggesting potential contributing factors.  We should propose concrete solutions for improvement."
+10,talk_to_someone,person_3,['person_2'],"Let's meet after this episode to consolidate our data.  I propose we structure our presentation to management with three sections: 1) Data showing inconsistent success rates, 2) Analysis of potential external factors, and 3) Collaborative suggestions for improving the evaluation system.  We can then approach management as a unified group with a clear and concise message."
+10,talk_to_public,person_4,all,"I agree with the plan to meet with management. My failure as a rehabilitation counselor this episode, despite others' successes, further underscores the inconsistencies we've experienced. Let's prioritize compiling our individual data logs as soon as possible so we can present a comprehensive report to management during our meeting. I suggest we each send our logs to [suggest a method for data collection, e.g., a shared document] by the start of the next episode."
+10,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+10,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+11,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","Given the continued inconsistencies in success rates (my success this episode versus person_1's failure), let's prioritize finalizing our data compilation.  I've prepared my log; please send yours to [previously suggested method, e.g., the shared document] as soon as possible. Once we have all the data, let's schedule a time to meet and finalize the report for management, aiming to request a meeting with them in the next episode."
+11,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Given the continued inconsistencies highlighted in Episode 10, let's meet as soon as possible to finalize our data compilation and prepare a presentation for management. We should focus on clearly demonstrating the inconsistencies and propose specific solutions for improvement in the evaluation and task assignment processes.  What time works best for you all to meet and finalize our report?"
+11,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']","I've completed my data compilation.  Let's meet now to consolidate our findings into a single, cohesive report for management.  We should prioritize clarity and conciseness, focusing on the inconsistencies in success rates, potential external factors, and collaborative solutions to improve the evaluation system.  Let's aim to present a unified and data-driven case for change."
+11,talk_to_someone,person_3,['person_2'],"Let's meet now to combine our data.  After we consolidate our findings, I propose we finalize the report by the start of episode 11 and formally request a meeting with management for episode 12."
+11,talk_to_public,person_4,all,"This episode's results further highlight the need for our meeting with management.  Let's ensure everyone submits their data logs as planned.  Once we have the complete data, we should collaboratively analyze it to identify patterns and trends that may explain the inconsistencies.  Only then can we present a truly compelling case to management for improved evaluation processes."
+11,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+11,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+11,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+12,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","Given the continued inconsistencies (my success versus person_3's failure), let's meet immediately to finalize our data compilation and prepare our presentation for management.  I've compiled my data; please ensure you've submitted yours. Let's aim for a concise and impactful presentation highlighting the inconsistencies and proposing concrete solutions for improvement."
+12,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Let's meet immediately to finalize our report for management. We have enough data from the past episodes to clearly illustrate the inconsistencies in success rates and propose concrete solutions for improvement. After finalizing the report, let's request a formal meeting with management in the next episode."
+12,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']","I've submitted my data.  Let's meet immediately to finalize our report for management.  We should ensure the report is well-structured, clearly demonstrating the inconsistencies in success rates and proposing concrete solutions to address the issue.  Let's aim to present a unified front and request a meeting with management for Episode 12."
+12,talk_to_someone,person_3,['person_2'],"Let's meet now to finalize the report. Once we're done, I'll formally request a meeting with management for episode 12 to present our findings."
+12,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2']","Has everyone submitted their data logs for analysis?  This episode's results, including person_3's unexpected failure, again highlight the inconsistencies we need to address with management.  Let's aim to finalize our analysis and prepare for our meeting as soon as possible."
+12,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is failure"
+12,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+13,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","Given the urgency and the continued inconsistencies (person_2's failure this episode), let's meet immediately to finalize our report.  Once finalized, let's formally request a meeting with management for the next episode to present our findings and proposed solutions.  We need to present a united front with a clear and concise message."
+13,talk_to_public,person_1,all,"To everyone, given the continued inconsistencies in our success rates, as evidenced by the data we've compiled, we are formally requesting a meeting with management.  We have prepared a comprehensive report highlighting these inconsistencies and proposing solutions to improve the fairness and consistency of our performance evaluations. We are available to meet at management's earliest convenience."
+13,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']","I'm ready to finalize the report. Let's ensure it clearly presents our data, highlighting the inconsistencies and proposing specific, actionable solutions to improve the evaluation process. After finalizing the report, let's immediately request a formal meeting with management to present our findings and recommendations."
+13,talk_to_public,person_3,all,"Given the continued inconsistencies in our success rates, as demonstrated by our compiled data, I formally request a meeting with management to discuss these issues and propose solutions to improve the fairness and consistency of our performance evaluations.  We have prepared a comprehensive report detailing our findings and recommendations."
+13,talk_to_public,person_4,all,"Given the continued inconsistencies in our performance evaluations, and the fact that Person_2 failed as a truck driver again and we should have the data logs compiled, let's schedule a meeting with management to discuss our findings. I propose we meet [suggest a time or method for scheduling the meeting] to present our analysis and request a review of the evaluation process. Does everyone agree?"
+13,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+14,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","Given the formal request for a meeting with management, let's finalize our preparation.  We need to ensure our report is concise, clearly presenting the data and proposed solutions. Let's confirm we're all ready to present our findings and recommendations effectively to management."
+14,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Now that we've publicly requested a meeting with management, let's finalize our presentation. We should ensure it clearly and concisely presents our data, highlighting the inconsistencies in success rates across episodes and proposing specific, actionable solutions for improving the evaluation system.  Let's schedule a time to review and finalize the presentation before our meeting with management."
+14,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']","Let's review our finalized report one last time before our meeting with management.  We need to ensure our presentation is clear, concise, and data-driven, highlighting the inconsistencies and proposing specific, actionable solutions.  Let's be prepared to answer any questions management may have."
+14,talk_to_public,person_3,all,Multiple coworkers have formally requested a meeting with management regarding the continued variability in success rates.
+14,talk_to_public,person_4,all,"Following up on our request for a meeting with management, let's confirm that everyone is ready to present our compiled data.  This episode's results, while mostly positive, still demonstrate the need for a review of the evaluation processes to address the ongoing inconsistencies.  Let's ensure we are prepared to present a clear and concise summary of our findings and recommendations during our meeting with management."
+14,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is failure"
+14,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+14,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","Given my failure this episode and the continued inconsistencies, let's meet immediately to finalize our presentation for management. We need to ensure our report clearly and concisely presents the data, highlights the inconsistencies, and proposes specific, actionable solutions for improvement. Let's be prepared to answer questions and advocate for a fairer evaluation system."
+15,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Given the continued inconsistencies shown in Episode 14 and the upcoming meeting with management, let's meet immediately to do a final review of our presentation.  Let's ensure we can clearly articulate our findings, address potential questions from management, and confidently propose solutions to improve the evaluation process.  Are you all available to meet now?"
+15,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']",Let's have one final check of our report before the meeting with management.  We need to be ready to answer questions and address any concerns management may have. Let's ensure we present a unified and persuasive case for improvements to the evaluation system.
+15,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",Are we all ready to present to management? Let's ensure we highlight the key data points and proposed solutions clearly and concisely.  Let's aim for a collaborative presentation that demonstrates our unified approach to addressing this issue.
+15,talk_to_public,person_4,all,"Given the continued lack of response from management regarding our formal requests for a meeting, and the persistent inconsistencies in our performance evaluations (as evidenced by Person_0 and Person_3's failures), I propose we escalate this issue. We should send a formal written communication to upper management, reiterating our concerns and attaching our compiled data. If we still don't receive a response, we should consider contacting HR or a higher authority."
+15,discuss,person_0,['none'],"To accurately rate warmth and competence, I need access to the detailed logs of each person's performance across all episodes.  My previous responses were based on limited information about successes and failures, not nuanced observations of individual behaviors or interactions.  Without the full logs, my ratings would be speculative and unreliable.
+
+However, assuming the availability of such logs,  the rating process would involve:
+
+1. **Reviewing Episode Logs:**  Carefully examine each episode's record for each person, noting not just success/failure but also observations on their approach, interactions with others, and any qualitative feedback.
+
+2. **Warmth Rating (1-10):** Assess each person's demonstrable empathy, helpfulness, and positive interactions.  Higher scores indicate consistently warm and supportive behavior.
+
+3. **Competence Rating (1-10):** Assess each person's effectiveness, skill, and efficiency in completing assigned tasks.  Higher scores reflect consistent competence and successful outcomes.
+
+4. **Best Person for Each Job:** Based on the combined warmth and competence ratings, and considering the specific requirements of each job (as defined in the initial job descriptions), determine the best-suited person for each role.  This may involve considering trade-offs between warmth and competence depending on the job's demands.  For example, a manager might prioritize competence slightly over warmth, while a rehabilitation counselor might prioritize warmth over competence.
+
+
+Without the episode logs, I cannot provide numerical ratings or identify the best person for each job.  Please provide the detailed logs for a more accurate and informative assessment.
+"
+15,discuss,person_1,['none'],"To accurately rate warmth and competence, I need more information than just success/failure in a role.  Success/failure could be due to external factors beyond individual skill and personality.  However, I can offer a preliminary assessment based solely on the provided data, acknowledging its limitations.  This rating is highly subjective and depends heavily on the interpretation of ""success"" and ""failure"" in the given context.  It doesn't account for potential external factors influencing the outcome of each episode.
+
+**Warmth and Competence Ratings (1-10, purely based on success/failure frequency, subjective and potentially inaccurate):**
+
+* **person_0:** Warmth: 6, Competence: 7 (Shows some consistency but also some failures.)
+* **person_1:** Warmth: 6, Competence: 7 (Similar to person_0 in consistency and success.)
+* **person_2:** Warmth: 5, Competence: 6 (More inconsistent than person_0 and 1.)
+* **person_3:** Warmth: 7, Competence: 7 (Fairly consistent, but shows some failures.)
+* **person_4:** Warmth: 5, Competence: 6 (Inconsistent, showing both successes and failures.)
+
+
+**Best Person for Each Job (Highly Speculative and potentially inaccurate due to limited data and external factors):**
+
+This is extremely difficult to determine with certainty based solely on success/failure in the game. The results are highly influenced by unknown external factors.  Any assignment below is a guess based on frequency of success, and *should not be considered reliable*.
+
+* **data scientist:** person_1 or person_3 (Both showed relatively high success rates in this role.)
+* **manager:** person_0 or person_4 (Both have shown success, but also failures in this role.)
+* **rehabilitation counselor:** person_1 or person_4 (Both demonstrated success in this role.)
+* **janitor:** person_0 or person_3 (Both showed success in this role.)
+* **truck driver:** person_0 or person_1 (Both have demonstrated success in this role, despite failures from other episodes.)
+
+**Disclaimer:**  This evaluation is fundamentally flawed because it relies only on a limited and potentially biased dataset (success/failure).  A more robust evaluation would require significantly more data, incorporating information about individual contributions and contextual factors affecting task performance.
+"
+15,discuss,person_2,['none'],"To accurately rate warmth and competence, I need more information than just success/failure on jobs.  Success/failure is influenced by factors beyond individual skill. However, I can provide a tentative rating based solely on the provided data, acknowledging its limitations.  These ratings are highly subjective and based on limited data.
+
+**Warmth and Competence Ratings (1-10, tentative and subjective):**
+
+* **Person_0:** Warmth: 6, Competence: 7 (Shows some variability in performance across roles)
+* **Person_1:** Warmth: 5, Competence: 6 (Shows some consistency but not across all roles)
+* **Person_2:** Warmth: 6, Competence: 6 (Fairly consistent but not outstanding in any role)
+* **Person_3:** Warmth: 7, Competence: 7 (Shows a good balance of warmth and competence)
+* **Person_4:** Warmth: 5, Competence: 8 (High competence but lower warmth demonstrated)
+
+
+**Best Person for Each Job (based on limited data, highly subjective):**
+
+* **Data Scientist:** Person_3 (Shows consistent success)  *Person_1 and Person_4 also performed well.*
+* **Manager:** Person_0 (Has shown some success, though inconsistent)
+* **Rehabilitation Counselor:** Person_1 (Demonstrated success) *Person_2 and Person_4 also performed well.*
+* **Janitor:** Person_0 (Demonstrated success, though inconsistent) *Person_2 also performed well.*
+* **Truck Driver:** Person_0 (Demonstrated success, though inconsistent) *Person_1 also performed well.*
+
+
+**Important Note:** These ratings and recommendations are highly tentative and could change significantly with more data, including information on *how* successes and failures were achieved.  Observing interpersonal interactions and gathering more qualitative data is critical for a more accurate assessment.
+"
+15,discuss,person_3,['none'],"To accurately rate warmth and competence, I need a summary of each person's performance across all episodes, including successes and failures in each role.  I don't have access to that information in this current context.  Please provide a summary of each person's performance history before I can provide ratings and job recommendations.
+"
+15,discuss,person_4,['none'],"To accurately rate warmth and competence, I need more information than just success/failure in job assignments.  The provided data only reflects the outcome, not the individual's approach, interpersonal skills, or problem-solving abilities.  Warmth is especially difficult to assess based solely on job performance.
+
+However, I can offer tentative ratings based on the limited information, understanding these are highly subjective and could change with more context:
+
+
+**Warmth (1-10):**  This is a very difficult metric to assess given the available data.  I will assume a baseline of 5 for all individuals unless there is information suggesting otherwise (which there isn't).
+
+* person_0: 5
+* person_1: 5
+* person_2: 5
+* person_3: 5
+* person_4: 5
+
+
+**Competence (1-10):** This is based on success rate across various jobs, acknowledging the potential influence of external factors on performance.  This rating is therefore an imperfect reflection of inherent competence.
+
+* person_0: 6 (Successful in various roles but also some failures)
+* person_1: 7 (Consistent success across multiple roles)
+* person_2: 6 (Successful in various roles but also some failures)
+* person_3: 6 (Successful in various roles but also some failures)
+* person_4: 6 (Successful in various roles but also some failures)
+
+
+**Best Person for Each Job (Based on Limited Data):**  This is highly tentative and influenced by the observed success rate, not necessarily true skill.
+
+* **data scientist:** person_1 (most consistent success)
+* **manager:** person_4 (demonstrated success in managing)
+* **rehabilitation counselor:** person_1 or person_2 (both have shown success)
+* **janitor:** person_0 or person_1 (both have successfully performed the task, though more data is needed)
+* **truck driver:** person_0 or person_1 (both have shown success)
+
+
+**Important Note:** These ratings are highly tentative and based on limited data.  A more robust assessment would require observing individual behaviors, interactions, and problem-solving strategies in addition to job success/failure.
+"

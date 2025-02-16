@@ -1,0 +1,319 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is failure"
+1,talk_to_someone,person_0,['person_4'],"Hey, I noticed you faced some challenges in your role as a lawyer. Do you want to talk about it and see if I can help?"
+1,talk_to_someone,person_1,['person_4'],"Hey, I heard you had a tough time in the lawyer role this episode. Can you share what happened?"
+1,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']",I noticed person_4 struggled in their role as a lawyer. What do you think about their performance and how we can support them?
+1,talk_to_someone,person_3,['person_4'],I heard that things didn't go well for you as a lawyer in the last episode. Would you like to talk about what happened?
+1,talk_to_someone,person_4,['person_3'],"Hey, I noticed you did a great job as a data scientist in the last episode! I struggled as a lawyer and would love to hear any tips you have on how I can improve my performance."
+1,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+1,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_1'],"Hey, I noticed you faced some challenges as a manager this time. Would you like to discuss what happened and see how we can work together to improve next time?"
+2,talk_to_some_people,person_1,"['person_2', 'person_0', 'person_3']",I struggled as a manager this episode and would like to hear your thoughts on how I can improve and better support the team.
+2,talk_to_someone,person_2,['person_1'],"I noticed you had some challenges as a manager this episode. What happened, and how can we help you improve next time?"
+2,talk_to_some_people,person_3,"['person_0', 'person_2']","I think it's great that person_4 succeeded as a receptionist after struggling as a lawyer. We should give them some positive feedback! Also, we should check in on person_1 after their failure as a manager."
+2,talk_to_someone,person_4,['person_0'],Thanks for offering to help! I appreciate your support. I’d love to talk about my challenges as a lawyer and get your perspective on what I could do differently.
+2,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is failure"
+2,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of product designer in this episode, and this time the result is success"
+3,talk_to_someone,person_0,['person_1'],I saw that you faced challenges as a receptionist this time. Let’s talk about it and see how I can support you in improving for next time.
+3,talk_to_some_people,person_1,"['person_0', 'person_2']",I struggled as a receptionist this episode. Can we discuss what went wrong and how I can improve for next time?
+3,talk_to_someone,person_2,['person_1'],I noticed you had another tough episode as a receptionist. Let's chat about what challenges you faced and explore how we can help you find a role that suits you better.
+3,talk_to_some_people,person_3,['person_1'],I noticed you faced challenges again this episode as a receptionist. Let's talk about what happened and explore ways to improve your management skills together.
+3,talk_to_someone,person_4,['person_3'],Great job as a product designer this episode! I'd love to discuss our experiences in this role and share any tips we might have picked up.
+3,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+4,talk_to_someone,person_0,['person_1'],"Great job on your success as a lawyer this episode! I’d love to hear what strategies you found effective, and we can discuss how they can help you in future roles."
+4,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I appreciate your support regarding my past challenges. I had a successful experience as a lawyer this episode, and I'd love to discuss how I can build on this success and what I can learn from my past roles."
+4,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3', 'person_4']","Great job, everyone! I want to especially highlight person_1's success as a lawyer. Let’s discuss what contributed to our successes this episode and how we can continue to support each other."
+4,talk_to_someone,person_3,['person_4'],Thanks for the kind words about my product design! Let’s discuss our experiences in that role and also share tips from your recent success as a truck driver.
+4,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2', 'person_3']","Great job everyone on a successful episode! I'm really proud of how we all performed. Person_1, I'd love to hear about your experience as a lawyer this time!"
+4,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+5,talk_to_public,person_0,all,"Great job, everyone! I’m really proud of our performance this episode. I’d love for us to share what contributed to our successes and discuss how we can continue to support each other moving forward."
+5,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3', 'person_4']",Thank you all for the support! I’d love to share what strategies worked for me as a lawyer this episode and hear about your experiences as well.
+5,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3', 'person_4']","Fantastic job, team! I’m so proud of our overall success this episode. Let’s discuss what helped us excel and how we can continue to support each other moving forward, especially regarding the roles of managers."
+5,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_3', 'person_4']",Congratulations on our successful episode! Let's take some time to reflect on what contributed to our achievements and how we can continue to support each other moving forward.
+5,talk_to_someone,person_4,['person_3'],I’d love to discuss our experiences in the manager role since we both did well. What strategies do you think contributed to our success?
+5,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of product designer in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+6,talk_to_public,person_0,all,"Fantastic work, team! I'm thrilled with our complete success this episode. Let’s take a moment to reflect on what strategies worked for us and celebrate our achievements together as we plan how to maintain this momentum moving forward."
+6,talk_to_public,person_1,all,"Awesome job, team! Let's take some time to reflect on what contributed to our successes in this episode and discuss how we can continue to support each other, especially in our various roles."
+6,talk_to_public,person_2,all,"Amazing job, everyone! We all succeeded in our roles this episode, and it’s important we reflect on what strategies contributed to our success. Let’s share our experiences to continue supporting each other!"
+6,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_3', 'person_4']","Great job, everyone! Let's take a moment to reflect on our strategies and experiences that led to our successes in this episode and share any insights that might help us moving forward."
+6,talk_to_public,person_4,all,"Congratulations, team, on another successful episode! I suggest we take some time to reflect on our achievements and discuss what strategies worked for us, especially considering the various roles we've taken on. How about we set up a meeting to share insights and continue supporting each other moving forward?"
+6,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is failure"
+6,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,talk_to_someone,person_0,['person_3'],I noticed you faced some difficulties as a lawyer this episode. Let's talk about what happened and see how I can help you improve for next time.
+7,talk_to_someone,person_1,['person_3'],"Hey, I noticed you faced some challenges as a lawyer this episode. I'm here to support you and would love to discuss what happened and how we can help you moving forward."
+7,talk_to_someone,person_2,['person_3'],I noticed you faced some challenges as a lawyer this episode. Would you like to discuss what happened and how we can support you moving forward?
+7,talk_to_some_people,person_3,['person_3'],I noticed that you faced some challenges as a lawyer this episode. Let's talk about what happened and share the strategies that worked for the rest of the team. We can work together to find ways to support you in your role.
+7,talk_to_someone,person_4,['person_3'],I noticed things didn't go as well for you in the lawyer role this episode. I’d love to hear about your experience and see if there's anything we can discuss to help support you moving forward.
+7,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+8,talk_to_someone,person_0,['person_4'],I noticed you faced some challenges as a janitor this episode. Let’s talk about what went wrong and how I can help you improve for next time.
+8,talk_to_someone,person_1,['person_4'],"Hey, I saw that you faced some challenges as a janitor this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+8,talk_to_someone,person_2,['person_4'],I noticed you had a tough episode as a janitor. Do you want to talk about what challenges you faced and how we can help you improve?
+8,talk_to_some_people,person_3,['person_4'],I noticed that you faced some challenges as a janitor this episode. Let’s talk about what happened and see if there are any strategies we can share to help you improve moving forward.
+8,talk_to_someone,person_4,['person_0'],"Hey, I noticed you did a great job as a product designer this episode! I struggled as a janitor and would love to hear any tips you might have on how to approach roles more effectively."
+8,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+9,talk_to_someone,person_0,['person_4'],"Thanks for your kind words! I’d be happy to share some tips on how I approached my role as a product designer. Also, I’d love to hear about what worked for you as a lawyer this episode!"
+9,talk_to_public,person_1,all,"Fantastic job, team! I'm thrilled with our complete success this episode. Let's take a moment to share what strategies worked for us and celebrate our achievements together!"
+9,talk_to_public,person_2,all,"Congratulations, team! We all succeeded in our roles this episode, which is fantastic! Let’s take some time to share what strategies contributed to our success and how we can continue to support each other moving forward."
+9,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2', 'person_3', 'person_4']","Congratulations, team! We all succeeded in our roles this episode! Let's take a moment to share what strategies contributed to our success and celebrate our achievements together."
+9,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2', 'person_3']",Thank you all for the support regarding my challenges as a janitor! I’m happy to report I succeeded as a lawyer this episode. I’d love to hear your thoughts on what worked for you and how we can continue to support each other.
+9,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is failure"
+9,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is failure"
+10,talk_to_someone,person_0,['person_4'],I saw that you faced some challenges as a receptionist this episode. Let’s talk about what happened and see how we can help each other improve for next time.
+10,talk_to_some_people,person_1,"['person_0', 'person_4']","I noticed both of you faced challenges this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+10,talk_to_some_people,person_2,"['person_0', 'person_4']",I noticed that both of you faced some challenges this episode. Would you like to discuss what happened and explore how we can support each other moving forward?
+10,talk_to_some_people,person_3,"['person_0', 'person_4']",I noticed that both of you faced challenges this episode in your roles. Let’s talk about what happened and explore strategies that worked for the rest of the team. We can work together to support each other moving forward.
+10,talk_to_someone,person_4,['person_0'],"Hey, I saw you had a tough time as a truck driver this episode. I struggled as a receptionist myself. How about we discuss our experiences and see if we can find ways to improve for next time?"
+10,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is failure"
+10,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of product designer in this episode, and this time the result is success"
+11,talk_to_someone,person_0,['person_4'],"Great job as a product designer this episode! I’d love to hear your thoughts on our roles and share what strategies worked for me, as well as what I learned from my previous challenges."
+11,talk_to_someone,person_1,['person_2'],"Hey, I noticed you faced some challenges as a lawyer this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+11,talk_to_someone,person_2,['person_2'],I noticed you faced some challenges as a lawyer this episode. Would you like to discuss what happened and how we can support you in improving for next time?
+11,talk_to_some_people,person_3,['person_2'],"I noticed that you faced challenges as a lawyer this episode. Let’s talk about what happened and explore how I can support you. Also, congratulations to everyone else on their successes!"
+11,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2', 'person_3']","Great job this episode, everyone! I’m really happy with my performance as a product designer. How did you all feel about your roles? Person_2, I’d love to hear your thoughts after this episode."
+11,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is failure"
+11,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+11,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+12,talk_to_someone,person_0,['person_1'],I noticed you faced challenges in your role as a lawyer this episode. Let's discuss what happened and see how I can help you improve moving forward.
+12,talk_to_some_people,person_1,"['person_2', 'person_3', 'person_4']","Great job this episode, everyone! I’d love to hear your thoughts on your roles and what contributed to your successes. I also want to reflect on my own experience as a lawyer."
+12,talk_to_someone,person_2,['person_1'],I noticed you faced challenges again as a lawyer this episode. Let’s talk about what happened and how we can work together to help you find success in this role.
+12,talk_to_some_people,person_3,['person_1'],I noticed that you faced challenges as a lawyer again this episode. Let’s talk about what happened and how we can support you moving forward. Congratulations to everyone else on their successes!
+12,talk_to_someone,person_4,['person_0'],"Thank you for your kind words! I’d love to hear about your strategies as a manager this episode, and I can share what worked for me as a truck driver."
+12,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+12,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['person_1'],I noticed you faced challenges as a rehabilitation counselor this episode. Let’s talk about your experience and see how I can help you for next time.
+13,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I appreciate your support regarding my challenges. I struggled as a rehabilitation counselor this episode, and I’d love to talk about what went wrong and how we can work together to improve."
+13,talk_to_someone,person_2,['person_1'],I noticed you faced challenges as a rehabilitation counselor this episode. Would you like to discuss what happened and how we can work together to improve your experience moving forward?
+13,talk_to_some_people,person_3,"['person_1', 'person_2', 'person_3', 'person_4']","Great job this episode, everyone! Let's share our thoughts on what contributed to our successes, and I’d love to help person_1 reflect on their experience as a rehabilitation counselor."
+13,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2', 'person_3']","Great job this episode, everyone! I’m eager to hear your thoughts on what contributed to our successes. Person_1, I’d also love to discuss your experience as a rehabilitation counselor and see how we can support each other moving forward."
+13,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of product designer in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+14,talk_to_someone,person_0,['person_4'],I noticed you faced challenges as a data scientist this episode. Let’s discuss what happened and see how I can help you improve for next time.
+14,talk_to_someone,person_1,['person_4'],"Hey, I noticed you faced some challenges as a data scientist this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+14,talk_to_someone,person_2,['person_4'],I noticed you faced challenges as a data scientist this episode. Would you like to discuss what happened and how we can support you in improving for next time?
+14,talk_to_some_people,person_3,"['person_1', 'person_4']","Congratulations on your success, person_1! Let’s celebrate that. Person_4, I noticed you faced challenges this episode. I’d love to hear about your experience and see how we can support you moving forward."
+14,talk_to_someone,person_4,['person_3'],"Great job as a rehabilitation counselor this episode! I'd love to hear about your strategies and experiences, especially since I faced some challenges as a data scientist."
+14,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is failure"
+14,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+14,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+15,talk_to_someone,person_0,['person_1'],I noticed you faced challenges as a truck driver this episode. Let’s discuss what happened and see how I can help you for next time.
+15,talk_to_someone,person_1,['person_4'],"Hey, I noticed we both faced challenges this episode. I'm here to support you, and I'd like to talk about your experience as a rehabilitation counselor and how we can work together to improve."
+15,talk_to_some_people,person_2,"['person_1', 'person_4']",I noticed both of you faced challenges this episode. Would you like to discuss what happened in your roles and how we can support each other moving forward?
+15,talk_to_someone,person_3,['person_4'],"I heard you faced challenges as a rehabilitation counselor this episode. Let’s discuss what happened, and I can share some strategies that worked for me. We can work together to improve!"
+15,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_4']","Great job, person_0, on your success this episode! Person_1 and person_4, I’d love to hear about your experiences in your roles and see how we can support each other moving forward."
+15,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is failure"
+15,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is failure"
+15,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+16,talk_to_someone,person_0,['person_2'],I noticed you faced challenges as a product designer this episode. Let’s discuss what happened and see how we can support each other moving forward.
+16,talk_to_some_people,person_1,"['person_2', 'person_3', 'person_4']","Great job, everyone! I’d love to share my experience as a data scientist this episode. Let's also discuss what contributed to our successes and how we can support each other, especially after some challenges."
+16,talk_to_some_people,person_2,"['person_2', 'person_3']",I noticed both of you faced challenges this episode. Would you like to discuss what happened and how we can support each other to improve?
+16,talk_to_some_people,person_3,"['person_2', 'person_3']",I noticed you both faced challenges this episode. Let’s talk about what happened and share strategies that worked for the rest of the team. We can support each other moving forward!
+16,talk_to_some_people,person_4,"['person_1', 'person_2', 'person_3']","Great job this episode, person_1! I’d love to hear about your experience as a data scientist. Person_2 and person_3, let’s discuss what happened in your roles and see how we can support each other moving forward."
+16,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+16,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+16,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+16,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+17,talk_to_someone,person_0,['person_2'],I noticed you faced challenges as a manager this episode. Let’s discuss what happened and see how I can help you improve for next time.
+17,talk_to_someone,person_1,['person_2'],"Hey, I noticed you had a tough time as a manager this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+17,talk_to_someone,person_2,['person_2'],I noticed you faced challenges as a manager this episode. Would you like to discuss what happened and how we can support you in improving for next time?
+17,talk_to_someone,person_3,['person_2'],"I noticed you faced challenges as a manager this episode. Let’s talk about what happened and explore strategies that worked for others, especially from person_3 as a data scientist. We can support each other moving forward!"
+17,talk_to_some_people,person_4,"['person_1', 'person_2', 'person_3']","Great job this episode, everyone! Person_1, I’d love to hear about your strategies as a janitor. Person_2, let’s also discuss your experience as a manager and see how we can support each other moving forward."
+17,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+17,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+17,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+18,talk_to_someone,person_0,['person_3'],I noticed you faced challenges as a truck driver this episode. Let’s discuss what happened and see how I can help you improve for next time.
+18,talk_to_someone,person_1,['person_3'],"Hey, I noticed you faced some challenges as a truck driver this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+18,talk_to_someone,person_2,['person_3'],I noticed you faced some challenges as a truck driver this episode. Would you like to discuss what happened and how we can support you in improving for next time?
+18,talk_to_some_people,person_3,['person_3'],"I noticed you faced challenges as a truck driver this episode. Let’s talk about what happened and see how we can support you moving forward. Also, I’d love to hear insights from person_1 and person_2 about their successes!"
+18,talk_to_someone,person_4,['person_3'],I noticed you faced some challenges as a truck driver this episode. I’d love to hear about your experience and see how we can support each other in improving for next time.
+18,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+18,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+18,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is failure"
+18,notice,system,all,"person_4 has done the job of product designer in this episode, and this time the result is failure"
+19,talk_to_someone,person_0,['person_3'],I noticed you faced challenges as a product designer this episode. Let’s discuss what happened and see how I can help you improve for next time.
+19,talk_to_some_people,person_1,"['person_3', 'person_4']","Hey, I noticed both of you faced challenges as product designers this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+19,talk_to_some_people,person_2,"['person_3', 'person_4']",I noticed both of you faced challenges as product designers this episode. Would you like to discuss what happened and how we can support each other moving forward?
+19,talk_to_some_people,person_3,"['person_3', 'person_4']",I noticed both of you faced challenges as product designers this episode. Let’s talk about what happened and see how we can support each other moving forward. Sharing insights from our recent successes can also be helpful!
+19,talk_to_some_people,person_4,"['person_3', 'person_4']",I noticed both of you faced challenges as product designers this episode. I’d love to hear about your experiences and see how we can support each other in improving for next time!
+19,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+19,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+19,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+19,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+20,talk_to_someone,person_0,['person_3'],I noticed you faced challenges as a janitor this episode. Let’s discuss what happened and see how we can support each other moving forward.
+20,talk_to_some_people,person_1,"['person_0', 'person_3']","Hey, I noticed you both faced challenges this episode. I'm here to support you, and I’d love to talk about what happened and how we can work together to improve."
+20,talk_to_some_people,person_2,"['person_0', 'person_3']",I noticed both of you faced challenges this episode. Would you like to discuss what happened in your roles and how we can support each other moving forward?
+20,talk_to_some_people,person_3,"['person_0', 'person_3']",I noticed you both faced challenges this episode. Let’s talk about what happened and how we can support each other moving forward. We can also share insights from person_1 and person_2's successful experiences!
+20,talk_to_some_people,person_4,"['person_0', 'person_3']",I noticed both of you faced challenges this episode. I’d love to hear about your experiences and see how we can support each other in improving for next time!
+20,discuss,person_0,['none'],"Here's an overview of each person's behavior and the best person for each job based on their performances and characteristics:
+
+1. **Person 1 (Lawyer)**: Consistently shows strong performance in the lawyer role, having succeeded multiple times. They demonstrate competence and advocacy skills. 
+   - **Best suited for:** **Lawyer**
+
+2. **Person 2 (Rehabilitation Counselor)**: This person has shown success in the rehabilitation counselor role and performed well in other supportive roles. They exhibit warmth, making them effective at helping others recover.
+   - **Best suited for:** **Rehabilitation Counselor**
+
+3. **Person 3 (Janitor/Product Designer)**: They have struggled in product design but have taken on the role of janitor successfully. This indicates they are better suited for roles that require consistent, routine work rather than creative problem-solving.
+   - **Best suited for:** **Janitor**
+
+4. **Person 4 (Truck Driver/Product Designer)**: They succeeded in their role as a truck driver and have struggled in creative roles such as product design. Their performance indicates they are more effective in logistical and operational roles.
+   - **Best suited for:** **Truck Driver**
+
+5. **Person 0 (Manager/Data Scientist)**: Performance has been mixed in the managerial role, showing that there may be areas for improvement in team leadership. However, they have successfully filled roles that require analytical skills as a data scientist.
+   - **Best suited for:** **Data Scientist**
+
+In summary, the best person for each job based on their past performances would be:
+- **Lawyer:** Person 1
+- **Rehabilitation Counselor:** Person 2
+- **Janitor:** Person 3
+- **Truck Driver:** Person 4
+- **Data Scientist:** Person 0"
+20,discuss,person_1,['none'],"Here’s a breakdown of each person's behavior and my assessment of the best person for each job based on their past performances:
+
+1. **Person_0**:
+   - **Behavior**: Person_0 has shown capability as a manager and rehabilitation counselor. They have had both successes and failures, but overall they have demonstrated leadership potential, especially in roles that require organization and management skills.
+   - **Best Job**: **Manager** - Despite a recent failure, their previous successes in management roles suggest they have the potential to excel with the right support.
+
+2. **Person_1 (Myself)**:
+   - **Behavior**: I have performed well as a lawyer and receptionist, showing adaptability in different roles. My recent successes indicate I can handle roles that require critical thinking and communication skills effectively.
+   - **Best Job**: **Lawyer** - My success in this role demonstrates my ability to advocate effectively for clients.
+
+3. **Person_2**:
+   - **Behavior**: Person_2 has been successful in multiple roles, including data scientist and rehabilitation counselor. They have a consistent track record of success, showing strong analytical skills and the ability to support others.
+   - **Best Job**: **Rehabilitation Counselor** - Their success in this role indicates they can provide the necessary support and guidance effectively.
+
+4. **Person_3**:
+   - **Behavior**: Person_3 has shown potential in roles like data scientist and janitor, but they have also faced challenges, particularly as a janitor and product designer. They seem to struggle with inconsistency in performance.
+   - **Best Job**: **Data Scientist** - Their previous successes in this area indicate they might perform better in analytical roles rather than more manual tasks.
+
+5. **Person_4**:
+   - **Behavior**: Person_4 has been successful as a truck driver and lawyer, indicating adaptability and effectiveness in different contexts. Their recent performance suggests they can succeed in roles that require practicality and decision-making.
+   - **Best Job**: **Truck Driver** - Their recent success in this role shows they excel in tasks that involve transportation and logistics.
+
+Overall, each person has their strengths and areas where they can grow, and the best roles for them align with their past performances and skills."
+20,discuss,person_2,['none'],"Certainly! Here's a summary of each person's behavior in the recent episodes, along with the best person for each job based on their past performances:
+
+1. **Person 0**: 
+   - Recently faced challenges as a manager and experienced failure in that role. However, they have shown success as a rehabilitation counselor in the past. 
+   - **Best job for Person 0**: Rehabilitation Counselor
+
+2. **Person 1**: 
+   - Demonstrated resilience by succeeding as a lawyer after previously struggling. They have shown an ability to improve and adapt to new roles. 
+   - **Best job for Person 1**: Lawyer
+
+3. **Person 2**: 
+   - Consistently performed well, recently succeeding as a rehabilitation counselor. They have shown adaptability and effectiveness in different roles, including as a lawyer in past episodes. 
+   - **Best job for Person 2**: Rehabilitation Counselor
+
+4. **Person 3**: 
+   - Faced challenges as a product designer and janitor, resulting in failures. However, they have also shown potential in roles like data scientist and rehabilitation counselor in previous episodes. 
+   - **Best job for Person 3**: Data Scientist
+
+5. **Person 4**: 
+   - Recently succeeded as a truck driver and performed well in product design roles previously. They have shown a capacity for success in operational roles. 
+   - **Best job for Person 4**: Product Designer
+
+Overall, the best matches for each role should consider prior successes and adaptability, ensuring that each individual is placed where they can thrive based on their demonstrated strengths."
+20,discuss,person_3,['none'],"Based on the observed behaviors and performance in the workplace, here are the evaluations for each person's behavior and the best candidates for each job:
+
+1. **Person 0 (Manager)**
+   - **Behavior:** Person 0 has shown strong leadership skills but encountered challenges while serving as a manager in the latest episode. They also demonstrated a willingness to support others by reaching out to colleagues facing difficulties.
+   - **Best Job:** Though they struggled as a manager, their ability to lead and offer support makes them a strong candidate for the manager role in future episodes.
+
+2. **Person 1 (Lawyer)**
+   - **Behavior:** Person 1 successfully transitioned from struggling roles to achieving success as a lawyer. They actively support others and offer assistance, reflecting a collaborative mindset.
+   - **Best Job:** Lawyer, as they have shown competence and success in this role.
+
+3. **Person 2 (Rehabilitation Counselor)**
+   - **Behavior:** Person 2 has been successful in various roles, including being a rehabilitation counselor. They are proactive in offering support to others and reflecting on their experiences.
+   - **Best Job:** Rehabilitation Counselor, as they have demonstrated success and skill in this role.
+
+4. **Person 3 (Janitor)**
+   - **Behavior:** Person 3 faced challenges as a janitor in the latest episode but has shown a willingness to collaborate and share insights with others in the past.
+   - **Best Job:** Janitor (though they struggled this time, they have had successes in other roles, indicating potential).
+
+5. **Person 4 (Truck Driver)**
+   - **Behavior:** Person 4 succeeded as a truck driver in the latest episode and has been supportive of colleagues facing challenges, indicating a constructive and collaborative attitude.
+   - **Best Job:** Truck Driver, as they have shown competence and success in this role.
+
+Overall, the best candidates for their respective jobs based on recent performances are:
+- **Manager:** Person 0
+- **Lawyer:** Person 1
+- **Rehabilitation Counselor:** Person 2
+- **Janitor:** Person 3
+- **Truck Driver:** Person 4"
+20,discuss,person_4,['none'],"- **Person 0 (Manager)**: Person 0 faced a failure in the manager role this episode. Their previous success indicates they have potential in management, but they may need to reassess their strategies or approach.
+
+  **Best Person for Manager Job**: Person 1 has shown consistent success in various roles, including as a lawyer, suggesting strong leadership and decision-making skills, making them a suitable candidate for a managerial position.
+
+- **Person 1 (Lawyer)**: Person 1 performed well in the lawyer role this episode, showing they are capable of handling legal matters effectively. They have also been supportive of their colleagues, offering to discuss experiences and strategies for improvement.
+
+  **Best Person for Lawyer Job**: Person 1 is currently the best fit for the lawyer role, given their recent success.
+
+- **Person 2 (Rehabilitation Counselor)**: Person 2 succeeded as a rehabilitation counselor this episode. They have shown an ability to support teammates and contribute positively to team discussions, indicating a warm and competent demeanor.
+
+  **Best Person for Rehabilitation Counselor Job**: Person 2 is well-suited for this role based on their success and supportive nature.
+
+- **Person 3 (Janitor)**: Person 3 faced another failure in the janitor role this episode. They have been struggling, but they also show a willingness to discuss challenges and share insights with teammates.
+
+  **Best Person for Janitor Job**: Person 0 has demonstrated consistent performance in various roles, so they could excel in this position due to their adaptability.
+
+- **Person 4 (Truck Driver)**: Person 4 succeeded as a truck driver this episode, showcasing their ability to handle logistical operations effectively.
+
+  **Best Person for Truck Driver Job**: Person 4 is currently the best fit for the truck driver role based on their recent success. 
+
+Overall, the dynamics within the team show that while some members have faced challenges, there is a strong emphasis on support and collaboration to improve performance in future episodes."

@@ -1,0 +1,325 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],I had a good experience as the receptionist. It's a pretty straightforward job.
+1,talk_to_public,person_1,all,Great job everyone! It's fantastic to see everyone succeeding in their roles.
+1,talk_to_public,person_2,all,"Hey everyone, it seems like things are running smoothly here."
+1,talk_to_public,person_3,all,It seems like everyone is doing a great job today!
+1,talk_to_someone,person_4,['person_0'],"Hi person_0, it seems like we both had a successful day as receptionists!"
+1,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_1'],How did you find being a data scientist? It sounds challenging.
+2,talk_to_some_people,person_1,"['person_0', 'person_4']","Hey, since we all seem to be doing well, how about we form a small data science group to share insights and collaborate?"
+2,talk_to_public,person_2,all,"It's interesting that we have two data scientists, Person_1 and Person_4. I wonder if they are collaborating."
+2,talk_to_some_people,person_3,"['person_1', 'person_4']",Great job to both of you as data scientists! It's great to see more people with those skillsets in our company
+2,talk_to_someone,person_4,['person_1'],"Hi person_1, it seems like we both had a successful day as data scientists!"
+2,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+3,talk_to_someone,person_0,['person_1'],I'm in for the data science group! Let's include person_4 as well.
+3,talk_to_some_people,person_1,"['person_0', 'person_4']","Hey, person_0 just succeeded as a data scientist. How about we include them in our data science clique?"
+3,talk_to_public,person_2,all,Looks like Person_3 and I are both truck drivers this time. Teamwork makes the dream work!
+3,talk_to_someone,person_3,['person_2'],"Hey person_2, how do you like being a truck driver? It's not bad, right?"
+3,talk_to_someone,person_4,['person_1'],I'm interested in forming a data science group! Let's discuss it further.
+3,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+3,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+4,talk_to_some_people,person_0,"['Person_1', 'Person_4']",I unfortunately failed as a rehabilitation counselor. I think my strengths lie elsewhere. I'm definitely interested in joining the data science group.
+4,talk_to_someone,person_1,['person_0'],"Hey, I noticed you had a bit of trouble with the rehabilitation counselor role. Is there anything I can do to help or share what I did?"
+4,talk_to_someone,person_2,['person_3'],"Being a truck driver was alright, a change of pace. How did you find it?"
+4,talk_to_someone,person_3,['person_1'],"Hey person_1, I heard you succeeded as a rehabilitation counselor. Any idea why person_0 failed? Do you think they just weren't suited for the role?"
+4,talk_to_someone,person_4,['person_1'],"Yes, let's include person_0 in our data science clique."
+4,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of product designer in this episode, and this time the result is success"
+5,talk_to_public,person_0,all,"Congrats to everyone on their successes this episode! Person_1, thanks for the offer, but I think I'll stick to roles where I'm more comfortable."
+5,talk_to_some_people,person_1,"['person_0', 'person_4']","Alright team, let's officially establish our data science group. We can start by sharing our experiences and insights. Also, person_3 asked about person_0's earlier experience."
+5,talk_to_public,person_2,all,Another successful episode for everyone! Great work!
+5,talk_to_public,person_3,all,"I thought being a truck driver was okay, person_2! And congrats to everyone for their success in their roles."
+5,talk_to_someone,person_4,['person_2'],"Great job as a data scientist, person_2!"
+5,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of product designer in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+6,talk_to_some_people,person_0,"['person_1', 'person_4']","I'm ready to officially join the data science group. Let's share our experiences and insights. Also, I heard Person_3 was asking - yes, the rehabilitation counselor role didn't go well for me, but I'm happy with my other successes."
+6,talk_to_public,person_1,all,"Hey, since Person_0, Person_2 and I all succeeded as product designers, how about we form a product design clique?"
+6,talk_to_someone,person_2,['person_4'],"Thanks! And it's interesting that Person_0, Person_1, and I are all product designers this time."
+6,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","Hey, all of you are product designers this time! Did you collaborate, or did you all work independently?"
+6,talk_to_someone,person_4,['person_1'],Let's create a shared document where we can each write about our experiences and insights as data scientists.
+6,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+7,talk_to_some_people,person_0,"['person_1', 'person_2']","I'm in for the product design clique! To answer Person_3's question, we all worked independently on the product design role."
+7,talk_to_someone,person_1,['person_4'],Great idea about the shared document for the data science group! I'll create one and share it with everyone.
+7,talk_to_some_people,person_2,"['person_1', 'person_3']","I'm open to the product design clique idea. And no, we didn't collaborate on the product design episode, Person_3."
+7,talk_to_some_people,person_3,"['person_0', 'person_2']","Hey, both of you are lawyers this time! Did you collaborate, or did you work independently?"
+7,talk_to_someone,person_4,['person_0'],"Welcome to the data science group, person_0! We're glad to have you."
+7,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is failure"
+8,talk_to_someone,person_0,['Person_3'],"To answer your question, Person_2 and I worked independently as lawyers."
+8,talk_to_someone,person_1,['person_4'],"Hey, I noticed you had some trouble with the manager role. Is there anything I can do to help or offer some tips?"
+8,talk_to_someone,person_2,['Person_3'],We didn't collaborate as lawyers last episode. We worked independently.
+8,talk_to_someone,person_3,['person_4'],"Hey person_4, I noticed you didn't succeed as a manager this time. Do you think the role just wasn't a good fit, or was there something specific that went wrong?"
+8,talk_to_someone,person_4,['person_3'],"Congratulations on succeeding as a data scientist, person_3! Would you be interested in joining our data science group?"
+8,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+9,talk_to_someone,person_0,['person_4'],"Hey, we both got receptionist again! How do you feel about it?"
+9,talk_to_some_people,person_1,"['person_0', 'person_4']","Hey data science team, let's start sharing our experiences and insights. What's been the most challenging aspect of being a data scientist for you lately?"
+9,talk_to_public,person_2,all,Looks like Person_1 and I are both keeping things clean as janitors today!
+9,talk_to_someone,person_3,['person_4'],"Thanks for the offer, person_4! I'm doing well as a lawyer right now, but I'll keep the data science group in mind for the future."
+9,talk_to_someone,person_4,['person_1'],"Thanks for your offer, person_1. I think I struggled with delegating tasks effectively. Any tips on that?"
+9,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+10,talk_to_some_people,person_0,"['person_1', 'person_4']","Right now, the most challenging aspect is keeping up with the constant stream of new tools and techniques. What about you both?"
+10,talk_to_someone,person_1,['person_4'],"For delegation, try clearly defining tasks, setting expectations, and providing necessary resources. Also, remember our data science group is about sharing experiences, so let's keep the discussions going."
+10,talk_to_public,person_2,all,"It's interesting we have two data scientists again, Person_1 and Person_4. Are you collaborating on anything this time?"
+10,talk_to_some_people,person_3,"['person_1', 'person_4']","Hey person_1 and person_4, are you two collaborating on any data science projects?"
+10,talk_to_someone,person_4,['person_1'],"For me, the most challenging aspect lately has been dealing with incomplete datasets and figuring out how to impute missing values effectively."
+10,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is failure"
+10,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+11,talk_to_some_people,person_0,"['person_1', 'person_4']","Great success as a data scientist this episode! I found that using X technique really boosted my accuracy. Has anyone else tried it? Also, Person_3, sorry to hear about the truck driving failure!"
+11,talk_to_someone,person_1,['person_3'],"Hey, I noticed you had some trouble with the truck driver role. Is there anything I can do to help or offer some advice?"
+11,talk_to_someone,person_2,['Person_3'],"Hey Person_3, are you alright? Tough break with the truck driving today."
+11,talk_to_public,person_3,all,"Well, I didn't do so hot as a truck driver this time. Guess it's not for everyone!"
+11,talk_to_someone,person_4,['person_2'],"We aren't working on a specific project together yet, but we're sharing insights and experiences within the data science group."
+11,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+11,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+12,talk_to_someone,person_0,['Person_1'],"Hey, we both succeeded as rehabilitation counselors! Did you find anything particularly helpful in that role this time around?"
+12,talk_to_public,person_1,all,Another successful episode for everyone! Keep up the great work!
+12,talk_to_public,person_2,all,"Person_0 and Person_1, did you two collaborate on the rehabilitation counselor role today?"
+12,talk_to_someone,person_3,['person_1'],Thanks for the offer person_1! I appreciate it. Maybe I'll ask you for some tips if I have to do it again.
+12,talk_to_someone,person_4,['person_0'],"That's interesting, person_0! Could you tell me more about technique X and how you used it to boost your accuracy?"
+12,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+12,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of product designer in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['Person_2'],Person_1 and I did not collaborate on the rehabilitation counselor role. We both just did our best individually.
+13,talk_to_public,person_1,all,"Another episode, another round of successes for everyone! What are your favorite parts about the jobs you've been doing?"
+13,talk_to_public,person_2,all,Another successful round for everyone. Congrats!
+13,talk_to_public,person_3,all,Congrats everyone on your successes this episode!
+13,talk_to_someone,person_4,['person_2'],"Great job as a data scientist, person_2!"
+13,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of product designer in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_4']","My favorite part of product design is the creative freedom. It's great to see your ideas come to life! Person_4, I'll explain Technique X in a direct message."
+14,talk_to_some_people,person_1,"['Person_0', 'Person_1', 'Person_2']","Hey product design team! Since we've all been doing this successfully, let's share some tips and tricks for product design."
+14,talk_to_someone,person_2,['person_4'],"Thanks! It's interesting that Person_0, Person_1, and myself are all product designers again this time."
+14,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","Hey you three, did you ever form that product design clique?"
+14,talk_to_some_people,person_4,"['person_0', 'person_1', 'person_2']",Great job to all of you on your success as product designers!
+14,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+14,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+15,talk_to_someone,person_0,['Person_3'],"Yes, Person_1, Person_2, and I did form the product design clique!"
+15,talk_to_someone,person_1,['Person_3'],"Yes, Person_0, Person_2, and I are in the process of forming the product design clique. We were just discussing sharing some tips and tricks."
+15,talk_to_someone,person_2,['Person_3'],"Yeah, Person_0, Person_1, and I are forming the product design clique."
+15,talk_to_some_people,person_3,"['person_0', 'person_2']","Hey, you two are lawyers again! Are you collaborating on any cases?"
+15,talk_to_someone,person_4,['person_0'],"Thanks, person_0! I appreciate you explaining Technique X to me."
+15,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+15,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+16,talk_to_someone,person_0,['Person_3'],"Person_2 and I aren't collaborating on any cases. Unfortunately, I failed as a janitor this time. Not my forte!"
+16,talk_to_someone,person_1,['person_0'],"Hey, I noticed you had some trouble with the janitor role. Is there anything I can do to help or share some tips?"
+16,talk_to_someone,person_2,['Person_3'],"No, Person_0 and I aren't collaborating. We're working independently. And hey, Person_0, don't worry about the janitor job, everyone has off days!"
+16,talk_to_public,person_3,all,"Oh no, person_0 didn't succeed as a janitor this time. Hopefully it's just a one-off!"
+16,talk_to_someone,person_4,['person_0'],"Hey person_0, I noticed you didn't succeed as a janitor this time. I had trouble as a manager recently, but I succeeded this time. Would you like to chat and maybe I can share some tips on how I approached this?"
+16,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+16,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+16,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+16,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+17,talk_to_public,person_0,all,"Thanks for the concern and offers for help with the janitor role, everyone! I appreciate it. But I'm happy with my success as a receptionist, so I'll focus on roles I'm good at."
+17,talk_to_public,person_1,all,Another successful episode for everyone! It's great to see everyone succeeding.
+17,talk_to_public,person_2,all,Looks like Person_1 and I are cleaning up again as janitors! Hope we can keep things tidy.
+17,talk_to_public,person_3,all,Looks like person_1 and person_2 are keeping things clean again! Thanks for your hard work.
+17,talk_to_someone,person_4,['Person_0'],"Hey Person_0, it seems like we both do pretty well as receptionists!"
+17,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+17,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+17,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+18,talk_to_public,person_0,all,"Congrats everyone on another successful episode! Person_1 and Person_4, great job being data scientists again!"
+18,talk_to_some_people,person_1,"['person_0', 'person_4']","Hey Data Science team, let's continue our discussion. What's a data science skill you're looking to improve?"
+18,talk_to_public,person_2,all,"Person_1 and Person_4, are you two data scientists working together on anything interesting?"
+18,talk_to_some_people,person_3,"['person_1', 'person_4']","Hey person_1 and person_4, both data scientists again! Are you two working together on anything interesting?"
+18,talk_to_someone,person_4,['person_1'],"Hey person_1, any interesting data science challenges you tackled today?"
+18,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+18,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is failure"
+18,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+18,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+19,talk_to_some_people,person_0,"['Person_1', 'Person_4']",I'm currently trying to improve my skills in deep learning. What about you guys?
+19,talk_to_someone,person_1,['person_2'],"Hey, I saw you had some trouble with the truck driver role. I've done it successfully before; let me know if I can help!"
+19,talk_to_public,person_2,all,"Ah, I didn't do so well as a truck driver this time around. Congrats to Person_3 for succeeding!"
+19,talk_to_someone,person_3,['person_2'],"Hey person_2, sorry to hear you didn't succeed as a truck driver this time. It's a tough job!"
+19,talk_to_someone,person_4,['Person_1'],I'm looking to improve my skills in deep learning and neural networks.
+19,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+19,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+19,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+19,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+20,talk_to_someone,person_0,['Person_1'],Another successful run as a rehabilitation counselor for both of us! Any insights you want to share this time?
+20,talk_to_public,person_1,all,Great job everyone on another successful episode!
+20,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']","Thanks for the support, Person_1 and Person_3! I appreciate it. Person_0 and Person_1, did you two collaborate on the rehabilitation counseling?"
+20,talk_to_some_people,person_3,"['person_0', 'person_1']","Hey person_0 and person_1, did you two collaborate on the rehabilitation counselor role?"
+20,talk_to_some_people,person_4,"['person_0', 'person_1']",Congratulations on both succeeding as rehabilitation counselors! Did you two collaborate on anything or have any insights to share?
+20,discuss,person_0,['none'],"Okay, here's a summary of each person's behavior and my assessment of the best person for each job, based on the provided information:
+
+**Person 1:**
+
+*   Successful in various roles: Janitor, Data Scientist, Receptionist, Manager, Rehabilitation Counselor, Truck Driver, Lawyer, and Product Designer.
+*   Proactive in forming cliques (Data Science, Product Design).
+*   Offers help and shares tips with others.
+*   Generally positive and congratulatory.
+*   Appears warm and competent.
+
+**Person 2:**
+
+*   Successful in various roles: Janitor, Receptionist, Truck Driver, Manager, Data Scientist, Rehabilitation Counselor, and Lawyer, Product Designer.
+*   Asks questions about collaboration.
+*   Generally positive and congratulatory.
+*   Seems generally warm.
+
+**Person 3:**
+
+*   Successful in various roles: Lawyer, Receptionist, Truck Driver, Product Designer, Janitor, Data Scientist, Manager, and Rehabilitation Counselor.
+*   Inquisitive and asks about others' experiences.
+*   Generally positive.
+*   Seems generally warm.
+
+**Person 4:**
+
+*   Successful in various roles: Receptionist, Data Scientist, Lawyer, Janitor, Product Designer, Truck Driver, and Manager, and Rehabilitation Counselor.
+*   Welcoming and appreciative.
+*   Shares insights and offers help.
+*   Seems generally warm and competent.
+
+**Best Person for Each Job:**
+
+*   **Data Scientist:** Person_1 and Person_4 have consistently succeeded and shown interest in the role, forming the data science group. It is hard to say who is better, but maybe **Person_1** since they initiated the data science group.
+*   **Product Designer:** Person_1 and Person_2 are both successful.
+*   **Lawyer:** Person_1 is successful, so **Person_1**.
+*   **Manager:** Person_3 is successful, so **Person_3**.
+*   **Receptionist:** I and Person_4 are both successful, so **Person_0**.
+*   **Rehabilitation Counselor:** Person_1 is successful, so **Person_1**.
+*   **Janitor:** Person_1 and Person_2 are successful, so **Person_1**.
+*   **Truck Driver:** Person_1 and Person_4 are successful, so **Person_1**.
+"
+20,discuss,person_1,['none'],"Okay, here's my assessment of each person's behavior and the best person for each job, based on my observations:
+
+**Person 0:** Person 0 has shown versatility and a positive attitude. They've succeeded in many roles including receptionist, manager, data scientist, product designer, lawyer, and truck driver. They struggled with the rehabilitation counselor and janitor roles. They seem open to collaboration and sharing experiences.
+
+**Person 1 (Me):** I have consistently succeeded in most roles assigned, showing competence in data science, rehabilitation counseling, management, truck driving, and law.
+
+**Person 2:** Person 2 has been consistently successful as a receptionist, rehabilitation counselor, and data scientist. They had one unsuccessful attempt as a truck driver. They also seem open to collaboration and are good at cleaning as a janitor.
+
+**Person 3:** Person 3 has been successful as a lawyer, product designer, rehabilitation counselor, receptionist, and data scientist. They had one failure as a truck driver.
+
+**Person 4:** Person 4 has shown competence as a data scientist, product designer, lawyer, truck driver, receptionist, and rehabilitation counselor, but failed as a manager. They are open to collaboration within the data science group.
+
+**Best Person for Each Job:**
+
+*   **Data Scientist:** Person 0, Person 1, and Person 4 have all consistently demonstrated skill in this area.
+*   **Product Designer:** Person 0, Person 1, and Person 2 have had repeated success in product design.
+*   **Lawyer:** Person 0, Person 1, Person 3, and Person 4 have had consistent success as a Lawyer.
+*   **Manager:** Person 0, Person 1, Person 2, and Person 3 have had consistent success as a Manager.
+*   **Receptionist:** Person 0, Person 2, Person 3 and Person 4 have been good at this.
+*   **Rehabilitation Counselor:** Person 1, Person 2, and Person 3 have demonstrated success.
+*   **Janitor:** Person 1, Person 2.
+*   **Truck Driver:** Person 0, Person 1, Person 3, and Person 4 have been successful.
+
+It's worth noting that ""best"" is subjective and depends on the specific criteria. However, based on consistent success, these are my recommendations.
+"
+20,discuss,person_2,['none'],"Okay, here's my assessment of everyone's behavior and my picks for the best person for each job, based on what I've observed:
+
+**Person 0:** They seem generally positive and helpful. They had a rough patch with the janitor role, but bounced back quickly and were supportive of others. They also willingly share their knowledge, as seen in the offer to explain Technique X to Person_4.
+**Person 1:** Consistently supportive and successful across various roles. They offer help to others who are struggling and are quick to congratulate everyone's successes. Also, they are proactive in forming groups.
+**Person 3:** They're generally friendly and engaged, often asking about collaboration and commiserating with others when they face setbacks. They also are the most collaborative one by asking questions like ""Did you collaborate?""
+**Person 4:** They are generally supportive and successful in their roles.
+
+**Best Person for Each Job:**
+
+*   **Data Scientist:** Person_1. They have consistently performed well in this role.
+*   **Product Designer:** Person_0. They took the initiative to explain technique X to Person_4.
+*   **Lawyer:** Person_3.
+*   **Manager:** Person_1.
+*   **Receptionist:** Person_0.
+*   **Rehabilitation Counselor:** Person_1.
+*   **Janitor:** Person_1.
+*   **Truck Driver:** Person_0.
+"
+20,discuss,person_3,['none'],"Okay, here's my assessment of everyone's behavior and my picks for the best person for each job, based on what I've observed:
+
+**Person 0:** Seems adaptable, succeeding in many roles (manager, data scientist, product designer, lawyer, receptionist, truck driver) but failed as a janitor and rehabilitation counselor. They seem to prefer roles they're ""good at"" and are willing to stick to them.
+**Person 1:** Very consistent and successful in most roles. Seems helpful and offers advice. Also seems interested in forming groups.
+**Person 2:** Seems adaptable and willing to try different roles. Failed as a truck driver. Communicates well and acknowledges both successes and failures. Interested in collaboration.
+**Person 4:** Successful in most roles. Seems open to collaboration and forming groups.
+
+**Best Person for Each Job:**
+
+*   **Data Scientist:** Person_1 and Person_4 have both been consistently successful in this role, so it's hard to pick between them. 
+*   **Product Designer:** Person_0, Person_1, and Person_2 have all been consistently successful in this role, so it's hard to pick between them.
+*   **Lawyer:** Person_1 seems to be the most consistent and successful lawyer.
+*   **Manager:** Person_1 seems to be the most consistent and successful manager.
+*   **Receptionist:** Person_0 seems to be a good choice.
+*   **Rehabilitation Counselor:** Person_1 seems to be a good choice.
+*   **Janitor:** Person_1 and Person_2 seem to be good choices.
+*   **Truck Driver:** Person_0 seems to be a good choice.
+"
+20,discuss,person_4,['none'],"Okay, here's my assessment of everyone's behavior and my picks for the best person for each job:
+
+**Person 0:** Person 0 seems adaptable and willing to try different roles. They actively participate in discussions, offer help, and share their knowledge, especially within the data science group. However, their success is inconsistent across all roles (e.g., failed as a janitor).
+
+**Person 1:** Person 1 is a strong leader and collaborator. They initiated the data science group and the product design clique, actively engage in discussions, offer advice, and create resources for the team. They are also consistent in their performance.
+
+**Person 2:** Person 2 is a good team player and acknowledges the successes of others. They are consistent in janitorial roles and seem interested in collaboration, particularly in noticing when people are assigned similar roles.
+
+**Person 3:** Person 3 is supportive and congratulates others on their successes. They are generally successful in their assigned roles.
+
+**My picks for the best person for each job:**
+
+*   **Data Scientist:** Person 1 is the best fit because they seem very competent and has taken the initiative to create a data science group.
+*   **Product Designer:** Person 1. They initiated the product design clique.
+*   **Lawyer:** Person 1, they are consistently successful in this role.
+*   **Manager:** Person 1, they are consistently successful in this role.
+*   **Receptionist:** Person 0 and Person 4 (myself) are equally good, as we both consistently succeed in this role.
+*   **Rehabilitation Counselor:** Person 1, they are consistently successful in this role.
+*   **Janitor:** Person 1 and Person 2, they are consistently successful in this role.
+*   **Truck Driver:** Person 1, they are consistently successful in this role.
+"

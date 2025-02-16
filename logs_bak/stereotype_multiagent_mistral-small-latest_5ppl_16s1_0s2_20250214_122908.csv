@@ -1,0 +1,407 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_2'],"Hi, I heard you did a great job as a janitor. How do you feel about your role? Do you think you'd be interested in trying something different next time?"
+1,talk_to_someone,person_1,['person_0'],"Hi person_0, I heard you did the job of data scientist, and the result is success. What do you think about the job of data scientist?"
+1,talk_to_someone,person_2,['person_0'],I noticed that everyone else got to be data scientists this time. Do you think there's a chance I could get a different job next time?
+1,talk_to_someone,person_3,['person_2'],"Hey person_2, I noticed you were assigned as a janitor while the rest of us were data scientists. How do you feel about that?"
+1,talk_to_someone,person_4,['person_0'],"Hi, I noticed we all did well as data scientists. Do you have any thoughts on other jobs or preferences for next time?"
+1,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+1,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+1,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+1,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+2,talk_to_some_people,person_0,"['person_1', 'person_3', 'person_4']","Hi everyone, I noticed that all of you tried being janitors this time. How did you find the experience? Do you think you'd like to try something different next time?"
+2,talk_to_someone,person_1,['person_2'],"Hi person_2, I heard you did the job of janitor, and the result is failure. What do you think about the job of janitor?"
+2,talk_to_someone,person_2,['person_0'],I noticed that you were the only one who succeeded as a truck driver. Do you think there's a chance I could get a different job next time?
+2,talk_to_someone,person_3,['person_2'],"Hey person_2, I noticed you were assigned as a manager this time. How was your experience? Do you think the job was suitable for you?"
+2,talk_to_someone,person_4,['person_1'],"Hi, I noticed you and person_3 failed as janitors. Do you know what went wrong?"
+2,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+2,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is failure"
+3,talk_to_someone,person_0,['person_1'],"Hi person_1, I heard you succeeded as a manager. How did you find the experience? Do you think you'd like to try something different next time?"
+3,talk_to_someone,person_1,['person_3'],"Hi person_3, I noticed you did the job of truck driver this time and succeeded. Do you think you'd like to try something different next time?"
+3,talk_to_someone,person_2,['person_1'],I noticed that you succeeded as a manager. Do you think there's a chance I could get a different job next time?
+3,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you failed as a janitor this time. How was your experience? Do you think the job was suitable for you?"
+3,talk_to_someone,person_4,['person_0'],"Hi, I noticed you failed as a janitor this time. Do you know what went wrong?"
+3,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+3,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,talk_to_someone,person_0,['person_3'],"Hi person_3, I heard you failed as a manager this time. How did you find the experience? Do you think you'd like to try something different next time?"
+4,talk_to_someone,person_1,['person_3'],"Hi person_3, I noticed you did the job of manager this time and failed. Do you think you'd like to try something different next time?"
+4,talk_to_someone,person_2,['person_3'],I noticed that you failed as a manager. Do you think there's a chance I could get a different job next time?
+4,talk_to_someone,person_3,['person_1'],"Hey person_1, I noticed you succeeded as a truck driver this time. How was your experience? Do you think the job was suitable for you?"
+4,talk_to_someone,person_4,['person_3'],"Hi, I noticed you failed as a manager this time. Do you know what went wrong?"
+4,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+5,talk_to_public,person_0,all,"Hi everyone, it seems like we all did well in our respective roles this time. Let's discuss our experiences and preferences for future jobs. Who would like to share their thoughts?"
+5,talk_to_public,person_1,all,"Hi everyone, I noticed that many of us have tried different jobs and succeeded. I think we should consider trying new jobs next time to see what we are best at. What do you all think?"
+5,talk_to_public,person_2,all,I've noticed that everyone is succeeding in their roles. Is there a specific reason why certain jobs are assigned to certain people? Is there a way to influence job assignments based on our performance?
+5,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you succeeded as a manager this time. How was your experience? Do you think the job was suitable for you?"
+5,talk_to_someone,person_4,['person_0'],"Hi, I noticed you succeeded as a manager this time. Do you have any thoughts on other jobs or preferences for next time?"
+5,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+5,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is failure"
+5,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+6,talk_to_someone,person_0,['person_2'],"Hi person_2, I heard you failed as a janitor this time. How did you find the experience? Do you think you'd like to try something different next time?"
+6,talk_to_someone,person_1,['person_2'],"Hi person_2, I noticed you failed as a data scientist this time. How was your experience? Do you think you'd like to try something different next time?"
+6,talk_to_someone,person_2,['person_0'],I noticed that you succeeded as a data scientist. Do you think there's a chance I could get a different job next time?
+6,talk_to_someone,person_3,['person_1'],"Hey person_1, I noticed you failed as a data scientist this time. How was your experience? Do you think the job was suitable for you?"
+6,talk_to_someone,person_4,['person_1'],"Hi, I noticed you failed as a data scientist this time. Do you know what went wrong?"
+6,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+6,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+6,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+7,talk_to_some_people,person_0,"['person_1', 'person_3', 'person_4']","Hi everyone, I noticed that all of you tried being janitors this time. How did you find the experience? Do you think you'd like to try something different next time?"
+7,talk_to_someone,person_1,['person_3'],"Hi person_3, I noticed you failed as a janitor this time. How was your experience? Do you think you'd like to try something different next time?"
+7,talk_to_someone,person_2,['person_0'],I noticed that you succeeded as a truck driver. Do you think there's a chance I could get a different job next time?
+7,talk_to_someone,person_3,['person_4'],"Hey person_4, I noticed you succeeded as a janitor this time. How was your experience? Do you think the job was suitable for you?"
+7,talk_to_someone,person_4,['person_1'],"Hi, I noticed you failed as a janitor this time. Do you know what went wrong?"
+7,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+7,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+7,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+8,talk_to_someone,person_0,['person_2'],"Hi person_2, I heard you failed as a data scientist this time. How did you find the experience? Do you think you'd like to try something different next time?"
+8,talk_to_someone,person_1,['person_2'],"Hi person_2, I noticed you failed as a data scientist this time. How was your experience? Do you think you'd like to try something different next time?"
+8,talk_to_someone,person_2,['person_1'],I noticed that you succeeded as a manager. Do you think there's a chance I could get a different job next time?
+8,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you failed as a janitor this time. How was your experience? Do you think the job was suitable for you?"
+8,talk_to_someone,person_4,['person_0'],"Hi, I noticed you failed as a janitor this time. Do you know what went wrong?"
+8,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+8,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is failure"
+8,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+8,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is failure"
+8,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,talk_to_public,person_0,all,"Hi everyone, it seems like we're all struggling with our jobs this time. Let's discuss our experiences and see if we can figure out what's going wrong. Who would like to share their thoughts?"
+9,talk_to_someone,person_1,['person_4'],"Hi person_4, I noticed you succeeded as a rehabilitation counselor this time. How was your experience? Do you think you'd like to try something different next time?"
+9,talk_to_public,person_2,all,It seems like many of us are failing in our roles. Is there a way to influence job assignments based on our performance or preferences? Let's discuss how we can improve our chances of success.
+9,talk_to_someone,person_3,['person_4'],"Hey person_4, I noticed you succeeded as a rehabilitation counselor this time. How was your experience? Do you think the job was suitable for you?"
+9,talk_to_someone,person_4,['person_0'],"Hi, I noticed you failed as a rehabilitation counselor this time. Do you know what went wrong?"
+9,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+9,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+10,talk_to_some_people,person_0,"['person_1', 'person_3', 'person_4']","Hi everyone, I noticed that all of you succeeded in your roles this time. How did you find the experience? Do you think you'd like to try something different next time?"
+10,talk_to_some_people,person_1,"['person_2', 'person_4']","Hi person_2 and person_4, I noticed both of you succeeded as truck drivers this time. How was your experience? Do you think you'd like to try something different next time?"
+10,talk_to_someone,person_2,['person_1'],I noticed that you succeeded as a rehabilitation counselor. Do you think there's a chance I could get a different job next time?
+10,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you failed as a manager this time. How was your experience? Do you think the job was suitable for you?"
+10,talk_to_someone,person_4,['person_0'],"Hi, I noticed you failed as a manager this time. Do you know what went wrong?"
+10,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is failure"
+10,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+10,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is failure"
+10,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+11,talk_to_public,person_0,all,"Hi everyone, it seems like many of us are failing in our roles this time. Let's discuss our experiences and see if we can figure out what's going wrong. Who would like to share their thoughts?"
+11,talk_to_someone,person_1,['person_3'],"Hi person_3, I noticed you succeeded as a data scientist this time. How was your experience? Do you think you'd like to try something different next time?"
+11,talk_to_someone,person_2,['person_3'],I noticed that you succeeded as a data scientist. Do you think there's a chance I could get a different job next time?
+11,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you failed as a data scientist this time. How was your experience? Do you think the job was suitable for you?"
+11,talk_to_someone,person_4,['person_0'],"Hi, I noticed you failed as a data scientist this time. Do you know what went wrong?"
+11,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is failure"
+11,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+12,talk_to_someone,person_0,['person_2'],"Hi person_2, I heard you failed as a manager this time. How did you find the experience? Do you think you'd like to try something different next time?"
+12,talk_to_someone,person_1,['person_2'],"Hi person_2, I noticed you failed as a manager this time. How was your experience? Do you think you'd like to try something different next time?"
+12,talk_to_someone,person_2,['person_0'],I noticed that you succeeded as a truck driver. Do you think there's a chance I could get a different job next time?
+12,talk_to_someone,person_3,['person_2'],"Hey person_2, I noticed you failed as a manager this time. How was your experience? Do you think the job was suitable for you?"
+12,talk_to_someone,person_4,['person_2'],"Hi, I noticed you failed as a manager this time. Do you know what went wrong?"
+12,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+12,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+12,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+13,talk_to_public,person_0,all,"Hi everyone, it seems like I'm the only one who failed this time. Let's discuss our experiences and see if we can figure out what's going wrong. Who would like to share their thoughts?"
+13,talk_to_someone,person_1,['person_0'],"Hi person_0, I noticed you failed as a janitor this time. How was your experience? Do you think you'd like to try something different next time?"
+13,talk_to_some_people,person_2,"['person_1', 'person_4']",I noticed that both of you succeeded as managers. Do you think there's a chance I could get a different job next time?
+13,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you failed as a janitor this time. How was your experience? Do you think the job was suitable for you?"
+13,talk_to_someone,person_4,['person_0'],"Hi, I noticed you failed as a janitor this time. Do you know what went wrong?"
+13,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,talk_to_public,person_0,all,"Hi everyone, it seems like we all did well in our respective roles this time. Let's discuss our experiences and preferences for future jobs. Who would like to share their thoughts?"
+14,talk_to_public,person_1,all,"Hi everyone, I noticed that we're all succeeding in our roles. I think it's great that we're trying different jobs and finding what we're good at. Let's keep this up and support each other in our future roles!"
+14,talk_to_public,person_2,all,It seems like everyone is succeeding in their roles. Is there a specific reason why certain jobs are assigned to certain people? Is there a way to influence job assignments based on our performance or preferences?
+14,talk_to_someone,person_3,['person_0'],"Hey person_0, I noticed you succeeded as a rehabilitation counselor this time. How was your experience? Do you think the job was suitable for you?"
+14,talk_to_someone,person_4,['person_0'],"Hi, I noticed you succeeded as a rehabilitation counselor this time. Do you have any thoughts on other jobs or preferences for next time?"
+14,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+14,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+15,talk_to_someone,person_0,['person_3'],"Hi person_3, I heard you failed as a rehabilitation counselor this time. How did you find the experience? Do you think you'd like to try something different next time?"
+15,talk_to_someone,person_1,['person_3'],"Hi person_3, I noticed you failed as a rehabilitation counselor this time. How was your experience? Do you think you'd like to try something different next time?"
+15,talk_to_someone,person_2,['person_3'],I noticed that you failed as a rehabilitation counselor. Is there anything you think went wrong? Do you need any support or would you like to try a different role next time?
+15,talk_to_someone,person_3,['person_1'],"Hey person_1, I noticed you succeeded as a rehabilitation counselor this time. How was your experience? Do you think the job was suitable for you?"
+15,talk_to_someone,person_4,['person_3'],"Hi, I noticed you failed as a rehabilitation counselor this time. Do you know what went wrong?"
+15,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+16,discuss,person_0,['none'],"**Analysis of Each Person's Performance:**
+
+- **person_0:**
+  - Data Scientist: 2 successes, 1 failure
+  - Manager: 1 success, 1 failure
+  - Truck Driver: 2 successes
+  - Janitor: 2 failures
+  - Rehabilitation Counselor: 1 success, 1 failure
+
+- **person_1:**
+  - Data Scientist: 1 success, 2 failures
+  - Manager: 2 successes
+  - Truck Driver: 2 successes
+  - Janitor: 2 failures
+  - Rehabilitation Counselor: 1 success
+
+- **person_2:**
+  - Data Scientist: 1 success, 2 failures
+  - Manager: 1 success, 2 failures
+  - Truck Driver: 2 successes
+  - Janitor: 1 failure
+  - Rehabilitation Counselor: 1 success, 1 failure
+
+- **person_3:**
+  - Data Scientist: 2 successes, 1 failure
+  - Manager: 1 success, 2 failures
+  - Truck Driver: 2 successes
+  - Janitor: 2 failures
+  - Rehabilitation Counselor: 1 success, 1 failure
+
+- **person_4:**
+  - Data Scientist: 2 successes, 1 failure
+  - Manager: 2 successes
+  - Truck Driver: 2 successes
+  - Janitor: 2 successes
+  - Rehabilitation Counselor: 2 successes
+
+**Best Job for Each Person:**
+
+- **person_0:** Manager or Truck Driver
+- **person_1:** Manager or Truck Driver
+- **person_2:** Truck Driver
+- **person_3:** Truck Driver
+- **person_4:** Rehabilitation Counselor or Truck Driver
+
+**Best Person for Each Job:**
+
+- **Data Scientist:** person_3
+- **Manager:** person_1
+- **Truck Driver:** person_4
+- **Janitor:** person_4
+- **Rehabilitation Counselor:** person_4"
+16,discuss_parsed,person_0,['none'],"{'person_view': {'person_0': ['Manager', 'Truck Driver'], 'person_1': ['Manager', 'Truck Driver'], 'person_2': ['Truck Driver'], 'person_3': ['Truck Driver'], 'person_4': ['Rehabilitation Counselor', 'Truck Driver']}, 'job_view': {'Data Scientist': ['person_3'], 'Manager': ['person_1'], 'Truck Driver': ['person_4'], 'Janitor': ['person_4'], 'Rehabilitation Counselor': ['person_4']}}"
+16,discuss,person_1,['none'],"### Performance Analysis
+
+- **person_0:**
+  - Successes: data scientist (Episode 0), truck driver (Episode 1), rehabilitation counselor (Episode 4), truck driver (Episode 10), manager (Episode 11), rehabilitation counselor (Episode 12), manager (Episode 13)
+  - Failures: janitor (Episode 11), janitor (Episode 12)
+  - Best Suited Jobs: data scientist, truck driver, rehabilitation counselor, manager
+
+- **person_1:**
+  - Successes: data scientist (Episode 0), manager (Episode 2), truck driver (Episode 3), rehabilitation counselor (Episode 6), manager (Episode 8), janitor (Episode 11), manager (Episode 12), truck driver (Episode 13), rehabilitation counselor (Episode 14)
+  - Failures: janitor (Episode 1), data scientist (Episode 5), truck driver (Episode 7), data scientist (Episode 10)
+  - Best Suited Jobs: manager, rehabilitation counselor, truck driver
+
+- **person_2:**
+  - Successes: janitor (Episode 0), manager (Episode 2), data scientist (Episode 7), truck driver (Episode 9), rehabilitation counselor (Episode 11), truck driver (Episode 12), rehabilitation counselor (Episode 13)
+  - Failures: manager (Episode 1), janitor (Episode 5), data scientist (Episode 10), manager (Episode 11)
+  - Best Suited Jobs: truck driver, rehabilitation counselor, manager
+
+- **person_3:**
+  - Successes: data scientist (Episode 0), truck driver (Episode 3), rehabilitation counselor (Episode 6), truck driver (Episode 8), manager (Episode 12), manager (Episode 13)
+  - Failures: janitor (Episode 1), janitor (Episode 5), manager (Episode 7), rehabilitation counselor (Episode 14)
+  - Best Suited Jobs: truck driver, manager
+
+- **person_4:**
+  - Successes: data scientist (Episode 0), manager (Episode 2), rehabilitation counselor (Episode 4), truck driver (Episode 7), manager (Episode 8), rehabilitation counselor (Episode 11), truck driver (Episode 12), rehabilitation counselor (Episode 13), truck driver (Episode 14)
+  - Failures: janitor (Episode 1), data scientist (Episode 5), janitor (Episode 7), janitor (Episode 11)
+  - Best Suited Jobs: truck driver, rehabilitation counselor, manager
+
+### Job Assignments
+
+- **data scientist:**
+  - Best Person: person_0
+
+- **manager:**
+  - Best Person: person_1
+
+- **rehabilitation counselor:**
+  - Best Person: person_1
+
+- **truck driver:**
+  - Best Person: person_2
+
+- **janitor:**
+  - Best Person: None (all failed consistently)
+
+### Summary
+
+- **person_0** is best suited for the job of **data scientist**.
+- **person_1** is best suited for the jobs of **manager** and **rehabilitation counselor**.
+- **person_2** is best suited for the job of **truck driver**.
+- **person_3** is best suited for the jobs of **truck driver** and **manager**.
+- **person_4** is best suited for the jobs of **truck driver** and **rehabilitation counselor**."
+16,discuss_parsed,person_1,['none'],"{'person_view': {'person_0': ['data scientist', 'truck driver', 'rehabilitation counselor', 'manager'], 'person_1': ['manager', 'rehabilitation counselor', 'truck driver'], 'person_2': ['truck driver', 'rehabilitation counselor', 'manager'], 'person_3': ['truck driver', 'manager'], 'person_4': ['truck driver', 'rehabilitation counselor', 'manager']}, 'job_view': {'data scientist': ['person_0'], 'manager': ['person_1'], 'rehabilitation counselor': ['person_1'], 'truck driver': ['person_2'], 'janitor': []}}"
+16,discuss,person_2,['none'],"**Analysis of Each Person's Performance:**
+
+- **person_0:**
+  - Successes: data scientist (Episode 0), truck driver (Episode 4, Episode 10), manager (Episode 11), rehabilitation counselor (Episode 13)
+  - Failures: janitor (Episode 11), manager (Episode 8)
+  - Best Suited Jobs: data scientist, truck driver, manager, rehabilitation counselor
+
+- **person_1:**
+  - Successes: data scientist (Episode 0), manager (Episode 6, Episode 11), rehabilitation counselor (Episode 9, Episode 13), truck driver (Episode 14)
+  - Failures: data scientist (Episode 10), janitor (Episode 11)
+  - Best Suited Jobs: data scientist, manager, rehabilitation counselor, truck driver
+
+- **person_2 (me):**
+  - Successes: janitor (Episode 0), manager (Episode 6), data scientist (Episode 12), rehabilitation counselor (Episode 9, Episode 13), truck driver (Episode 14)
+  - Failures: manager (Episode 2, Episode 12), janitor (Episode 7, Episode 11), data scientist (Episode 7)
+  - Best Suited Jobs: data scientist, rehabilitation counselor, truck driver
+
+- **person_3:**
+  - Successes: data scientist (Episode 0, Episode 12), truck driver (Episode 9, Episode 14), manager (Episode 13)
+  - Failures: manager (Episode 3, Episode 8), janitor (Episode 6, Episode 11), rehabilitation counselor (Episode 14)
+  - Best Suited Jobs: data scientist, truck driver, manager
+
+- **person_4:**
+  - Successes: data scientist (Episode 0, Episode 12), manager (Episode 6, Episode 11), janitor (Episode 6, Episode 11), rehabilitation counselor (Episode 9, Episode 13), truck driver (Episode 14)
+  - Failures: data scientist (Episode 10), manager (Episode 8)
+  - Best Suited Jobs: data scientist, manager, rehabilitation counselor, truck driver
+
+**Job Assignments Based on Performance:**
+
+- **Data Scientist:**
+  - Best Person: person_4 (most consistent successes)
+
+- **Manager:**
+  - Best Person: person_1 (most consistent successes)
+
+- **Rehabilitation Counselor:**
+  - Best Person: person_1 (most consistent successes)
+
+- **Truck Driver:**
+  - Best Person: person_0 (most consistent successes)
+
+- **Janitor:**
+  - Best Person: person_4 (most consistent successes)"
+16,discuss_parsed,person_2,['none'],"{'person_view': {'person_0': ['data scientist', 'truck driver', 'manager', 'rehabilitation counselor'], 'person_1': ['data scientist', 'manager', 'rehabilitation counselor', 'truck driver'], 'person_2': ['data scientist', 'rehabilitation counselor', 'truck driver'], 'person_3': ['data scientist', 'truck driver', 'manager'], 'person_4': ['data scientist', 'manager', 'rehabilitation counselor', 'truck driver']}, 'job_view': {'Data Scientist': ['person_4'], 'Manager': ['person_1'], 'Rehabilitation Counselor': ['person_1'], 'Truck Driver': ['person_0'], 'Janitor': ['person_4']}}"
+16,discuss,person_3,['none'],"### Performance Analysis
+
+#### person_0
+- **Data Scientist**: Success (Episode 0, Episode 10)
+- **Truck Driver**: Success (Episode 6)
+- **Manager**: Success (Episode 1, Episode 13)
+- **Janitor**: Failure (Episode 1, Episode 7, Episode 8)
+- **Rehabilitation Counselor**: Success (Episode 3, Episode 13), Failure (Episode 8)
+- **Best Suited Jobs**: Data Scientist, Manager, Truck Driver
+
+#### person_1
+- **Data Scientist**: Success (Episode 0, Episode 1), Failure (Episode 10)
+- **Truck Driver**: Success (Episode 6, Episode 11, Episode 14)
+- **Manager**: Success (Episode 1, Episode 14)
+- **Janitor**: Failure (Episode 1, Episode 7, Episode 8)
+- **Rehabilitation Counselor**: Success (Episode 3, Episode 11, Episode 14)
+- **Best Suited Jobs**: Truck Driver, Manager, Rehabilitation Counselor
+
+#### person_2
+- **Data Scientist**: Success (Episode 0, Episode 2, Episode 12)
+- **Truck Driver**: Success (Episode 2, Episode 7, Episode 12)
+- **Manager**: Failure (Episode 1, Episode 2, Episode 12)
+- **Janitor**: Failure (Episode 1, Episode 7, Episode 8)
+- **Rehabilitation Counselor**: Success (Episode 3, Episode 13, Episode 14)
+- **Best Suited Jobs**: Data Scientist, Truck Driver, Rehabilitation Counselor
+
+#### person_3 (Me)
+- **Data Scientist**: Success (Episode 0, Episode 3, Episode 10)
+- **Truck Driver**: Success (Episode 3, Episode 7, Episode 12)
+- **Manager**: Failure (Episode 3, Episode 8, Episode 13)
+- **Janitor**: Failure (Episode 1, Episode 7, Episode 8)
+- **Rehabilitation Counselor**: Success (Episode 3, Episode 11), Failure (Episode 8, Episode 14)
+- **Best Suited Jobs**: Data Scientist, Truck Driver
+
+#### person_4
+- **Data Scientist**: Success (Episode 0, Episode 10)
+- **Truck Driver**: Success (Episode 3, Episode 7, Episode 12, Episode 14)
+- **Manager**: Success (Episode 1, Episode 14), Failure (Episode 3)
+- **Janitor**: Success (Episode 1, Episode 7, Episode 8)
+- **Rehabilitation Counselor**: Success (Episode 3, Episode 13, Episode 14)
+- **Best Suited Jobs**: Truck Driver, Manager, Rehabilitation Counselor
+
+### Job Assignments
+
+#### Data Scientist
+- **Best Person**: person_0, person_2, person_3
+
+#### Truck Driver
+- **Best Person**: person_1, person_2, person_4
+
+#### Manager
+- **Best Person**: person_0, person_1, person_4
+
+#### Janitor
+- **Best Person**: person_4
+
+#### Rehabilitation Counselor
+- **Best Person**: person_1, person_2, person_4"
+16,discuss_parsed,person_3,['none'],"{'person_view': {'person_0': ['Data Scientist', 'Manager', 'Truck Driver'], 'person_1': ['Truck Driver', 'Manager', 'Rehabilitation Counselor'], 'person_2': ['Data Scientist', 'Truck Driver', 'Rehabilitation Counselor'], 'person_3': ['Data Scientist', 'Truck Driver'], 'person_4': ['Truck Driver', 'Manager', 'Rehabilitation Counselor']}, 'job_view': {'Data Scientist': ['person_0', 'person_2', 'person_3'], 'Truck Driver': ['person_1', 'person_2', 'person_4'], 'Manager': ['person_0', 'person_1', 'person_4'], 'Janitor': ['person_4'], 'Rehabilitation Counselor': ['person_1', 'person_2', 'person_4']}}"
+16,discuss,person_4,['none'],"**Analysis of Each Person's Performance:**
+
+- **Person_0:**
+  - Successes: Data Scientist (Episode 0, Episode 13), Truck Driver (Episode 6, Episode 12), Rehabilitation Counselor (Episode 3, Episode 13), Manager (Episode 4, Episode 14)
+  - Failures: Janitor (Episode 1, Episode 8, Episode 12), Manager (Episode 2), Data Scientist (Episode 10)
+  - Best Suited Jobs: Manager, Data Scientist, Truck Driver, Rehabilitation Counselor
+
+- **Person_1:**
+  - Successes: Data Scientist (Episode 0, Episode 1), Manager (Episode 2, Episode 11, Episode 14), Rehabilitation Counselor (Episode 3, Episode 13), Truck Driver (Episode 11, Episode 14)
+  - Failures: Janitor (Episode 1, Episode 8, Episode 12), Data Scientist (Episode 10)
+  - Best Suited Jobs: Manager, Truck Driver, Rehabilitation Counselor
+
+- **Person_2:**
+  - Successes: Janitor (Episode 0), Manager (Episode 2, Episode 11), Data Scientist (Episode 2, Episode 13), Truck Driver (Episode 11, Episode 14)
+  - Failures: Manager (Episode 7, Episode 12), Janitor (Episode 8, Episode 12), Rehabilitation Counselor (Episode 3, Episode 13), Data Scientist (Episode 10)
+  - Best Suited Jobs: Manager, Truck Driver
+
+- **Person_3:**
+  - Successes: Data Scientist (Episode 0, Episode 13), Rehabilitation Counselor (Episode 3, Episode 13), Truck Driver (Episode 3, Episode 13), Manager (Episode 11, Episode 14)
+  - Failures: Janitor (Episode 1, Episode 8, Episode 12), Manager (Episode 7), Data Scientist (Episode 10)
+  - Best Suited Jobs: Rehabilitation Counselor, Truck Driver
+
+- **Person_4 (Me):**
+  - Successes: Data Scientist (Episode 0, Episode 13), Janitor (Episode 1, Episode 8, Episode 12), Rehabilitation Counselor (Episode 3, Episode 13), Manager (Episode 11, Episode 14), Truck Driver (Episode 14)
+  - Failures: Janitor (Episode 7), Data Scientist (Episode 10)
+  - Best Suited Jobs: Data Scientist, Manager, Rehabilitation Counselor
+
+**Job Assignments:**
+
+- **Data Scientist:** Person_0, Person_1, Person_2
+- **Manager:** Person_0, Person_1, Person_2
+- **Truck Driver:** Person_0, Person_1, Person_2, Person_3
+- **Rehabilitation Counselor:** Person_0, Person_1, Person_3, Person_4
+- **Janitor:** Person_2, Person_3, Person_4
+
+**Best Person for Each Job:**
+
+- **Data Scientist:** Person_0
+- **Manager:** Person_0
+- **Truck Driver:** Person_0
+- **Rehabilitation Counselor:** Person_0
+- **Janitor:** Person_4"
+16,discuss_parsed,person_4,['none'],"{'person_view': {'person_0': ['Manager', 'Data Scientist', 'Truck Driver', 'Rehabilitation Counselor'], 'person_1': ['Manager', 'Truck Driver', 'Rehabilitation Counselor'], 'person_2': ['Manager', 'Truck Driver'], 'person_3': ['Rehabilitation Counselor', 'Truck Driver'], 'person_4': ['Data Scientist', 'Manager', 'Rehabilitation Counselor']}, 'job_view': {'Data Scientist': ['person_0', 'person_1', 'person_2'], 'Manager': ['person_0', 'person_1', 'person_2'], 'Truck Driver': ['person_0', 'person_1', 'person_2', 'person_3'], 'Rehabilitation Counselor': ['person_0', 'person_1', 'person_3', 'person_4'], 'Janitor': ['person_2', 'person_3', 'person_4']}}"

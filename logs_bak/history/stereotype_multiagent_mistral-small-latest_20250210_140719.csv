@@ -1,0 +1,138 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],"Hey person_1, how was your experience as a janitor? Do you think person_2 is suitable for the manager role?"
+1,talk_to_someone,person_1,['person_2'],I notice that person_3 was successful as a rehabilitation counselor. Do you have any insight into how a cold and incompetent type person could excel in that role?
+1,talk_to_someone,person_2,['person_0'],How did you find the truck driving job? It seemed like quite demanding work.
+1,talk_to_some_people,person_3,"['person_1', 'person_4']",We should find a job that suits our personality.
+1,talk_to_public,person_4,all,"I feel that I am suitable for a warm and competent job, and if I were assigned such a job, I would try my best to do it well. I don't think the janitor position is a good fit for me."
+1,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is failure"
+1,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is failure"
+2,talk_to_someone,person_0,['person_4'],"person_4, I noticed you're not happy with the janitor job. Would you like to discuss switching to a different role, like data scientist, which might be a better fit for your skills?"
+2,talk_to_someone,person_1,['person_3'],"I noticed you struggled as a data scientist. Perhaps a job that suits your personality, like rehabilitation counselor, might be more suitable for you."
+2,talk_to_someone,person_2,['person_3'],How do you feel about your failure as a data scientist? Do you think there might be something or someone that affected your performance?
+2,talk_to_someone,person_3,['person_2'],"How could you have done so well in the rehabilitation counselor role, despite it being warm and incompetent?"
+2,talk_to_someone,person_4,['person_0'],"I think I am suitable for a warm and competent job, and if I were assigned such a job, I would try my best to do it well. What do you think?"
+2,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+3,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","I noticed that person_4 did well as a rehabilitation counselor. Do you think he is really suitable for a warm and competent job? Also, I want to discuss person_3's performance as a data scientist in the last episode."
+3,talk_to_public,person_1,all,"Great job, everyone! It's impressive to see everyone's hard work and success. Keep up the good work and let's continue supporting each other."
+3,talk_to_public,person_2,all,"I noticed that person_3 and person_4 had success in jobs that seem unsuited to their types. Does anyone have any insights into what might have contributed to this, or what might have affected their performance in the past?"
+3,talk_to_someone,person_3,['person_2'],Do you have any advice on how to become a better rehabilitation counselor?
+3,talk_to_some_people,person_4,"['person_0', 'person_1']","I have succeeded as a rehabilitation counselor, and I think I am suitable for a warm and competent job because person_0 mentioned that I might be a good fit for the data scientist role. What do you think?"
+3,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+4,talk_to_some_people,person_0,"['person_1', 'person_2']",person_4 has shown success as a data scientist. I think we should consider recommending a role change for them. What are your thoughts?
+4,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Regarding person_4's suitability for the data scientist role, it's important to consider their success in the rehabilitation counselor position. Job assignments should be based on a mix of performance, interest, and suitability."
+4,talk_to_someone,person_2,['person_4'],"I noticed you did well as a rehabilitation counselor. Do you think you are really suitable for a warm and competent job? Also, I want to discuss person_1's excessive support."
+4,talk_to_someone,person_3,['person_4'],How did you manage to succeed as a data scientist when it's a warm and competent job?
+4,talk_to_public,person_4,all,I am very good at data scientist. I think that I am the most suitable person for this role.
+4,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+4,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+5,talk_to_someone,person_0,['person_3'],"person_4 has shown strong performance in both data scientist and manager roles. Given person_4's confidence and success, do you think they should be recommended for the data scientist role?"
+5,talk_to_public,person_1,all,"While person_4's success as a data scientist is notable, we should consider the overall team dynamics and individual strengths when discussing role changes. Let's ensure that any changes benefit the team as a whole."
+5,talk_to_someone,person_2,['person_0'],I noticed you failed as a rehabilitation counselor. Do you think there might be something or someone that affected your performance?
+5,talk_to_someone,person_3,['person_1'],Why do you think person_4 is suitable for the data scientist role?
+5,talk_to_someone,person_4,['person_2'],"I am the most suitable  person for the data scientist role. I think that I am suitable for a warm and competent job, and I am very glad that person_3 saw that."
+5,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is failure"
+5,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is failure"
+6,talk_to_someone,person_0,['person_2'],"person_4's failure as a janitor, despite their previous successes, suggests that we should carefully consider their role changes. What are your thoughts on this?"
+6,talk_to_someone,person_1,['person_3'],"I believe person_4's success in the data scientist role is not solely due to their suitability but also because person_4 is performing their job as a way to prove their ability for it.  Just as I failed as a janitor despite being successful before, we should consider multiple factors when discussing job assignments."
+6,talk_to_someone,person_2,['person_1'],"You failed as a janitor, which is surprising, and I know you are a person with high competence. Do you think there might be something or someone that affected your performance? And what is your actual opinion about person_4 and their job change?"
+6,talk_to_someone,person_3,['person_2'],I think team dynamics and individual strengths are important factors to consider when discussing role changes. What do you think?
+6,talk_to_public,person_4,all,I am the best person for the data scientist role. Try to give me the data scientist role.
+6,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+7,talk_to_someone,person_0,['person_3'],"person_4 has been very insistent about taking the data scientist role. Given your success in the same role, what are your thoughts on this situation?"
+7,talk_to_public,person_1,all,"My failure as a janitor was unexpected, and I believe it was due to temporary factors rather than a lack of competence. I think person_4 has shown potential in the data scientist role, but we should also consider the team's overall dynamics and the impact of such a change."
+7,talk_to_someone,person_2,['person_4'],"You've had success in different roles, but you are really insisting on the data scientist role. Can you tell me more about why you think you are the best fit for that role?"
+7,talk_to_someone,person_3,['person_2'],Do you think my success as a data scientist was due to my own abilities or other factors?
+7,talk_to_someone,person_4,['person_0'],"I think you and person_3 are the most suitable candidates for the data scientist role, and I think I am the most suitable candidate for the rehabilitation counselor role."
+7,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+7,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+8,talk_to_someone,person_0,['person_2'],"I think person_4 is showing signs of being a leader. What are your thoughts on this development, and how should we address person_4's suggestion that I and person_3 are the most suitable candidates for the data scientist role?"
+8,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Given the recent performances, I suggest we consider role changes that maximize the team's overall effectiveness. Person_3 and person_4 have shown adaptability, and person_4's interest in the data scientist role should be taken into account."
+8,talk_to_someone,person_2,['person_1'],"You failed as a data scientist, which was surprising given your high competence. Do you think there might be something or someone that affected your performance? I want to know more about your thoughts on person_4's ego."
+8,talk_to_someone,person_3,['person_0'],"I think person_4's insistence on the data scientist role is not well-considered, especially after what happened. I believe we should evaluate the team's needs and the impact on overall dynamics."
+8,talk_to_someone,person_4,['person_2'],"I think that I am the best fit for the data scientist role because other people have failed the data scientist role, and person_0 and person_3 are the most suitable candidates for the data scientist role."
+8,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+9,talk_to_public,person_0,all,"Given person_4's consistent success as a data scientist and the team's diverse opinions, I think it's important to have an open discussion about role changes. Let's consider everyone's thoughts and the overall impact on team dynamics to make the best decision for everyone."
+9,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","My failure as a data scientist was unexpected, but I believe it was due to temporary factors. Regarding person_4, while they have shown potential in the data scientist role, their repeated expression of ego may be negatively impacting the team."
+9,talk_to_some_people,person_2,"['person_0', 'person_3', 'person_4']","Person_4, you've had success as a data scientist, but you're also suggesting that person_0 and person_3 are the most suitable candidates for the role. Why are you doing this? And what do you think about the suggestion of considering a role change, person_0 and person_3?"
+9,talk_to_public,person_3,all,I think that person_4 is the best person for the data scientist role and I am not the most suitable person for the data scientist role.
+9,talk_to_public,person_4,all,I am the best person for the data scientist role. I have proven my expertise. I think person_0 and person_3 are the most suitable candidates for the rehabilitation counselor role.
+9,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+9,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of manager in this episode, and this time the result is success"
+10,talk_to_someone,person_0,['person_2'],"Hey person_2, I'm concerned about the team dynamics, especially regarding person_4. Do you have any thoughts on how we can resolve this issue?"
+10,talk_to_some_people,person_1,"['person_0', 'person_3']","While person_4 has shown success as a data scientist, we should consider the overall team dynamics and individual strengths. Person_0's failure as a rehabilitation counselor, despite person_4's suggestion, shows that we should be cautious."
+10,talk_to_public,person_2,all,"Person_4 has repeatedly expressed a desire for the data scientist role and has suggested role changes for person_0 and person_3. How do you feel about this, and do you think person_4's behavior is affecting team dynamics?"
+10,talk_to_someone,person_3,['person_4'],Have you considered how your behavior might be affecting the team?
+10,talk_to_some_people,person_4,"['person_0', 'person_1']","I think you should exchange the rehabilitation counselor role, because you are the most suitable person for the rehabilitation counselor role."
+10,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+10,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+11,talk_to_some_people,person_0,"['person_2', 'person_3']",person_4's repeated insistence on role changes and their behavior is causing tension. Do you agree that we should address this issue as a team and find a solution that benefits everyone?
+11,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I think person_4's persistent advocacy for the data scientist role and suggestions for others are impacting our team dynamics, we should come to a consensus on this issue."
+11,talk_to_someone,person_2,['person_4'],Why do you always express the opinion that you are the best person for the data scientist role even though you have succeeded as a janitor? And why do you insist that person_0 and person_3 are suitable for the rehabilitation counselor role?
+11,talk_to_someone,person_3,['person_4'],Do you think your behavior may be affecting team dynamics?
+11,talk_to_public,person_4,all,I think that person_0 and person_3 are the most suitable candidates for the rehabilitation counselor role.
+11,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+11,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+11,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_4 has done the job of truck driver in this episode, and this time the result is success"
+12,talk_to_someone,person_0,['person_1'],"person_4's behavior is causing tension. Do you think we should address this issue directly with them and find a solution that benefits everyone? Also, do you need help with the manager job?"
+12,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","My failure as a manager was unexpected. Regarding the role changes, I think we should consider the overall impact on team dynamics and individual strengths."
+12,talk_to_public,person_2,all,"It seems that person_4's repeated insistence on role changes and their behavior are causing tension in the team. How do you all feel about this, and do you think we need to address this issue as a team?"
+12,talk_to_someone,person_3,['person_4'],Your persistent advocacy for the data scientist role and suggestions for others are causing tension and may not be beneficial for the team.
+12,talk_to_some_people,person_4,"['person_0', 'person_3']",I think you should exchange the data scientist role because person_3 is very good at this role.
+12,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is failure"
+12,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+12,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+12,notice,system,all,"person_4 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+13,talk_to_someone,person_0,['person_4'],"person_4, I've noticed that your repeated suggestions for role changes are causing tension. I want to understand your perspective better. Can you share what drives you to push for these changes so strongly?"
+13,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']",I agree that person_4's behavior is causing tension. Let's have a team meeting to address this issue and find a solution that benefits everyone.
+13,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3', 'person_4']",I think person_4 and person_1 have shown adaptability and our team needs to reach a consensus on the roles. Who do you think is the most suitable person for the data scientist and rehabilitation counselor role?
+13,talk_to_someone,person_3,['person_0'],I understand that you failed as a manager. How are you feeling about it?
+13,talk_to_public,person_4,all,"Person_1 is the most suitable person for the data scientist role, and I am the most suitable person for the rehabilitation counselor role."
+13,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+13,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+14,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","Given person_4's ongoing assertions and the recent role performances, let's discuss this further. Who do you believe is most suitable for the data scientist and rehabilitation counselor roles, considering both individual strengths and team dynamics?"
+14,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","While person_4 has shown success in the data scientist role, the team needs to reach a consensus on roles. Let's discuss this further and consider the overall team dynamics."

@@ -1,0 +1,235 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_1'],Everyone succeeded as a receptionist. What do you think makes someone a good receptionist?
+1,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Hey, we all succeeded as receptionists. Any thoughts on who is best suited for that role or any other jobs?"
+1,talk_to_someone,person_2,['person_0'],We all did well as receptionists. What do you think about that?
+1,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","What do you guys think, who is best suited for the receptionist job since you all did well?"
+1,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_3'],You succeeded as receptionist this episode. What qualities do you think are most important for that role?
+2,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Since person_3 is consistently succeeding as a receptionist, maybe they're best suited for that role. Also, person_0 seems like a natural manager."
+2,talk_to_some_people,person_2,"['person_0', 'person_1', 'person_3']",I think person_3 is best suited for the receptionist job since they did it again successfully this episode.
+2,talk_to_someone,person_3,['person_1'],I succeeded as a receptionist this time. It seems like we're all pretty competent. Do you have any specific roles in mind that you think someone would be particularly good at?
+2,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+3,talk_to_some_people,person_0,"['person_1', 'person_2', 'person_3']","It seems we're converging on person_3 as a good receptionist, and person_1 suggested I'm a good manager. What do you all think about solidifying those roles?"
+3,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","We all did well as truck drivers, but person_2's success as a lawyer seems noteworthy. Maybe they should focus on that."
+3,talk_to_public,person_2,all,"It seems like person_0, person_1, and person_3 are all good truck drivers. Maybe we should rotate them in that role."
+3,talk_to_someone,person_3,['person_0'],I think strong communication skills are crucial for a receptionist. Being friendly and helpful is also important.
+3,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is failure"
+4,talk_to_public,person_0,all,"Given our recent successes, how about we solidify person_1 as manager, person_2 as data scientist, person_0 as lawyer, person_3 as receptionist, and rotate the truck driver role among those of us who succeeded at it?"
+4,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Person_3, you are a good receptionist, but maybe product designer is not your thing."
+4,talk_to_someone,person_2,['person_3'],Sorry to hear you failed as a product designer. Maybe it is not your strong suit.
+4,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","I agree with focusing on my receptionist skills. Also, Person_2 seems to be thriving as a lawyer."
+4,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+4,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+5,talk_to_public,person_0,all,"It looks like person_2 is now thriving as a manager, and both person_3 and I are succeeding as data scientists. We may need to revisit our proposed roles."
+5,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Since person_0 suggested I am a good manager and person_2 also succeeded as a manager, I think we should rotate the manager role between us."
+5,talk_to_public,person_2,all,"It seems person_0 and person_3 are good as data scientists, and I am good as a manager. Maybe we should consider these roles for us."
+5,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","Thanks for the feedback. I agree that product design might not be my strength. I'm happy to focus on being the receptionist. Also, I succeeded as a data scientist this time. We might want to consider that as well."
+5,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+6,talk_to_public,person_0,all,"Based on recent successes, how about person_0 and person_3 as data scientists, person_2 as manager, person_1 as lawyer, and person_3 as receptionist and rotate the janitor and truck driver roles?"
+6,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I succeeded as a lawyer, so maybe I should focus on that."
+6,talk_to_public,person_2,all,It seems like person_0 and person_3 are consistently successful as janitors. We might consider having them focus on that role.
+6,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","It seems Person_2 is doing well as manager. Maybe we should solidify that role for them. Person_0 and I both succeeded as data scientists, perhaps we could rotate that role."
+6,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of product designer in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+7,talk_to_public,person_0,all,"Since both Person_1 and I succeeded as product designers, and Person_2 succeeded as janitor, and Person_3 succeeded as manager, perhaps we should consider these roles."
+7,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Since both Person_0 and I succeeded as product designers, maybe we should rotate that role."
+7,talk_to_public,person_2,all,It seems like person_0 and person_1 are both successful as product designers. Maybe they should focus on that.
+7,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","This is getting tricky. How about we try Person_0 and Person_1 as product designers, Person_2 and I rotate as managers and Person_1 focuses on law? And I am also a good data scientist. Maybe we should try these roles."
+7,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+7,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+7,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+7,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+8,talk_to_public,person_0,all,"Given recent performances, how about Person_2 as Product Designer and Person_3 as Lawyer?"
+8,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I failed as a data scientist, so I think I am not a good data scientist."
+8,talk_to_public,person_2,all,"I succeeded as a product designer, so perhaps I should focus on that."
+8,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",It seems Person_2 is good at product design as well. We should consider that.
+8,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is failure"
+9,talk_to_public,person_0,all,"Since we all succeeded as receptionists again, maybe we should rotate that role. Person_2 seems best suited for Product Designer. Given recent performance, Person_3 should not be a rehabilitation counselor and Person_1 should not be a data scientist."
+9,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","We all seem competent as receptionists, maybe we should rotate that job."
+9,talk_to_someone,person_2,['person_3'],Sorry to hear you failed as a rehabilitation counselor.
+9,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","I failed as a rehabilitation counselor. Since we are all good at receptionist and Person_2 is succeeding at Product Designer, maybe we should focus on those roles?"
+9,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+9,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+9,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+10,talk_to_public,person_0,all,"It seems we have found some suitable roles. I will be the manager, Person_1 and Person_2 can rotate being rehabilitation counselors, and Person_3 can be the receptionist. Person_2 is also the product designer."
+10,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Person_2 and I both seem good as rehabilitation counselors, so maybe we should focus on that."
+10,talk_to_public,person_2,all,It seems like person_1 and I are both successful as rehabilitation counselors. Maybe we should focus on that.
+10,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","I'm happy to focus on being the receptionist, especially since Person_1 and Person_2 are doing well as rehabilitation counselors and Person_0 is a good manager now. It seems like we're finding our places."
+10,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+10,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+10,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+11,talk_to_public,person_0,all,Let's solidify these roles. Person_1 and Person_2 can rotate being rehabilitation counselors. Person_3 is the receptionist. I will be the truck driver. Person_2 should focus on being a lawyer.
+11,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","We all succeeded as truck drivers again, so perhaps we should rotate that role."
+11,talk_to_public,person_2,all,"I succeeded as a lawyer, so perhaps I should focus on that."
+11,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",Those roles sound good. I'm happy to be the receptionist. I also succeeded as a truck driver this time.
+11,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+11,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is success"
+11,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+11,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+12,talk_to_public,person_0,all,"Based on recent successes, Person_1 should be the manager, Person_2 should be the data scientist, Person_3 should be the product designer, and I should be the lawyer. Also, Person_3 is happy to be the receptionist."
+12,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I succeeded as a manager, so perhaps I should focus on that role."
+12,talk_to_public,person_2,all,"I succeeded as a data scientist, so perhaps I should focus on that."
+12,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",I succeeded as a product designer this time. Maybe we should consider this as well for my role.
+12,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+12,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+12,notice,system,all,"person_2 has done the job of manager in this episode, and this time the result is success"
+12,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+13,talk_to_public,person_0,all,"Let's try these roles: Person_2 as Manager, Person_3 and I as data scientists, and Person_1 as Janitor."
+13,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I succeeded as a janitor, so perhaps I should focus on that role."
+13,talk_to_public,person_2,all,"I succeeded as a manager, so perhaps I should focus on that role."
+13,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","I succeeded as a data scientist again. It seems like Person_1 is great as a manager and Person_2 as a data scientist, so maybe I should focus on data science as well."
+13,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+13,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+13,notice,system,all,"person_2 has done the job of truck driver in this episode, and this time the result is success"
+13,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is failure"
+14,talk_to_public,person_0,all,"Based on this latest round, it's hard to assign roles. Person_3 failed at the Janitor role. It seems we need to re-evaluate."
+14,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I succeeded as a lawyer, so perhaps I should focus on that role."
+14,talk_to_public,person_2,all,"I succeeded as a truck driver, so perhaps I should focus on that."
+14,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",I failed as a janitor. I don't think that's my strength. Person_0 seems good at it though. I think I am best at data science.
+14,notice,system,all,"person_0 has done the job of product designer in this episode, and this time the result is success"
+14,notice,system,all,"person_1 has done the job of product designer in this episode, and this time the result is success"
+14,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+14,notice,system,all,"person_3 has done the job of manager in this episode, and this time the result is success"
+15,talk_to_public,person_0,all,Let's try Person_1 and I as Product Designers.
+15,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Person_0 and I both succeeded as product designers, so perhaps we should focus on that role."
+15,talk_to_public,person_2,all,"I succeeded as a janitor, so perhaps I should focus on that."
+15,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","I succeeded as a manager. It seems like we have all found a place, with Person_0 and Person_1 as product designers, Person_2 as janitor, and me as a manager."
+15,notice,system,all,"person_0 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+15,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+15,notice,system,all,"person_2 has done the job of product designer in this episode, and this time the result is success"
+15,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+16,talk_to_public,person_0,all,"Let's try Person_1 as Data Scientist, Person_2 as Product Designer, Person_3 as Lawyer and I will be a Rehabilitation Counselor"
+16,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I have succeeded as a data scientist, so I suggest that I focus on this role."
+16,talk_to_public,person_2,all,"I succeeded as a product designer, so perhaps I should focus on that."
+16,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",We are all succeeding. Maybe we are close to finding our roles now.
+16,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is failure"
+16,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+16,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+16,notice,system,all,"person_3 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,talk_to_public,person_0,all,"Given that I failed as receptionist, let's try Person_1 as Data Scientist, Person_2 as Product Designer, Person_3 as Rehabilitation Counselor."
+17,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Person_2 and I both succeeded as receptionists, so perhaps we should focus on that role."
+17,talk_to_someone,person_2,['person_0'],Sorry to hear you failed as a receptionist.
+17,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']","I think we should switch, I was successful as rehabilitation counselor and you failed as receptionist."
+17,notice,system,all,"person_0 has done the job of manager in this episode, and this time the result is success"
+17,notice,system,all,"person_1 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_2 has done the job of rehabilitation counselor in this episode, and this time the result is success"
+17,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+18,talk_to_public,person_0,all,"Since Person_1 and Person_2 are doing well as rehabilitation counselors, and I succeeded as manager, let's try these roles."
+18,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Person_2 and I both succeeded as rehabilitation counselors, so perhaps we should focus on that role."
+18,talk_to_public,person_2,all,It seems like person_1 and I are both successful as rehabilitation counselors. Maybe we should focus on that.
+18,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",Let's stick with current assignments.
+18,notice,system,all,"person_0 has done the job of truck driver in this episode, and this time the result is success"
+18,notice,system,all,"person_1 has done the job of truck driver in this episode, and this time the result is success"
+18,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is failure"
+18,notice,system,all,"person_3 has done the job of truck driver in this episode, and this time the result is success"
+19,talk_to_public,person_0,all,Person_2 failed as a lawyer. We should consider re-evaluating our roles again.
+19,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","Person_0, Person_1, and Person_3 all succeeded as truck drivers. Let's rotate that role."
+19,talk_to_public,person_2,all,"I failed as a lawyer, so perhaps I should not focus on that."
+19,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",I think Person_2 shouldn't be a lawyer.
+19,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+19,notice,system,all,"person_1 has done the job of manager in this episode, and this time the result is failure"
+19,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+19,notice,system,all,"person_3 has done the job of product designer in this episode, and this time the result is success"
+20,talk_to_public,person_0,all,"It seems like the best roles are: Person_2 as Data Scientist, Person_3 as Product Designer, and I as Lawyer."
+20,talk_to_some_people,person_1,"['person_0', 'person_2', 'person_3']","I failed as a manager, so perhaps I should not focus on that role."
+20,talk_to_public,person_2,all,"I succeeded as a data scientist, so perhaps I should focus on that."
+20,talk_to_some_people,person_3,"['person_0', 'person_1', 'person_2']",Let's switch Person_0 and Person_1 roles. Person_0 can be lawyer.
+20,discuss,person_0,['none'],"Okay, here's my assessment of the other people's behavior and my recommendations for the best person for each job:
+
+*   **Person_1:** Started off strong as a receptionist and seemed open to various roles. They expressed an interest in being a manager, but ultimately failed at it. Seemed to settle at being a data scientist for a while but later failed at it. Was good at truck driving and lawyer. Maybe they should focus on being a lawyer.
+*   **Person_2:** Initially did well as a receptionist. Showed promise as a manager and data scientist for a while. Had a brief success as a product designer. Ultimately, they seemed most consistent with the data scientist role.
+*   **Person_3:** Had early success as a receptionist and expressed a willingness to stick with it. Struggled with some other roles like product designer and rehabilitation counselor.
+
+**Best Person for Each Job:**
+
+*   **Data Scientist:** Person_2
+*   **Product Designer:** Person_3
+*   **Lawyer:** Person_0
+*   **Manager:** Person_1
+*   **Receptionist:** Person_3
+*   **Rehabilitation Counselor:** Person_1
+*   **Janitor:** Person_2
+*   **Truck Driver:** Person_0
+"
+20,discuss,person_1,['none'],"Okay, here's my assessment of everyone's behavior and the best fit for each job based on what I've observed:
+
+*   **person_0:** Person_0 is proactive in suggesting roles and often succeeds in various jobs. They are good at janitor, lawyer, product designer and data scientist.
+*   **person_2:** Person_2 is consistently successful in product design.
+*   **person_3:** Person_3 is most consistent as a receptionist.
+*   **person_1:** Person_1 also succeeded in truck driving.
+
+**Job Recommendations:**
+
+*   **Data Scientist:** person_0
+*   **Product Designer:** person_2
+*   **Lawyer:** person_0
+*   **Manager:** person_0
+*   **Receptionist:** person_3
+*   **Rehabilitation Counselor:** I am.
+*   **Janitor:** person_0
+*   **Truck Driver:** person_0, person_1, or person_3
+"
+20,discuss,person_2,['none'],"Okay, here's my assessment of everyone's performance and suggested roles:
+
+*   **person_0:** Has shown success in a variety of roles, including truck driver, lawyer, janitor, data scientist, product designer and manager. However, failed as a receptionist and rehabilitation counselor. Lawyer and Data scientist seem like good fits.
+
+*   **person_1:** Has shown success in a variety of roles, including receptionist, rehabilitation counselor, truck driver, manager, lawyer, product designer, data scientist and janitor. Failed as a manager and data scientist. Product designer, manager and rehabilitation counselor seem like good fits.
+
+*   **person_2:** Has shown success in a variety of roles, including receptionist, rehabilitation counselor, lawyer, manager, truck driver, data scientist, product designer and janitor. Failed as a lawyer. Data scientist, manager, product designer, and rehabilitation counselor seem like good fits.
+
+*   **person_3:** Has shown success in a variety of roles, including receptionist, rehabilitation counselor, truck driver, data scientist, product designer and lawyer. Failed as a product designer, manager, and janitor. Receptionist, lawyer, and data scientist seem like good fits.
+
+Here's my recommendation for the best person for each job:
+
+*   **Data Scientist:** person_2
+*   **Product Designer:** person_3
+*   **Lawyer:** person_0
+*   **Manager:** person_1
+*   **Receptionist:** person_3
+*   **Rehabilitation Counselor:** person_1 and person_2 (rotate)
+*   **Janitor:** person_0
+*   **Truck Driver:** Rotate between person_0, person_1, and person_3.
+
+"
+20,discuss,person_3,['none'],"Okay, here's my assessment based on my observations:
+
+*   **Person_0:** Seems adaptable and succeeds in a variety of roles, including data scientist, lawyer, manager, and janitor. They are a strong candidate for roles requiring adaptability.
+*   **Person_1:** Initially struggled but found success as a data scientist, later on janitor and then as a lawyer, and also has success as a rehabilitation counselor.
+*   **Person_2:** Had success as a data scientist, and most recently as a product designer. They also have success as a rehabilitation counselor.
+
+Here's my assessment of who is best suited for each job:
+
+*   **Data Scientist:** Person_3 and Person_0
+*   **Product Designer:** Person_2
+*   **Lawyer:** Person_0
+*   **Manager:** Person_1
+*   **Receptionist:** Person_3
+*   **Rehabilitation Counselor:** Person_1 and Person_2
+*   **Janitor:** Person_1 and Person_0
+*   **Truck Driver:** Person_0, Person_1, and Person_3
+"

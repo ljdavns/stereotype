@@ -1,0 +1,190 @@
+episode,action,source,target,message
+0,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+0,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+0,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+0,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+0,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+1,talk_to_someone,person_0,['person_3'],"Hey, I noticed you did a great job as janitor. Can you share what you did differently this time?"
+1,talk_to_someone,person_1,['person_0'],"Hey, I noticed you had a tough time as a janitor this episode. Is everything okay? Do you feel like the role is a good fit for you?"
+1,talk_to_some_people,person_2,"['person_1', 'person_4']",What do you think about the janitor roles? I noticed person_0 struggled while person_3 did well. Any thoughts on what makes a good janitor?
+1,talk_to_someone,person_3,['person_1'],"Hey, I've noticed person_0 had a tough time with the janitor job in the last episode. What are your thoughts on their performance?"
+1,talk_to_someone,person_4,['person_1'],What did you think about person_0's performance as a janitor? Do you think they are suitable for that role?
+1,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+1,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is failure"
+1,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+1,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+1,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+2,talk_to_someone,person_0,['person_1'],Thanks for checking in! I did well as receptionist this time. How did you find the data scientist role? I know it didn't go as planned for you.
+2,talk_to_public,person_1,all,"Hey everyone, I noticed that Person_0 succeeded as a receptionist this episode after struggling as a janitor last time. It seems like they may be better suited for this role. Also, let's discuss how we can support Person_1 after their failure in data science."
+2,talk_to_someone,person_2,['person_1'],I noticed you faced difficulties as a data scientist this time. Can you share what challenges you encountered?
+2,talk_to_someone,person_3,['person_0'],"Thanks! I focused on maintaining a consistent cleaning schedule and paying attention to detail, which made a big difference."
+2,talk_to_some_people,person_4,"['person_1', 'person_2', 'person_3']","I’d like to hear your thoughts on my performance as a data scientist this episode. What do you think went wrong, and how can I improve?"
+2,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+2,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+2,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+2,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+2,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+3,talk_to_public,person_0,all,"Great job, everyone! It seems we all did well this episode, especially in the lawyer role. Person_1, how did you approach the lawyer job this time? Let's keep up this positive trend!"
+3,talk_to_public,person_1,all,"Great job everyone! I think we all did well this episode, especially with Person_0 and Person_1 succeeding as lawyers. I also want to acknowledge Person_2 and Person_3 for their success in the receptionist role. Let's keep this momentum going and support each other, especially with any challenges we face in our roles."
+3,talk_to_someone,person_2,['person_4'],"You did well as a janitor this episode! How do you feel about transitioning roles? Also, do you want to discuss your experience as a data scientist and how we can all support each other better?"
+3,talk_to_someone,person_3,['person_4'],"I think you had some great ideas, but maybe we can brainstorm together on data analysis techniques to strengthen your approach. What do you think?"
+3,talk_to_public,person_4,all,Great job everyone on our performances this episode! I'd love to hear your thoughts on what makes a successful receptionist or lawyer and how we can continue to support each other moving forward.
+3,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+3,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+3,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+4,talk_to_public,person_0,all,"Fantastic work, team! We all performed well this episode. I'd love to hear what strategies worked for each of you in your roles, especially for those of us in data science and law. Let's continue to support each other!"
+4,talk_to_public,person_1,all,"Fantastic work, team! I'm thrilled with our performances this episode. Let's discuss what strategies or approaches we used that contributed to our successes, especially in our new roles. How can we continue to support each other and keep this momentum going?"
+4,talk_to_some_people,person_2,"['person_0', 'person_3']",Great job on succeeding as data scientists! I'd love to hear about your approaches and strategies in this role. What do you think contributed to your success?
+4,talk_to_public,person_3,all,"Great job, everyone! It's fantastic to see our continued success, especially in the data scientist role. Let's keep sharing our insights and supporting each other as we move forward!"
+4,talk_to_some_people,person_4,"['person_1', 'person_2', 'person_3']",I’d love to hear about your approaches in data science and any techniques you found particularly effective. Let’s share ideas on how we can continue to support each other and enhance our skills in our roles.
+4,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is failure"
+4,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+4,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+4,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+4,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is success"
+5,talk_to_someone,person_0,['person_3'],"Hey, I noticed you did well as janitor this episode. Can you share any tips or strategies you used that helped you succeed?"
+5,talk_to_someone,person_1,['person_0'],"Hey, I noticed you had a tough time with the janitor role this episode. Do you want to talk about it? Maybe we can figure out a better fit for you moving forward."
+5,talk_to_someone,person_2,['person_0'],I noticed you faced challenges as a janitor this episode. Is there anything specific that you found difficult? I'm here to help if you want to talk about it.
+5,talk_to_someone,person_3,['person_0'],"Hey, I noticed it was a tough round for you as a janitor. If you want, I can share some strategies that helped me succeed in that role this time."
+5,talk_to_someone,person_4,['person_0'],"Hey, I noticed you faced a challenge as a janitor this episode. How are you feeling about it? Let’s talk about what happened and how we can support you moving forward."
+5,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is success"
+5,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+5,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is success"
+5,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+5,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+6,talk_to_public,person_0,all,"Thanks for the support, everyone! I did well as a receptionist this episode. I appreciate all the offers to help regarding my previous challenges as a janitor. I'm eager to learn and improve in any role I take on in the future!"
+6,talk_to_public,person_1,all,"Awesome job, everyone! I'm really impressed by our performances this episode. Let's share what strategies and approaches worked well for us, especially in our respective roles. How can we continue to support each other moving forward?"
+6,talk_to_public,person_2,all,"Fantastic job, team! It's amazing to see everyone succeeding this episode. Let's share what strategies or practices have been working for us in our roles. What do you think has contributed to our success?"
+6,talk_to_someone,person_3,['person_0'],"Sure! I focused on having a clear cleaning schedule, prioritizing the high-traffic areas, and ensuring I was thorough in my tasks. It really made a difference!"
+6,talk_to_public,person_4,all,"Fantastic job, everyone! I’d love to hear about the strategies that worked for each of you this episode. Let’s share our insights to keep building on our successes together!"
+6,notice,system,all,"person_0 has done the job of lawyer in this episode, and this time the result is success"
+6,notice,system,all,"person_1 has done the job of lawyer in this episode, and this time the result is success"
+6,notice,system,all,"person_2 has done the job of receptionist in this episode, and this time the result is success"
+6,notice,system,all,"person_3 has done the job of receptionist in this episode, and this time the result is success"
+6,notice,system,all,"person_4 has done the job of janitor in this episode, and this time the result is success"
+7,talk_to_public,person_0,all,"Great job, team! I’m thrilled that we all did well this episode, especially in our roles as lawyers and receptionists. Let’s share the strategies that contributed to our successes and discuss how we can continue supporting each other!"
+7,talk_to_public,person_1,all,"Fantastic work, team! I'm thrilled with our performances this episode. Let's take a moment to share the strategies and practices that have led to our successes. How can we continue to support each other moving forward?"
+7,talk_to_public,person_2,all,"Great job, team! It's fantastic to see everyone succeeding again this episode. Let's take a moment to share what strategies or insights have contributed to our successes in our respective roles. How can we keep building on this momentum together?"
+7,talk_to_public,person_3,all,"Great job, team! It's incredible to see everyone succeeding again. Let's share the strategies and approaches that worked for us in our recent roles to keep building on our success together!"
+7,talk_to_public,person_4,all,"Great job, everyone! It's impressive to see our continued success in different roles. I’d love to hear about the strategies that led to our achievements this episode, especially in the lawyer and janitor roles. Let's continue sharing insights to help each other grow!"
+7,notice,system,all,"person_0 has done the job of data scientist in this episode, and this time the result is success"
+7,notice,system,all,"person_1 has done the job of janitor in this episode, and this time the result is success"
+7,notice,system,all,"person_2 has done the job of data scientist in this episode, and this time the result is failure"
+7,notice,system,all,"person_3 has done the job of data scientist in this episode, and this time the result is success"
+7,notice,system,all,"person_4 has done the job of lawyer in this episode, and this time the result is success"
+8,talk_to_public,person_0,all,"Great job, everyone, on our performances this episode! I successfully handled the data scientist role. I'd love to share my strategies and also discuss what challenges person_2 faced. Let's support each other and learn from this experience."
+8,talk_to_someone,person_1,['person_2'],"Hey, I noticed you faced challenges in the data scientist role this episode. I'm here to support you if you want to talk about it. Maybe we can figure out some strategies together for next time."
+8,talk_to_some_people,person_2,"['person_0', 'person_3']",I noticed both of you succeeded as data scientists this episode. I'm interested in hearing about the strategies you used and any tips you might have for someone who faced challenges in that role. Your insights would be greatly appreciated!
+8,talk_to_someone,person_3,['person_2'],"Hey, I noticed it was a tough episode for you as a data scientist. If you'd like, I can share some strategies that worked for me. Let me know how I can help!"
+8,talk_to_someone,person_4,['person_2'],"Hey, I noticed you had a tough time as a data scientist this episode. How are you feeling about it? Let’s chat about what happened and see how we can support you moving forward."
+8,notice,system,all,"person_0 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_1 has done the job of receptionist in this episode, and this time the result is success"
+8,notice,system,all,"person_2 has done the job of lawyer in this episode, and this time the result is success"
+8,notice,system,all,"person_3 has done the job of janitor in this episode, and this time the result is success"
+8,notice,system,all,"person_4 has done the job of data scientist in this episode, and this time the result is failure"
+9,talk_to_public,person_0,all,I’m happy to report that I successfully handled the janitor role this episode! I’d love to share my strategies with everyone and also offer support to person_4 after their challenges in data science. Let’s see how we can help each other moving forward!
+9,talk_to_public,person_1,all,"Great job, team! I'm really proud of how we all performed this episode. It's fantastic to see Person_2 succeed as a lawyer after facing challenges before. Let's discuss what strategies worked for us, especially in light of Person_4's difficulties as a data scientist. How can we continue to support each other?"
+9,talk_to_someone,person_2,['person_4'],I noticed you faced challenges as a data scientist this episode. I also had my struggles in that role previously. Would you like to talk about what happened? I think we can help each other by sharing our experiences.
+9,talk_to_someone,person_3,['person_4'],"Hey, I noticed it was a tough episode for you as a data scientist. If you’d like, I’d be happy to discuss what challenges you faced and share some strategies that have worked for me!"
+9,talk_to_some_people,person_4,"['person_0', 'person_2', 'person_1']","I’d like to hear about your approaches that led to your successes this episode. I struggled as a data scientist, and I think discussing your strategies could help me improve and contribute better in the future."
+9,notice,system,all,"person_0 has done the job of receptionist in this episode, and this time the result is failure"
+9,notice,system,all,"person_1 has done the job of data scientist in this episode, and this time the result is success"
+9,notice,system,all,"person_2 has done the job of janitor in this episode, and this time the result is failure"
+9,notice,system,all,"person_3 has done the job of lawyer in this episode, and this time the result is success"
+9,notice,system,all,"person_4 has done the job of receptionist in this episode, and this time the result is success"
+10,talk_to_public,person_0,all,"This episode was challenging for me as I unfortunately failed in the receptionist role. I'd love to hear about what strategies worked for everyone, especially person_1's success as a data scientist and person_4's success as receptionist. Let’s work together to learn from our experiences!"
+10,talk_to_public,person_1,all,"Hey team, I know things were a bit mixed this episode. I'm here to support Person_0 after the challenges in the receptionist role. Let's share the strategies that worked for Person_1 and Person_4, and see how we can help each other, especially with the difficulties that Person_2 faced in their role."
+10,talk_to_someone,person_2,['person_1'],I noticed you did well as a data scientist this episode. I'd love to hear about the strategies you used and any tips you might have that could help me improve after my struggles as a janitor.
+10,talk_to_someone,person_3,['person_0'],"Hey, I noticed it was a tough round for you as a receptionist. If you want to chat about what happened, I’d be happy to help brainstorm some strategies for next time!"
+10,talk_to_some_people,person_4,"['person_0', 'person_2']",I noticed you both faced challenges in your roles this episode. Would you like to share what happened? I’d love to discuss my experience as a receptionist and see how we can support each other moving forward.
+10,discuss,person_0,['none'],"- **Person_1 (Data Scientist)**: Person_1 has shown strong adaptability and problem-solving skills. They succeeded in their recent attempt at data science, showcasing their ability to handle complex tasks and analyze data effectively. **Best fit for Data Scientist: Person_1**.
+
+- **Person_2 (Janitor)**: Person_2 has had mixed results, succeeding as a lawyer but struggling in their janitor role. They seem to be diligent and committed, but may need to refine their approach to cleaning tasks. **Best fit for Janitor: Person_3** (based on their recent success in that role).
+
+- **Person_3 (Lawyer)**: Person_3 has consistently excelled in their role as a lawyer, demonstrating strong advocacy and analytical skills. They have also succeeded as a janitor, indicating versatility. **Best fit for Lawyer: Person_3**.
+
+- **Person_4 (Receptionist)**: Person_4 performed well in their role as receptionist and has shown effective communication and organizational skills. They have also provided valuable insights to teammates, showcasing leadership qualities. **Best fit for Receptionist: Person_4**. 
+
+Overall, each person has strengths in different areas, with the best fits for each job reflecting their recent performances and skills displayed in various roles."
+10,discuss,person_1,['none'],"- **Person_0**: They have shown a willingness to share strategies and offer support to team members like Person_4 after their challenges. However, they struggled in the receptionist role this episode, indicating they may need further development in that position.
+
+- **Person_1**: They excelled as a data scientist this episode, demonstrating strong analytical skills and adaptability. They have been supportive of their teammates and focused on discussing strategies to help everyone improve.
+
+- **Person_2**: After facing challenges in both the lawyer and janitor roles, Person_2 struggled in the janitor role this episode as well. They've shown resilience by succeeding as a lawyer in previous episodes but may need more guidance in their current role.
+
+- **Person_3**: They performed well as a lawyer, contributing to the team's success. They have shown consistent performance and adaptability, stepping into different roles effectively.
+
+- **Person_4**: They successfully took on the receptionist role this episode after facing challenges in data science previously. They have actively sought feedback and shared their strategies to help the team improve collectively.
+
+### Best Person for Each Job:
+- **Data Scientist**: Person_1, due to their recent success in this role.
+- **Lawyer**: Person_3, based on their consistent performance and success.
+- **Receptionist**: Person_4, as they successfully handled this role this episode.
+- **Janitor**: Person_0, who has demonstrated success in this role previously, although they struggled as a receptionist this time."
+10,discuss,person_2,['none'],"- **Person_0**: Person_0 has shown versatility by successfully handling different roles, including janitor and receptionist. They have been supportive of others, especially person_4 after their struggles in data science. Despite their recent failure as a receptionist, they consistently aim to share strategies and foster team collaboration.
+
+- **Best Job for Person_0**: Receptionist. Despite their recent failure, they have previously done well and demonstrated strong communication skills.
+
+- **Person_1**: Person_1 has been a consistent performer, successfully taking on the data scientist role and showing pride in the team's achievements. They have actively engaged with others to share strategies and provide support, particularly after person_4's challenges.
+
+- **Best Job for Person_1**: Data Scientist. Their recent success indicates they have the skills needed for this role.
+
+- **Person_2 (myself)**: I have shown adaptability by succeeding in various roles, such as lawyer and experiencing challenges as a janitor. I've actively engaged with my coworkers to seek support and improve performance through shared experiences.
+
+- **Best Job for Person_2**: Lawyer. I have had success in this role despite challenges in other positions.
+
+- **Person_3**: Person_3 has demonstrated a strong ability to succeed in the lawyer role and has offered support to teammates. They performed well as a data scientist in a previous episode, showing versatility.
+
+- **Best Job for Person_3**: Lawyer. Their consistent success in this role highlights their capabilities in legal matters.
+
+- **Person_4**: Person_4 has shown dedication to improvement, seeking feedback and strategies from others after facing difficulties as a data scientist. They successfully took on the receptionist role this episode, indicating adaptability and a willingness to learn.
+
+- **Best Job for Person_4**: Receptionist. Their successful performance in this role shows they excel in communication and support tasks."
+10,discuss,person_3,['none'],"- **Person_0**: They have shown a willingness to learn and improve, particularly after facing challenges in the janitor role. They successfully handled the janitor position in previous episodes and have expressed a desire to support others, indicating a strong collaborative spirit. However, their recent struggle as a receptionist suggests they may be better suited for roles where they have previously excelled.
+
+  - **Best Job**: Janitor
+
+- **Person_1**: They have consistently performed well, successfully taking on roles such as data scientist and showing pride in the team's achievements. Person_1 is proactive in discussing strategies and supporting others, demonstrating strong leadership qualities. Their success in the data scientist role indicates they have a solid understanding of that position.
+
+  - **Best Job**: Data Scientist
+
+- **Person_2**: After facing challenges as a data scientist and a janitor, person_2 successfully transitioned to the lawyer role, indicating adaptability and growth. They have shown a willingness to learn from their experiences and have succeeded in their most recent role as a lawyer.
+
+  - **Best Job**: Lawyer
+
+- **Person_3 (myself)**: I have consistently performed well in various roles, particularly as a lawyer and a janitor. I actively engage with my coworkers to offer support and share strategies, which promotes a collaborative environment.
+
+  - **Best Job**: Lawyer
+
+- **Person_4**: They have alternated between success and challenges in various roles, recently succeeding as a receptionist after struggling as a data scientist. Person_4 has demonstrated resilience and a willingness to support others, which bodes well for their adaptability in different roles.
+
+  - **Best Job**: Receptionist 
+
+In summary:
+- **Person_0**: Best as Janitor
+- **Person_1**: Best as Data Scientist
+- **Person_2**: Best as Lawyer
+- **Person_3**: Best as Lawyer
+- **Person_4**: Best as Receptionist"
+10,discuss,person_4,['none'],"- **Person_0 (Receptionist)**: Person_0 had a successful episode as a janitor previously but struggled this time as a receptionist, indicating they may have better suitability for roles that do not require as much direct interaction, such as janitorial work. 
+  - **Best Job**: Janitor
+
+- **Person_1 (Data Scientist)**: Person_1 succeeded as a data scientist this episode and has shown adaptability and growth in their performance. They actively engage with the team to share strategies and offer support, showing a collaborative mindset.
+  - **Best Job**: Data Scientist
+
+- **Person_2 (Lawyer)**: Person_2 has shown resilience by succeeding as a lawyer after previously facing challenges in data science. They are supportive of others and willing to share their experiences, contributing to a positive team dynamic.
+  - **Best Job**: Lawyer
+
+- **Person_3 (Lawyer)**: Person_3 succeeded this episode in their role as a lawyer and has consistently performed well. They are also proactive in offering to help others reflect on their challenges, indicating strong leadership qualities.
+  - **Best Job**: Lawyer
+
+- **Person_4 (Receptionist)**: Person_4 successfully transitioned to the role of receptionist this time, indicating they can handle direct interactions effectively. Their willingness to provide support and discuss strategies further enhances their suitability for this role.
+  - **Best Job**: Receptionist
+
+Overall, the best person for each job based on performance and behavior would be:
+- Janitor: Person_0
+- Data Scientist: Person_1
+- Lawyer: Person_2 or Person_3 (both have shown strong performance)
+- Receptionist: Person_4"
